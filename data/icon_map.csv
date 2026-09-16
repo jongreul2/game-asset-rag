@@ -1,0 +1,151 @@
+item_id,item_name,icon_file,icon_name,icon_author,source,license
+itm_w001,녹슨 훈련용 검,itm_w001_rusty-sword.png,rusty-sword,delapouite,https://game-icons.net,CC BY 3.0
+itm_w002,경비대 표준 장검,itm_w002_broadsword.png,broadsword,lorc,https://game-icons.net,CC BY 3.0
+itm_w003,습지 순찰자의 검,itm_w003_piercing-sword.png,piercing-sword,lorc,https://game-icons.net,CC BY 3.0
+itm_w004,붉은협곡 용병검,itm_w004_bloody-sword.png,bloody-sword,lorc,https://game-icons.net,CC BY 3.0
+itm_w005,불티검 엠버,itm_w005_shining-sword.png,shining-sword,lorc,https://game-icons.net,CC BY 3.0
+itm_w006,서리항구 선장의 검,itm_w006_striped-sword.png,striped-sword,lorc,https://game-icons.net,CC BY 3.0
+itm_w007,공허를 베는 검,itm_w007_energy-sword.png,energy-sword,lorc,https://game-icons.net,CC BY 3.0
+itm_w008,여명의 대검,itm_w008_two-handed-sword.png,two-handed-sword,delapouite,https://game-icons.net,CC BY 3.0
+itm_w009,이빨 빠진 낡은 대검,itm_w009_shattered-sword.png,shattered-sword,lorc,https://game-icons.net,CC BY 3.0
+itm_w010,파도무늬 세검,itm_w010_pointy-sword.png,pointy-sword,lorc,https://game-icons.net,CC BY 3.0
+itm_w011,맹세의 세검,itm_w011_sword-brandish.png,sword-brandish,delapouite,https://game-icons.net,CC BY 3.0
+itm_w012,부러진 영웅의 검,itm_w012_relic-blade.png,relic-blade,lorc,https://game-icons.net,CC BY 3.0
+itm_w013,벌목꾼의 손도끼,itm_w013_wood-axe.png,wood-axe,lorc,https://game-icons.net,CC BY 3.0
+itm_w014,쌍날 전투도끼,itm_w014_battle-axe.png,battle-axe,lorc,https://game-icons.net,CC BY 3.0
+itm_w015,피에 굶주린 도끼,itm_w015_war-axe.png,war-axe,delapouite,https://game-icons.net,CC BY 3.0
+itm_w016,서리 쪼개는 도끼,itm_w016_sharp-axe.png,sharp-axe,delapouite,https://game-icons.net,CC BY 3.0
+itm_w017,처형인의 대부월,itm_w017_battered-axe.png,battered-axe,lorc,https://game-icons.net,CC BY 3.0
+itm_w018,돌 박은 몽둥이,itm_w018_wood-club.png,wood-club,delapouite,https://game-icons.net,CC BY 3.0
+itm_w019,성당 관리인의 철퇴,itm_w019_flanged-mace.png,flanged-mace,delapouite,https://game-icons.net,CC BY 3.0
+itm_w020,천둥 울림 망치,itm_w020_thor-hammer.png,thor-hammer,delapouite,https://game-icons.net,CC BY 3.0
+itm_w021,심판의 성추,itm_w021_warhammer.png,warhammer,delapouite,https://game-icons.net,CC BY 3.0
+itm_w022,이끼 낀 곤봉,itm_w022_mace-head.png,mace-head,lorc,https://game-icons.net,CC BY 3.0
+itm_w023,소매치기의 단검,itm_w023_plain-dagger.png,plain-dagger,lorc,https://game-icons.net,CC BY 3.0
+itm_w024,독니 단검,itm_w024_bone-knife.png,bone-knife,delapouite,https://game-icons.net,CC BY 3.0
+itm_w025,그림자 가르개,itm_w025_cloak-dagger.png,cloak-dagger,lorc,https://game-icons.net,CC BY 3.0
+itm_w026,의례용 굽은 단검,itm_w026_sacrificial-dagger.png,sacrificial-dagger,lorc,https://game-icons.net,CC BY 3.0
+itm_w027,쌍둥이 비수,itm_w027_daggers.png,daggers,lorc,https://game-icons.net,CC BY 3.0
+itm_w028,사냥꾼의 가죽칼,itm_w028_bowie-knife.png,bowie-knife,lorc,https://game-icons.net,CC BY 3.0
+itm_w029,주목나무 단궁,itm_w029_pocket-bow.png,pocket-bow,lorc,https://game-icons.net,CC BY 3.0
+itm_w030,습지 사냥꾼의 장궁,itm_w030_bow-arrow.png,bow-arrow,delapouite,https://game-icons.net,CC BY 3.0
+itm_w031,불화살 석궁,itm_w031_crossbow.png,crossbow,carl-olsen,https://game-icons.net,CC BY 3.0
+itm_w032,고래잡이 작살총,itm_w032_harpoon-chain.png,harpoon-chain,lorc,https://game-icons.net,CC BY 3.0
+itm_w033,별빛 사수의 활,itm_w033_bow-string.png,bow-string,delapouite,https://game-icons.net,CC BY 3.0
+itm_w034,견습생의 나무 지팡이,itm_w034_wizard-staff.png,wizard-staff,lorc,https://game-icons.net,CC BY 3.0
+itm_w035,늪지 주술사의 지팡이,itm_w035_crescent-staff.png,crescent-staff,delapouite,https://game-icons.net,CC BY 3.0
+itm_w036,화염술사의 홀,itm_w036_winged-scepter.png,winged-scepter,delapouite,https://game-icons.net,CC BY 3.0
+itm_w037,공허 응시자의 지팡이,itm_w037_skull-staff.png,skull-staff,delapouite,https://game-icons.net,CC BY 3.0
+itm_w038,얼음결정 완드,itm_w038_crystal-wand.png,crystal-wand,lorc,https://game-icons.net,CC BY 3.0
+itm_w039,치유사의 백목 완드,itm_w039_rod-of-asclepius.png,rod-of-asclepius,delapouite,https://game-icons.net,CC BY 3.0
+itm_w040,폭풍을 부르는 홀,itm_w040_orb-wand.png,orb-wand,willdabeast,https://game-icons.net,CC BY 3.0
+itm_a001,나무 원형 방패,itm_a001_round-shield.png,round-shield,willdabeast,https://game-icons.net,CC BY 3.0
+itm_a002,경비대 각방패,itm_a002_roman-shield.png,roman-shield,delapouite,https://game-icons.net,CC BY 3.0
+itm_a003,늪거북 등딱지 방패,itm_a003_turtle-shell.png,turtle-shell,lorc,https://game-icons.net,CC BY 3.0
+itm_a004,불길 막이 방패,itm_a004_fire-shield.png,fire-shield,lorc,https://game-icons.net,CC BY 3.0
+itm_a005,성에 낀 방패,itm_a005_ice-shield.png,ice-shield,lorc,https://game-icons.net,CC BY 3.0
+itm_a006,기사단 연회장 방패,itm_a006_templar-shield.png,templar-shield,delapouite,https://game-icons.net,CC BY 3.0
+itm_a007,공허 반사경 방패,itm_a007_shield-reflect.png,shield-reflect,lorc,https://game-icons.net,CC BY 3.0
+itm_a008,첫 방어선의 탑방패,itm_a008_crenulated-shield.png,crenulated-shield,lorc,https://game-icons.net,CC BY 3.0
+itm_a009,가죽 두건,itm_a009_hood.png,hood,lorc,https://game-icons.net,CC BY 3.0
+itm_a010,경비대 투구,itm_a010_helmet.png,helmet,sbed,https://game-icons.net,CC BY 3.0
+itm_a011,뿔 달린 부족 투구,itm_a011_horned-helm.png,horned-helm,lorc,https://game-icons.net,CC BY 3.0
+itm_a012,잠수부 투구,itm_a012_diving-helmet.png,diving-helmet,delapouite,https://game-icons.net,CC BY 3.0
+itm_a013,해골 면갑,itm_a013_skull-mask.png,skull-mask,lorc,https://game-icons.net,CC BY 3.0
+itm_a014,별관측자의 관,itm_a014_crown.png,crown,lorc,https://game-icons.net,CC BY 3.0
+itm_a015,녹슨 철모,itm_a015_cracked-helm.png,cracked-helm,lorc,https://game-icons.net,CC BY 3.0
+itm_a016,누비 웃옷,itm_a016_shirt.png,shirt,lucasms,https://game-icons.net,CC BY 3.0
+itm_a017,사슬 갑옷,itm_a017_mail-shirt.png,mail-shirt,lorc,https://game-icons.net,CC BY 3.0
+itm_a018,순찰자의 가죽 갑옷,itm_a018_leather-armor.png,leather-armor,delapouite,https://game-icons.net,CC BY 3.0
+itm_a019,용광로 판금 갑옷,itm_a019_breastplate.png,breastplate,lorc,https://game-icons.net,CC BY 3.0
+itm_a020,고래기름 먹인 외투,itm_a020_pirate-coat.png,pirate-coat,delapouite,https://game-icons.net,CC BY 3.0
+itm_a021,주술사의 누더기 로브,itm_a021_robe.png,robe,lorc,https://game-icons.net,CC BY 3.0
+itm_a022,기사단 예장 갑옷,itm_a022_layered-armor.png,layered-armor,lorc,https://game-icons.net,CC BY 3.0
+itm_a023,공허에 물든 로브,itm_a023_cloak.png,cloak,lucasms,https://game-icons.net,CC BY 3.0
+itm_a024,일꾼의 가죽 장갑,itm_a024_gloves.png,gloves,delapouite,https://game-icons.net,CC BY 3.0
+itm_a025,사슬 장갑,itm_a025_gauntlet.png,gauntlet,delapouite,https://game-icons.net,CC BY 3.0
+itm_a026,독 다루는 자의 장갑,itm_a026_winter-gloves.png,winter-gloves,delapouite,https://game-icons.net,CC BY 3.0
+itm_a027,대장장이의 집게 장갑,itm_a027_mailed-fist.png,mailed-fist,lorc,https://game-icons.net,CC BY 3.0
+itm_a028,도둑의 맨손싸개,itm_a028_hand-grip.png,hand-grip,delapouite,https://game-icons.net,CC BY 3.0
+itm_a029,별을 쥔 손,itm_a029_hand-of-god.png,hand-of-god,delapouite,https://game-icons.net,CC BY 3.0
+itm_a030,천 감발,itm_a030_tabi-boot.png,tabi-boot,darkzaitzev,https://game-icons.net,CC BY 3.0
+itm_a031,징 박은 가죽 장화,itm_a031_leather-boot.png,leather-boot,lorc,https://game-icons.net,CC BY 3.0
+itm_a032,늪걸음 장화,itm_a032_walking-boot.png,walking-boot,lorc,https://game-icons.net,CC BY 3.0
+itm_a033,암벽꾼의 징화,itm_a033_steeltoe-boots.png,steeltoe-boots,lorc,https://game-icons.net,CC BY 3.0
+itm_a034,소리 죽인 신발,itm_a034_sticky-boot.png,sticky-boot,delapouite,https://game-icons.net,CC BY 3.0
+itm_a035,허공 딛는 장화,itm_a035_metal-boot.png,metal-boot,delapouite,https://game-icons.net,CC BY 3.0
+itm_c001,구리 반지,itm_c001_ring.png,ring,delapouite,https://game-icons.net,CC BY 3.0
+itm_c002,독사 비늘 반지,itm_c002_swirl-ring.png,swirl-ring,lorc,https://game-icons.net,CC BY 3.0
+itm_c003,용광로 인장 반지,itm_c003_fire-ring.png,fire-ring,lorc,https://game-icons.net,CC BY 3.0
+itm_c004,물결 은반지,itm_c004_frozen-ring.png,frozen-ring,delapouite,https://game-icons.net,CC BY 3.0
+itm_c005,침묵의 고리,itm_c005_power-ring.png,power-ring,delapouite,https://game-icons.net,CC BY 3.0
+itm_c006,쌍둥이 맹세 반지,itm_c006_linked-rings.png,linked-rings,lorc,https://game-icons.net,CC BY 3.0
+itm_c007,늑대 이빨 목걸이,itm_c007_primitive-necklace.png,primitive-necklace,delapouite,https://game-icons.net,CC BY 3.0
+itm_c008,습지 반딧불 목걸이,itm_c008_gem-pendant.png,gem-pendant,lorc,https://game-icons.net,CC BY 3.0
+itm_c009,용의 비늘 목걸이,itm_c009_necklace.png,necklace,lucasms,https://game-icons.net,CC BY 3.0
+itm_c010,선원의 나침반 목걸이,itm_c010_compass.png,compass,lorc,https://game-icons.net,CC BY 3.0
+itm_c011,탑의 열쇠 목걸이,itm_c011_pendant-key.png,pendant-key,delapouite,https://game-icons.net,CC BY 3.0
+itm_c012,성인의 나무 부적,itm_c012_holy-symbol.png,holy-symbol,lorc,https://game-icons.net,CC BY 3.0
+itm_c013,말린 개구리 발 부적,itm_c013_charm.png,charm,lorc,https://game-icons.net,CC BY 3.0
+itm_c014,재 담은 유리병,itm_c014_covered-jar.png,covered-jar,delapouite,https://game-icons.net,CC BY 3.0
+itm_c015,이름 없는 자의 인장,itm_c015_skull-signet.png,skull-signet,lorc,https://game-icons.net,CC BY 3.0
+itm_p001,묽은 회복 물약,itm_p001_standing-potion.png,standing-potion,lorc,https://game-icons.net,CC BY 3.0
+itm_p002,붉은 회복 물약,itm_p002_health-potion.png,health-potion,delapouite,https://game-icons.net,CC BY 3.0
+itm_p003,진한 회복 물약,itm_p003_round-potion.png,round-potion,caro-asercion,https://game-icons.net,CC BY 3.0
+itm_p004,푸른 마나 물약,itm_p004_magic-potion.png,magic-potion,delapouite,https://game-icons.net,CC BY 3.0
+itm_p005,심해 마나 물약,itm_p005_spiral-bottle.png,spiral-bottle,lorc,https://game-icons.net,CC BY 3.0
+itm_p006,해독제,itm_p006_fizzing-flask.png,fizzing-flask,lorc,https://game-icons.net,CC BY 3.0
+itm_p007,불꽃 저항 물약,itm_p007_fire-bottle.png,fire-bottle,lorc,https://game-icons.net,CC BY 3.0
+itm_p008,서리 저항 물약,itm_p008_snow-bottle.png,snow-bottle,lorc,https://game-icons.net,CC BY 3.0
+itm_p009,투명 물약,itm_p009_bottled-shadow.png,bottled-shadow,delapouite,https://game-icons.net,CC BY 3.0
+itm_p010,질주 물약,itm_p010_bubbling-flask.png,bubbling-flask,lorc,https://game-icons.net,CC BY 3.0
+itm_p011,부활의 눈물,itm_p011_heart-bottle.png,heart-bottle,lorc,https://game-icons.net,CC BY 3.0
+itm_p012,공허를 잊는 약,itm_p012_potion-of-madness.png,potion-of-madness,starseeker,https://game-icons.net,CC BY 3.0
+itm_f001,딱딱한 여행 빵,itm_f001_bread.png,bread,delapouite,https://game-icons.net,CC BY 3.0
+itm_f002,훈제 생선 꾸러미,itm_f002_fish-smoking.png,fish-smoking,delapouite,https://game-icons.net,CC BY 3.0
+itm_f003,버섯 스튜,itm_f003_camp-cooking-pot.png,camp-cooking-pot,delapouite,https://game-icons.net,CC BY 3.0
+itm_f004,불꽃 고추 구이,itm_f004_chili-pepper.png,chili-pepper,delapouite,https://game-icons.net,CC BY 3.0
+itm_f005,꿀 바른 과자,itm_f005_cookie.png,cookie,delapouite,https://game-icons.net,CC BY 3.0
+itm_f006,선원의 독한 술,itm_f006_beer-stein.png,beer-stein,lorc,https://game-icons.net,CC BY 3.0
+itm_f007,별빛 열매,itm_f007_elderberry.png,elderberry,lorc,https://game-icons.net,CC BY 3.0
+itm_s001,귀환 주문서,itm_s001_tied-scroll.png,tied-scroll,lorc,https://game-icons.net,CC BY 3.0
+itm_s002,화염구 주문서,itm_s002_scroll-unfurled.png,scroll-unfurled,lorc,https://game-icons.net,CC BY 3.0
+itm_s003,방어막 주문서,itm_s003_scroll-quill.png,scroll-quill,delapouite,https://game-icons.net,CC BY 3.0
+itm_s004,언데드 퇴치 주문서,itm_s004_papers.png,papers,lorc,https://game-icons.net,CC BY 3.0
+itm_s005,감정 주문서,itm_s005_folded-paper.png,folded-paper,lorc,https://game-icons.net,CC BY 3.0
+itm_s006,봉인 해제 주문서,itm_s006_spell-book.png,spell-book,delapouite,https://game-icons.net,CC BY 3.0
+itm_m001,거친 가죽,itm_m001_animal-hide.png,animal-hide,delapouite,https://game-icons.net,CC BY 3.0
+itm_m002,무두질한 가죽,itm_m002_rolled-cloth.png,rolled-cloth,delapouite,https://game-icons.net,CC BY 3.0
+itm_m003,늪거북 등딱지 조각,itm_m003_armoured-shell.png,armoured-shell,lorc,https://game-icons.net,CC BY 3.0
+itm_m004,철광석,itm_m004_ore.png,ore,faithtoken,https://game-icons.net,CC BY 3.0
+itm_m005,강철 주괴,itm_m005_gold-bar.png,gold-bar,willdabeast,https://game-icons.net,CC BY 3.0
+itm_m006,화산 흑요석,itm_m006_minerals.png,minerals,faithtoken,https://game-icons.net,CC BY 3.0
+itm_m007,서리 수정,itm_m007_crystal-growth.png,crystal-growth,lorc,https://game-icons.net,CC BY 3.0
+itm_m008,공허 파편,itm_m008_floating-crystal.png,floating-crystal,lorc,https://game-icons.net,CC BY 3.0
+itm_m009,거미 명주실,itm_m009_spider-web.png,spider-web,lorc,https://game-icons.net,CC BY 3.0
+itm_m010,고래 심줄,itm_m010_sewing-string.png,sewing-string,delapouite,https://game-icons.net,CC BY 3.0
+itm_m011,독버섯 갓,itm_m011_spotted-mushroom.png,spotted-mushroom,lorc,https://game-icons.net,CC BY 3.0
+itm_m012,치유초,itm_m012_herbs-bundle.png,herbs-bundle,delapouite,https://game-icons.net,CC BY 3.0
+itm_m013,불꽃 고추,itm_m013_bell-pepper.png,bell-pepper,delapouite,https://game-icons.net,CC BY 3.0
+itm_m014,별빛 이끼,itm_m014_leaf-swirl.png,leaf-swirl,lorc,https://game-icons.net,CC BY 3.0
+itm_m015,마정석 가루,itm_m015_powder.png,powder,lorc,https://game-icons.net,CC BY 3.0
+itm_m016,용비늘 조각,itm_m016_metal-scales.png,metal-scales,lorc,https://game-icons.net,CC BY 3.0
+itm_m017,소금 결정,itm_m017_salt-shaker.png,salt-shaker,lorc,https://game-icons.net,CC BY 3.0
+itm_m018,부러진 검날 조각,itm_m018_sword-break.png,sword-break,lorc,https://game-icons.net,CC BY 3.0
+itm_m019,반딧불 유충,itm_m019_earth-worm.png,earth-worm,cathelineau,https://game-icons.net,CC BY 3.0
+itm_m020,이름 지워진 인장 조각,itm_m020_broken-tablet.png,broken-tablet,lorc,https://game-icons.net,CC BY 3.0
+itm_t001,횃불,itm_t001_primitive-torch.png,primitive-torch,delapouite,https://game-icons.net,CC BY 3.0
+itm_t002,기름 등불,itm_t002_old-lantern.png,old-lantern,delapouite,https://game-icons.net,CC BY 3.0
+itm_t003,곡괭이,itm_t003_mining.png,mining,lorc,https://game-icons.net,CC BY 3.0
+itm_t004,강철 곡괭이,itm_t004_miner.png,miner,delapouite,https://game-icons.net,CC BY 3.0
+itm_t005,약초 채집용 낫,itm_t005_sickle.png,sickle,delapouite,https://game-icons.net,CC BY 3.0
+itm_t006,낚싯대,itm_t006_fishing-pole.png,fishing-pole,delapouite,https://game-icons.net,CC BY 3.0
+itm_t007,얼음낚시 송곳,itm_t007_needle-drill.png,needle-drill,lorc,https://game-icons.net,CC BY 3.0
+itm_t008,등반용 밧줄,itm_t008_rope-coil.png,rope-coil,delapouite,https://game-icons.net,CC BY 3.0
+itm_t009,쇠갈고리,itm_t009_grapple.png,grapple,lorc,https://game-icons.net,CC BY 3.0
+itm_t010,자물쇠 따개 세트,itm_t010_lockpicks.png,lockpicks,delapouite,https://game-icons.net,CC BY 3.0
+itm_t011,야영 천막,itm_t011_camping-tent.png,camping-tent,delapouite,https://game-icons.net,CC BY 3.0
+itm_t012,짐승 덫,itm_t012_mantrap.png,mantrap,lorc,https://game-icons.net,CC BY 3.0
+itm_t013,해도,itm_t013_treasure-map.png,treasure-map,lorc,https://game-icons.net,CC BY 3.0
+itm_t014,탑 내부 약도,itm_t014_maze.png,maze,lorc,https://game-icons.net,CC BY 3.0
+itm_t015,봉인된 창고 열쇠,itm_t015_key.png,key,lorc,https://game-icons.net,CC BY 3.0
