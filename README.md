@@ -60,4 +60,24 @@ Unity NPC 대화 UI → 로컬 서버(Python) → ④ 검색 top-k → ⑤ LLM �
 
 ## 실행
 
-*(파이프라인 구현 후 작성)*
+```bash
+pip install -r requirements.txt
+cp .env.example .env           # ANTHROPIC_API_KEY / VOYAGE_API_KEY 채우기 (.env 는 커밋되지 않음)
+
+# ① 자동 라벨링 — 아이콘 이미지만 보고 JSON 라벨 생성 (Batch API, 50% 할인)
+python src/label_icons.py --model claude-sonnet-5
+python src/label_icons.py --model claude-haiku-4-5
+python src/label_icons.py --model claude-sonnet-5 --limit 3 --sync   # 소량 확인용
+
+# 라벨 정답셋 템플릿(사람이 채움) + 대조용 아이콘 모음 이미지
+python src/make_gold_template.py
+```
+
+데이터셋을 처음부터 다시 만들려면 아이콘 아카이브를 받아 `python src/build_icon_map.py game-icons.zip` 을 돌린다.
+
+### 평가의 공정성을 지키는 두 가지 규칙
+
+이 저장소는 "이미지 정보를 더하면 검색이 좋아지는가"를 재는 것이 목적이라, 다음 두 가지를 코드와 문서에 고정해 두었다.
+
+1. **라벨링 모델에게 아이템 이름·설명을 주지 않는다** (`src/label_icons.py`). 설명을 같이 주면 모델이 그것을 바꿔 쓴 라벨이 나오고, 조건 B는 조건 A의 복제가 되어 비교가 무의미해진다.
+2. **라벨 정답셋은 사람이 만든다** (`src/make_gold_template.py` 는 빈 칸과 아이콘 모음만 생성). 모델 라벨을 다른 모델로 채점하면 기준선이 되지 못한다.

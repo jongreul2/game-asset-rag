@@ -20,7 +20,7 @@ itm_w018,돌 박은 몽둥이,itm_w018_wood-club.png,wood-club,delapouite,https:
 itm_w019,성당 관리인의 철퇴,itm_w019_flanged-mace.png,flanged-mace,delapouite,https://game-icons.net,CC BY 3.0
 itm_w020,천둥 울림 망치,itm_w020_thor-hammer.png,thor-hammer,delapouite,https://game-icons.net,CC BY 3.0
 itm_w021,심판의 성추,itm_w021_warhammer.png,warhammer,delapouite,https://game-icons.net,CC BY 3.0
-itm_w022,이끼 낀 곤봉,itm_w022_mace-head.png,mace-head,lorc,https://game-icons.net,CC BY 3.0
+itm_w022,이끼 낀 곤봉,itm_w022_wood-stick.png,wood-stick,delapouite,https://game-icons.net,CC BY 3.0
 itm_w023,소매치기의 단검,itm_w023_plain-dagger.png,plain-dagger,lorc,https://game-icons.net,CC BY 3.0
 itm_w024,독니 단검,itm_w024_bone-knife.png,bone-knife,delapouite,https://game-icons.net,CC BY 3.0
 itm_w025,그림자 가르개,itm_w025_cloak-dagger.png,cloak-dagger,lorc,https://game-icons.net,CC BY 3.0
@@ -66,7 +66,7 @@ itm_a024,일꾼의 가죽 장갑,itm_a024_gloves.png,gloves,delapouite,https://g
 itm_a025,사슬 장갑,itm_a025_gauntlet.png,gauntlet,delapouite,https://game-icons.net,CC BY 3.0
 itm_a026,독 다루는 자의 장갑,itm_a026_winter-gloves.png,winter-gloves,delapouite,https://game-icons.net,CC BY 3.0
 itm_a027,대장장이의 집게 장갑,itm_a027_mailed-fist.png,mailed-fist,lorc,https://game-icons.net,CC BY 3.0
-itm_a028,도둑의 맨손싸개,itm_a028_hand-grip.png,hand-grip,delapouite,https://game-icons.net,CC BY 3.0
+itm_a028,도둑의 맨손싸개,itm_a028_hand-bandage.png,hand-bandage,delapouite,https://game-icons.net,CC BY 3.0
 itm_a029,별을 쥔 손,itm_a029_hand-of-god.png,hand-of-god,delapouite,https://game-icons.net,CC BY 3.0
 itm_a030,천 감발,itm_a030_tabi-boot.png,tabi-boot,darkzaitzev,https://game-icons.net,CC BY 3.0
 itm_a031,징 박은 가죽 장화,itm_a031_leather-boot.png,leather-boot,lorc,https://game-icons.net,CC BY 3.0
@@ -76,7 +76,7 @@ itm_a034,소리 죽인 신발,itm_a034_sticky-boot.png,sticky-boot,delapouite,ht
 itm_a035,허공 딛는 장화,itm_a035_metal-boot.png,metal-boot,delapouite,https://game-icons.net,CC BY 3.0
 itm_c001,구리 반지,itm_c001_ring.png,ring,delapouite,https://game-icons.net,CC BY 3.0
 itm_c002,독사 비늘 반지,itm_c002_swirl-ring.png,swirl-ring,lorc,https://game-icons.net,CC BY 3.0
-itm_c003,용광로 인장 반지,itm_c003_fire-ring.png,fire-ring,lorc,https://game-icons.net,CC BY 3.0
+itm_c003,용광로 인장 반지,itm_c003_diamond-ring.png,diamond-ring,delapouite,https://game-icons.net,CC BY 3.0
 itm_c004,물결 은반지,itm_c004_frozen-ring.png,frozen-ring,delapouite,https://game-icons.net,CC BY 3.0
 itm_c005,침묵의 고리,itm_c005_power-ring.png,power-ring,delapouite,https://game-icons.net,CC BY 3.0
 itm_c006,쌍둥이 맹세 반지,itm_c006_linked-rings.png,linked-rings,lorc,https://game-icons.net,CC BY 3.0
@@ -86,7 +86,7 @@ itm_c009,용의 비늘 목걸이,itm_c009_necklace.png,necklace,lucasms,https://
 itm_c010,선원의 나침반 목걸이,itm_c010_compass.png,compass,lorc,https://game-icons.net,CC BY 3.0
 itm_c011,탑의 열쇠 목걸이,itm_c011_pendant-key.png,pendant-key,delapouite,https://game-icons.net,CC BY 3.0
 itm_c012,성인의 나무 부적,itm_c012_holy-symbol.png,holy-symbol,lorc,https://game-icons.net,CC BY 3.0
-itm_c013,말린 개구리 발 부적,itm_c013_charm.png,charm,lorc,https://game-icons.net,CC BY 3.0
+itm_c013,말린 개구리 발 부적,itm_c013_frog-foot.png,frog-foot,delapouite,https://game-icons.net,CC BY 3.0
 itm_c014,재 담은 유리병,itm_c014_covered-jar.png,covered-jar,delapouite,https://game-icons.net,CC BY 3.0
 itm_c015,이름 없는 자의 인장,itm_c015_skull-signet.png,skull-signet,lorc,https://game-icons.net,CC BY 3.0
 itm_p001,묽은 회복 물약,itm_p001_standing-potion.png,standing-potion,lorc,https://game-icons.net,CC BY 3.0
@@ -137,7 +137,7 @@ itm_m020,이름 지워진 인장 조각,itm_m020_broken-tablet.png,broken-tablet
 itm_t001,횃불,itm_t001_primitive-torch.png,primitive-torch,delapouite,https://game-icons.net,CC BY 3.0
 itm_t002,기름 등불,itm_t002_old-lantern.png,old-lantern,delapouite,https://game-icons.net,CC BY 3.0
 itm_t003,곡괭이,itm_t003_mining.png,mining,lorc,https://game-icons.net,CC BY 3.0
-itm_t004,강철 곡괭이,itm_t004_miner.png,miner,delapouite,https://game-icons.net,CC BY 3.0
+itm_t004,강철 곡괭이,itm_t004_war-pick.png,war-pick,delapouite,https://game-icons.net,CC BY 3.0
 itm_t005,약초 채집용 낫,itm_t005_sickle.png,sickle,delapouite,https://game-icons.net,CC BY 3.0
 itm_t006,낚싯대,itm_t006_fishing-pole.png,fishing-pole,delapouite,https://game-icons.net,CC BY 3.0
 itm_t007,얼음낚시 송곳,itm_t007_needle-drill.png,needle-drill,lorc,https://game-icons.net,CC BY 3.0

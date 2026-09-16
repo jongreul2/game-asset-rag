@@ -1,0 +1,5 @@
+anthropic>=1.0
+voyageai
+rank-bm25
+pillow
+numpy
