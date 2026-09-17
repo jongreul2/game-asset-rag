@@ -1,0 +1,1582 @@
+{
+ "opus-5|q003": {
+  "qid": "q003",
+  "claims": [
+   {
+    "claim": "'독 다루는 자의 장갑'은 요구 레벨 22, 방어력 17, 독 저항 25이다",
+    "verdict": "supported",
+    "reason": "itm_a026에 동일 수치 기재"
+   },
+   {
+    "claim": "'독사 비늘 반지'는 요구 레벨 21, 독 저항 20, 체력 40이다",
+    "verdict": "supported",
+    "reason": "itm_c002에 동일 수치 기재"
+   },
+   {
+    "claim": "'늪거북 등딱지 방패'는 요구 레벨 18, 방어력 27, 독 저항 12이다",
+    "verdict": "supported",
+    "reason": "itm_a003에 동일 수치 기재"
+   },
+   {
+    "claim": "'습지 순찰자의 검'은 무기이며 요구 레벨 15, 독 저항 5가 있다",
+    "verdict": "supported",
+    "reason": "itm_w003에 무기·레벨 15·독 저항 5 기재"
+   },
+   {
+    "claim": "위 장비들은 모두 잿빛습지에서 획득한다",
+    "verdict": "supported",
+    "reason": "모든 문서의 획득 지역이 잿빛습지"
+   },
+   {
+    "claim": "'해독제'가 존재한다",
+    "verdict": "supported",
+    "reason": "itm_p006에 해독제 소비품 기재"
+   }
+  ]
+ },
+ "opus-5|q005": {
+  "qid": "q005",
+  "claims": [
+   {
+    "claim": "'성당 관리인의 철퇴'는 요구 레벨 18이다",
+    "verdict": "supported",
+    "reason": "itm_w019에 요구 레벨 18 명시"
+   },
+   {
+    "claim": "'성당 관리인의 철퇴'의 획득 지역은 실버브룩이다",
+    "verdict": "supported",
+    "reason": "itm_w019 획득 지역 실버브룩"
+   },
+   {
+    "claim": "'성당 관리인의 철퇴'는 공격력 26이다",
+    "verdict": "supported",
+    "reason": "itm_w019 능력치"
+   },
+   {
+    "claim": "'성당 관리인의 철퇴'는 언데드 추가 피해 15를 가진다",
+    "verdict": "supported",
+    "reason": "itm_w019 능력치"
+   },
+   {
+    "claim": "성직자들이 검 대신 날 없는 철퇴를 골랐다",
+    "verdict": "supported",
+    "reason": "itm_w019 설명문"
+   },
+   {
+    "claim": "'언데드 퇴치 주문서'는 소비품이며 요구 레벨 30이다",
+    "verdict": "supported",
+    "reason": "itm_s004 분류·레벨 일치"
+   },
+   {
+    "claim": "'언데드 퇴치 주문서'의 획득 지역은 잿빛습지이다",
+    "verdict": "supported",
+    "reason": "itm_s004 획득 지역"
+   },
+   {
+    "claim": "'언데드 퇴치 주문서'는 언데드 추가 피해 400을 준다",
+    "verdict": "supported",
+    "reason": "itm_s004 능력치"
+   }
+  ]
+ },
+ "opus-5|q008": {
+  "qid": "q008",
+  "claims": [
+   {
+    "claim": "'허공 딛는 장화'는 이동 속도를 올려준다",
+    "verdict": "supported",
+    "reason": "itm_a035: 이동 속도 15"
+   },
+   {
+    "claim": "'허공 딛는 장화'는 epic 등급, 요구 레벨 47",
+    "verdict": "supported",
+    "reason": "itm_a035에 명시"
+   },
+   {
+    "claim": "방어력 50, 이동 속도 15, 공중 도약 1",
+    "verdict": "supported",
+    "reason": "itm_a035 능력치 일치"
+   },
+   {
+    "claim": "공허탑에서 획득",
+    "verdict": "supported",
+    "reason": "itm_a035 획득 지역"
+   },
+   {
+    "claim": "'천 감발'은 요구 레벨 1, 실버브룩 획득",
+    "verdict": "supported",
+    "reason": "itm_a030에 명시"
+   },
+   {
+    "claim": "'천 감발'은 이동 속도 2를 준다",
+    "verdict": "supported",
+    "reason": "itm_a030 능력치"
+   }
+  ]
+ },
+ "opus-5|q009": {
+  "qid": "q009",
+  "claims": [
+   {
+    "claim": "천둥 울림 망치는 양손 태그, 요구 레벨 35, 공격력 62, 기절 확률 10",
+    "verdict": "supported",
+    "reason": "itm_w020에 동일 수치와 양손 태그 기재"
+   },
+   {
+    "claim": "여명의 대검은 양손 태그, 요구 레벨 48, 공격력 88, 신성 피해 20",
+    "verdict": "supported",
+    "reason": "itm_w008과 일치"
+   },
+   {
+    "claim": "처형인의 대부월은 양손 태그, 요구 레벨 46, 공격력 92, 처형 기준 체력 20",
+    "verdict": "supported",
+    "reason": "itm_w017과 일치"
+   },
+   {
+    "claim": "이빨 빠진 낡은 대검은 양손 태그, 요구 레벨 12, 공격력 19",
+    "verdict": "supported",
+    "reason": "itm_w009과 일치"
+   },
+   {
+    "claim": "넷 모두 공격 속도 마이너스 보정이 있다",
+    "verdict": "supported",
+    "reason": "각각 -18, -15, -20, -10"
+   },
+   {
+    "claim": "여명의 대검은 두 손으로 겨우 드는 무게로 전해진다",
+    "verdict": "supported",
+    "reason": "itm_w008 설명문"
+   },
+   {
+    "claim": "여명의 대검과 처형인의 대부월은 공허탑에서 획득",
+    "verdict": "supported",
+    "reason": "itm_w008, itm_w017 획득 지역 공허탑"
+   }
+  ]
+ },
+ "opus-5|q010": {
+  "qid": "q010",
+  "claims": [
+   {
+    "claim": "체력을 회복시켜 주는 물약은 세 가지다",
+    "verdict": "supported",
+    "reason": "itm_p001, itm_p002, itm_p003만 체력 회복 능력치를 가짐"
+   },
+   {
+    "claim": "묽은 회복 물약은 요구 레벨 1, 체력 회복 50",
+    "verdict": "supported",
+    "reason": "itm_p001에 동일 기재"
+   },
+   {
+    "claim": "붉은 회복 물약은 요구 레벨 10, 체력 회복 180",
+    "verdict": "supported",
+    "reason": "itm_p002에 동일 기재"
+   },
+   {
+    "claim": "진한 회복 물약은 요구 레벨 25, 체력 회복 520",
+    "verdict": "supported",
+    "reason": "itm_p003에 동일 기재"
+   },
+   {
+    "claim": "묽은·붉은 회복 물약의 획득 지역은 실버브룩",
+    "verdict": "supported",
+    "reason": "itm_p001, itm_p002 획득 지역 실버브룩"
+   },
+   {
+    "claim": "진한 회복 물약의 획득 지역은 붉은협곡",
+    "verdict": "supported",
+    "reason": "itm_p003 획득 지역 붉은협곡"
+   }
+  ]
+ },
+ "opus-5|q012": {
+  "qid": "q012",
+  "claims": [
+   {
+    "claim": "횃불은 도구이며 요구 레벨 1이다",
+    "verdict": "supported",
+    "reason": "itm_t001에 도구·요구 레벨 1 명시"
+   },
+   {
+    "claim": "횃불은 조명 1, 지속시간 900초",
+    "verdict": "supported",
+    "reason": "itm_t001 능력치와 일치"
+   },
+   {
+    "claim": "갱도와 지하 묘지 진입 시 두 개 이상 챙기는 것이 상식",
+    "verdict": "supported",
+    "reason": "itm_t001 설명문 그대로"
+   },
+   {
+    "claim": "기름 등불은 요구 레벨 12, 조명 2, 지속시간 3600초",
+    "verdict": "supported",
+    "reason": "itm_t002와 일치"
+   },
+   {
+    "claim": "기름 등불은 습지 안개 속에서는 빛이 퍼져 앞이 안 보인다는 불평이 있다",
+    "verdict": "supported",
+    "reason": "itm_t002 설명문"
+   },
+   {
+    "claim": "기름 등불이 횃불보다 지속시간이 길다",
+    "verdict": "supported",
+    "reason": "3600>900으로 문서 수치에서 직접 도출"
+   }
+  ]
+ },
+ "opus-5|q013": {
+  "qid": "q013",
+  "claims": [
+   {
+    "claim": "'소리 죽인 신발'은 바닥에 두꺼운 펠트를 덧댄 신발이다",
+    "verdict": "supported",
+    "reason": "itm_a034에 동일 설명"
+   },
+   {
+    "claim": "등급은 rare",
+    "verdict": "supported",
+    "reason": "itm_a034"
+   },
+   {
+    "claim": "요구 레벨 31",
+    "verdict": "supported",
+    "reason": "itm_a034"
+   },
+   {
+    "claim": "방어력 26",
+    "verdict": "supported",
+    "reason": "itm_a034"
+   },
+   {
+    "claim": "은신 25",
+    "verdict": "supported",
+    "reason": "itm_a034"
+   },
+   {
+    "claim": "획득 지역은 서리항구",
+    "verdict": "supported",
+    "reason": "itm_a034"
+   },
+   {
+    "claim": "'징 박은 가죽 장화'는 걸을 때마다 소리가 나서 몰래 다니기 최악이다",
+    "verdict": "supported",
+    "reason": "itm_a031 설명과 일치"
+   }
+  ]
+ },
+ "opus-5|q015": {
+  "qid": "q015",
+  "claims": [
+   {
+    "claim": "등반용 밧줄은 도구이며 등반 10을 준다",
+    "verdict": "supported",
+    "reason": "itm_t008: 도구, 능력치 등반 10"
+   },
+   {
+    "claim": "등반용 밧줄 요구 레벨 10",
+    "verdict": "supported",
+    "reason": "itm_t008 명시"
+   },
+   {
+    "claim": "쇠갈고리는 등반 20, 갈고리 걸기 1",
+    "verdict": "supported",
+    "reason": "itm_t009 명시"
+   },
+   {
+    "claim": "쇠갈고리 요구 레벨 18",
+    "verdict": "supported",
+    "reason": "itm_t009 명시"
+   },
+   {
+    "claim": "암벽꾼의 징화는 방어구, 방어력 30·등반 20",
+    "verdict": "supported",
+    "reason": "itm_a033 명시"
+   },
+   {
+    "claim": "암벽꾼의 징화 요구 레벨 29",
+    "verdict": "supported",
+    "reason": "itm_a033 명시"
+   },
+   {
+    "claim": "세 아이템 모두 붉은협곡에서 획득",
+    "verdict": "supported",
+    "reason": "세 문서 모두 획득 지역 붉은협곡"
+   },
+   {
+    "claim": "'절벽을 오르는 자' 퀘스트는 요구 레벨 29이고 밧줄·갈고리 소지가 목표이며 보상은 암벽꾼의 징화",
+    "verdict": "supported",
+    "reason": "qst_022 명시"
+   },
+   {
+    "claim": "절벽 등반에 도움되는 것은 세 가지뿐",
+    "verdict": "unsupported",
+    "reason": "itm_a035 허공 딛는 장화도 공중 도약 등 이동 관련이나 등반 태그는 없음; 다만 '세 가지' 한정은 문서상 등반 태그 기준으로만 성립하며 단정 근거 부족"
+   }
+  ]
+ },
+ "opus-5|q021": {
+  "qid": "q021",
+  "claims": [
+   {
+    "claim": "문서에 해골 장식이 달린 지팡이는 없다",
+    "verdict": "supported",
+    "reason": "지팡이 아이템 4종 모두 초승달·뱀·나선 문양이며 해골 지팡이는 없음"
+   },
+   {
+    "claim": "늪지 주술사의 지팡이는 초승달 장식이고 요구 레벨 19",
+    "verdict": "supported",
+    "reason": "itm_w035: 초승달 두 개 장식, 요구 레벨 19"
+   },
+   {
+    "claim": "공허 응시자의 지팡이는 초승달과 열쇠 형태, 요구 레벨 47",
+    "verdict": "supported",
+    "reason": "itm_w037 일치"
+   },
+   {
+    "claim": "치유사의 백목 완드는 뱀이 감긴 형태, 요구 레벨 27",
+    "verdict": "supported",
+    "reason": "itm_w039 일치"
+   },
+   {
+    "claim": "견습생의 나무 지팡이는 나선 문양, 요구 레벨 2",
+    "verdict": "supported",
+    "reason": "itm_w034 일치"
+   },
+   {
+    "claim": "해골 문양 장비로 방어구 '해골 면갑'(요구 레벨 35)이 있다",
+    "verdict": "supported",
+    "reason": "itm_a013: 방어구, 해골 문양, 요구 레벨 35"
+   }
+  ]
+ },
+ "opus-5|q023": {
+  "qid": "q023",
+  "claims": [
+   {
+    "claim": "기사단 연회장 방패 아이콘은 검은 방패 중앙에 흰 십자가 문양이 새겨져 있다",
+    "verdict": "supported",
+    "reason": "itm_a006 아이콘 설명과 일치"
+   },
+   {
+    "claim": "기사단 연회장 방패는 방어구·uncommon·요구 레벨 25",
+    "verdict": "supported",
+    "reason": "itm_a006에 명시"
+   },
+   {
+    "claim": "기사단 연회장 방패 방어력 33",
+    "verdict": "supported",
+    "reason": "itm_a006 능력치"
+   },
+   {
+    "claim": "기사단 연회장 방패 획득 지역은 실버브룩",
+    "verdict": "supported",
+    "reason": "itm_a006"
+   },
+   {
+    "claim": "경비대 각방패는 중앙에 십자 막대 문양이 있다",
+    "verdict": "supported",
+    "reason": "itm_a002 아이콘: 중앙 원형 고리와 십자 막대"
+   },
+   {
+    "claim": "경비대 각방패는 common·요구 레벨 10, 방어력 16",
+    "verdict": "supported",
+    "reason": "itm_a002"
+   },
+   {
+    "claim": "경비대 각방패 획득 지역은 실버브룩",
+    "verdict": "supported",
+    "reason": "itm_a002"
+   }
+  ]
+ },
+ "opus-5|q026": {
+  "qid": "q026",
+  "claims": [
+   {
+    "claim": "초승달 장식이 보이는 지팡이류는 세 가지가 있다",
+    "verdict": "supported",
+    "reason": "itm_w035, itm_w036, itm_w037 아이콘에만 초승달 언급"
+   },
+   {
+    "claim": "늪지 주술사의 지팡이 요구 레벨 19",
+    "verdict": "supported",
+    "reason": "itm_w035"
+   },
+   {
+    "claim": "늪지 주술사의 지팡이 획득 지역 잿빛습지",
+    "verdict": "supported",
+    "reason": "itm_w035"
+   },
+   {
+    "claim": "늪지 주술사의 지팡이는 긴 손잡이 끝에 초승달 두 개가 교차한 막대형",
+    "verdict": "supported",
+    "reason": "itm_w035 아이콘 설명"
+   },
+   {
+    "claim": "화염술사의 홀 요구 레벨 34",
+    "verdict": "supported",
+    "reason": "itm_w036"
+   },
+   {
+    "claim": "화염술사의 홀 획득 지역 붉은협곡",
+    "verdict": "supported",
+    "reason": "itm_w036"
+   },
+   {
+    "claim": "화염술사의 홀은 상단 원형 장식에 초승달이 새겨지고 좌우 날개가 펼쳐진 모양",
+    "verdict": "supported",
+    "reason": "itm_w036 아이콘 설명"
+   },
+   {
+    "claim": "공허 응시자의 지팡이 요구 레벨 47",
+    "verdict": "supported",
+    "reason": "itm_w037"
+   },
+   {
+    "claim": "공허 응시자의 지팡이 획득 지역 공허탑",
+    "verdict": "supported",
+    "reason": "itm_w037"
+   },
+   {
+    "claim": "공허 응시자의 지팡이는 초승달 테두리 안에 원형 손잡이와 열쇠대가 뻗은 형태",
+    "verdict": "supported",
+    "reason": "itm_w037 아이콘 설명"
+   }
+  ]
+ },
+ "opus-5|q032": {
+  "qid": "q032",
+  "claims": [
+   {
+    "claim": "'별빛 이끼' 아이콘은 대각선으로 뻗은 고사리 잎(깃털모양) 실루엣이다",
+    "verdict": "supported",
+    "reason": "itm_m014 아이콘 정보에 고사리/깃털모양/대각선구도 명시"
+   },
+   {
+    "claim": "별빛 이끼의 획득 지역은 공허탑이다",
+    "verdict": "supported",
+    "reason": "itm_m014에 획득 지역: 공허탑"
+   },
+   {
+    "claim": "별빛 이끼는 rare 등급 재료다",
+    "verdict": "supported",
+    "reason": "itm_m014에 재료·rare 표기"
+   },
+   {
+    "claim": "별빛 이끼의 요구 레벨은 36이다",
+    "verdict": "supported",
+    "reason": "itm_m014에 요구 레벨 36"
+   },
+   {
+    "claim": "어두운 곳에서 희미하게 빛나 채집이 어렵지 않다",
+    "verdict": "supported",
+    "reason": "itm_m014 설명문과 일치"
+   }
+  ]
+ },
+ "opus-5|q036": {
+  "qid": "q036",
+  "claims": [
+   {
+    "claim": "공허 응시자의 지팡이는 들고 있으면 자꾸 위를 보게 된다는 이유로 대부분의 학당에서 반입이 금지되었다",
+    "verdict": "supported",
+    "reason": "itm_w037 설명에 동일 문구"
+   },
+   {
+    "claim": "등급은 epic이다",
+    "verdict": "supported",
+    "reason": "itm_w037"
+   },
+   {
+    "claim": "요구 레벨 47",
+    "verdict": "supported",
+    "reason": "itm_w037"
+   },
+   {
+    "claim": "획득 지역은 공허탑",
+    "verdict": "supported",
+    "reason": "itm_w037"
+   },
+   {
+    "claim": "마법 공격력 85",
+    "verdict": "supported",
+    "reason": "itm_w037"
+   },
+   {
+    "claim": "공허 피해 30",
+    "verdict": "supported",
+    "reason": "itm_w037"
+   },
+   {
+    "claim": "마나 120",
+    "verdict": "supported",
+    "reason": "itm_w037"
+   }
+  ]
+ },
+ "opus-5|q038": {
+  "qid": "q038",
+  "claims": [
+   {
+    "claim": "'늑대 이빨 목걸이'는 처음 잡은 늑대의 이빨을 꿰어 만든 목걸이다",
+    "verdict": "supported",
+    "reason": "itm_c007 설명 그대로"
+   },
+   {
+    "claim": "실버브룩 사냥꾼들에게 자격증이나 마찬가지다",
+    "verdict": "supported",
+    "reason": "itm_c007 설명 그대로"
+   },
+   {
+    "claim": "요구 레벨 7",
+    "verdict": "supported",
+    "reason": "itm_c007 요구 레벨 7"
+   },
+   {
+    "claim": "공격력 5",
+    "verdict": "supported",
+    "reason": "itm_c007 능력치 공격력 5"
+   },
+   {
+    "claim": "획득 지역은 실버브룩",
+    "verdict": "supported",
+    "reason": "itm_c007 획득 지역 실버브룩"
+   }
+  ]
+ },
+ "opus-5|q041": {
+  "qid": "q041",
+  "claims": [
+   {
+    "claim": "'봉인된 창고 열쇠'는 항구 3번 창고를 여는 열쇠다",
+    "verdict": "supported",
+    "reason": "itm_t015에 명시"
+   },
+   {
+    "claim": "도구 분류, rare 등급, 요구 레벨 34",
+    "verdict": "supported",
+    "reason": "itm_t015 헤더와 일치"
+   },
+   {
+    "claim": "획득 지역은 서리항구",
+    "verdict": "supported",
+    "reason": "itm_t015 획득 지역"
+   },
+   {
+    "claim": "팔 수도 버릴 수도 없어 인벤토리 한 칸을 계속 차지한다",
+    "verdict": "supported",
+    "reason": "itm_t015 설명문 그대로"
+   }
+  ]
+ },
+ "opus-5|q042": {
+  "qid": "q042",
+  "claims": [
+   {
+    "claim": "성당에서 나눠 주는 부적은 「성인의 나무 부적」이다",
+    "verdict": "supported",
+    "reason": "itm_c012: 성당에서 나눠 주는 나무 부적"
+   },
+   {
+    "claim": "장신구 분류이며 등급은 common",
+    "verdict": "supported",
+    "reason": "itm_c012: 장신구 · common"
+   },
+   {
+    "claim": "요구 레벨 4",
+    "verdict": "supported",
+    "reason": "itm_c012 명시"
+   },
+   {
+    "claim": "언데드 저항 10",
+    "verdict": "supported",
+    "reason": "itm_c012 능력치"
+   },
+   {
+    "claim": "실버브룩에서 획득",
+    "verdict": "supported",
+    "reason": "itm_c012 획득 지역"
+   },
+   {
+    "claim": "효험을 본 사람보다 잃어버린 사람이 훨씬 많다",
+    "verdict": "supported",
+    "reason": "itm_c012 설명문"
+   }
+  ]
+ },
+ "opus-5|q046": {
+  "qid": "q046",
+  "claims": [
+   {
+    "claim": "'늪거북 등딱지' 퀘스트의 의뢰인은 방어구 장인 하르이다",
+    "verdict": "supported",
+    "reason": "qst_012에 명시"
+   },
+   {
+    "claim": "퀘스트 지역은 잿빛습지",
+    "verdict": "supported",
+    "reason": "qst_012"
+   },
+   {
+    "claim": "요구 레벨 18",
+    "verdict": "supported",
+    "reason": "qst_012"
+   },
+   {
+    "claim": "목표는 늪거북 4마리 처치",
+    "verdict": "supported",
+    "reason": "qst_012"
+   },
+   {
+    "claim": "등딱지 조각 6개 수집",
+    "verdict": "supported",
+    "reason": "qst_012"
+   },
+   {
+    "claim": "보상은 늪거북 등딱지 방패와 골드 500",
+    "verdict": "supported",
+    "reason": "qst_012"
+   },
+   {
+    "claim": "늪거북 등딱지 방패는 방어력 27, 독 저항 12",
+    "verdict": "supported",
+    "reason": "itm_a003"
+   }
+  ]
+ },
+ "opus-5|q048": {
+  "qid": "q048",
+  "claims": [
+   {
+    "claim": "'폭풍을 부르는 홀'은 퀘스트 '한 해를 삼킨 폭풍'의 보상이다",
+    "verdict": "supported",
+    "reason": "qst_032 보상: 폭풍을 부르는 홀"
+   },
+   {
+    "claim": "해당 퀘스트의 의뢰인은 항구 조합장 마레이고 지역은 서리항구",
+    "verdict": "supported",
+    "reason": "qst_032에 명시"
+   },
+   {
+    "claim": "퀘스트 요구 레벨은 45",
+    "verdict": "supported",
+    "reason": "qst_032 요구 레벨 45"
+   },
+   {
+    "claim": "목표는 봉인된 창고 열쇠 소지, 3번 창고 개방, 폭풍의 홀 확인",
+    "verdict": "supported",
+    "reason": "qst_032 목표와 일치"
+   },
+   {
+    "claim": "무기의 요구 레벨은 50",
+    "verdict": "supported",
+    "reason": "itm_w040 요구 레벨 50"
+   }
+  ]
+ },
+ "opus-5|q049": {
+  "qid": "q049",
+  "claims": [
+   {
+    "claim": "「흑요석을 캐 오라」 퀘스트가 강철 곡괭이 소지를 요구한다",
+    "verdict": "supported",
+    "reason": "qst_019 목표에 강철 곡괭이 소지 명시"
+   },
+   {
+    "claim": "의뢰인은 대장장이 헬가",
+    "verdict": "supported",
+    "reason": "qst_019"
+   },
+   {
+    "claim": "지역은 붉은협곡",
+    "verdict": "supported",
+    "reason": "qst_019"
+   },
+   {
+    "claim": "요구 레벨 32",
+    "verdict": "supported",
+    "reason": "qst_019"
+   },
+   {
+    "claim": "목표는 강철 곡괭이 소지와 화산 흑요석 5개 채굴",
+    "verdict": "supported",
+    "reason": "qst_019"
+   },
+   {
+    "claim": "보상은 용광로 인장 반지와 골드 1400",
+    "verdict": "supported",
+    "reason": "qst_019"
+   },
+   {
+    "claim": "강철 곡괭이는 「갱도가 무너졌다」 퀘스트 보상",
+    "verdict": "supported",
+    "reason": "qst_018 보상에 강철 곡괭이"
+   }
+  ]
+ },
+ "opus-5|q050": {
+  "qid": "q050",
+  "claims": [
+   {
+    "claim": "「반딧불을 잡아 주오」 의뢰인은 유리공 셀린이다",
+    "verdict": "supported",
+    "reason": "qst_013에 의뢰인 유리공 셀린 명시"
+   },
+   {
+    "claim": "지역은 잿빛습지",
+    "verdict": "supported",
+    "reason": "qst_013 잿빛습지"
+   },
+   {
+    "claim": "요구 레벨 15",
+    "verdict": "supported",
+    "reason": "qst_013 요구 레벨 15"
+   },
+   {
+    "claim": "목표는 밤에 반딧불 유충 10마리 포획",
+    "verdict": "supported",
+    "reason": "qst_013 목표와 동일"
+   },
+   {
+    "claim": "유충은 밤에만 잡히고 낮에 습지에 가면 헛수고",
+    "verdict": "supported",
+    "reason": "qst_013 설명 그대로"
+   },
+   {
+    "claim": "보상은 습지 반딧불 목걸이와 골드 320",
+    "verdict": "supported",
+    "reason": "qst_013 보상 일치"
+   }
+  ]
+ },
+ "opus-5|q051": {
+  "qid": "q051",
+  "claims": [
+   {
+    "claim": "화약 무기는 문서에 없다",
+    "verdict": "supported",
+    "reason": "문서 5개에 화약 관련 무기 없음"
+   },
+   {
+    "claim": "고래잡이 작살총은 서리항구에서 획득",
+    "verdict": "supported",
+    "reason": "itm_w032 획득 지역 서리항구"
+   },
+   {
+    "claim": "고래잡이 작살총 요구 레벨 33",
+    "verdict": "supported",
+    "reason": "itm_w032 명시"
+   },
+   {
+    "claim": "고래잡이 작살총 공격력 50",
+    "verdict": "supported",
+    "reason": "itm_w032 명시"
+   },
+   {
+    "claim": "고래잡이 작살총 사거리 16",
+    "verdict": "supported",
+    "reason": "itm_w032 명시"
+   },
+   {
+    "claim": "불화살 석궁은 붉은협곡에서 획득",
+    "verdict": "supported",
+    "reason": "itm_w031 명시"
+   },
+   {
+    "claim": "불화살 석궁 요구 레벨 29",
+    "verdict": "supported",
+    "reason": "itm_w031 명시"
+   },
+   {
+    "claim": "불화살 석궁 공격력 40",
+    "verdict": "supported",
+    "reason": "itm_w031 명시"
+   },
+   {
+    "claim": "불화살 석궁 화염 피해 15",
+    "verdict": "supported",
+    "reason": "itm_w031 명시"
+   }
+  ]
+ },
+ "opus-5|q052": {
+  "qid": "q052",
+  "claims": [
+   {
+    "claim": "제공된 문서에는 말이나 탈것, 그것을 파는 장소에 관한 정보가 없다",
+    "verdict": "supported",
+    "reason": "itm_c013, itm_t012, itm_m001, itm_a024, itm_t008 모두 부적·덫·가죽·장갑·밧줄로 탈것 관련 내용 없음"
+   }
+  ]
+ },
+ "opus-5|q053": {
+  "qid": "q053",
+  "claims": [
+   {
+    "claim": "문서에 펫에게 먹이는 사료 아이템 정보가 없다",
+    "verdict": "supported",
+    "reason": "5개 문서 모두 펫 사료 아이템은 없음"
+   },
+   {
+    "claim": "훈제 생선 꾸러미는 음식류 소비품이다",
+    "verdict": "supported",
+    "reason": "itm_f002: 소비품, 태그 음식"
+   },
+   {
+    "claim": "꿀 바른 과자는 음식류 소비품이다",
+    "verdict": "supported",
+    "reason": "itm_f005: 소비품, 태그 음식"
+   },
+   {
+    "claim": "버섯 스튜는 음식류 소비품이다",
+    "verdict": "supported",
+    "reason": "itm_f003: 소비품, 태그 음식"
+   }
+  ]
+ },
+ "opus-5|q054": {
+  "qid": "q054",
+  "claims": [
+   {
+    "claim": "문서에 요구 레벨 70 이상인 장비가 없다",
+    "verdict": "supported",
+    "reason": "docs 최고 요구 레벨은 50(itm_a023)"
+   },
+   {
+    "claim": "가장 요구 레벨이 높은 장비는 '공허에 물든 로브'이며 요구 레벨 50이다",
+    "verdict": "supported",
+    "reason": "itm_a023 요구 레벨 50, 나머지는 44~46"
+   }
+  ]
+ },
+ "opus-5|q055": {
+  "qid": "q055",
+  "claims": [
+   {
+    "claim": "결혼식 아이템 정보는 문서에 없다",
+    "verdict": "unsupported",
+    "reason": "itm_c004 아이콘 정보에 결혼/약혼 상징 반지가 명시되어 있음"
+   },
+   {
+    "claim": "쌍둥이 맹세 반지는 두 개가 한 쌍이며 다른 한쪽을 낀 사람이 곁에 있을 때만 힘을 낸다",
+    "verdict": "supported",
+    "reason": "itm_c006 설명 그대로"
+   },
+   {
+    "claim": "쌍둥이 맹세 반지는 장신구·legendary 등급",
+    "verdict": "supported",
+    "reason": "itm_c006"
+   },
+   {
+    "claim": "요구 레벨 48",
+    "verdict": "supported",
+    "reason": "itm_c006"
+   },
+   {
+    "claim": "획득 지역은 서리항구",
+    "verdict": "supported",
+    "reason": "itm_c006"
+   }
+  ]
+ },
+ "opus-5|q056": {
+  "qid": "q056",
+  "claims": [
+   {
+    "claim": "문서에 하늘을 날게 해주는 물약은 없다",
+    "verdict": "supported",
+    "reason": "5개 문서 중 비행 관련 아이템 없음"
+   },
+   {
+    "claim": "질주 물약의 획득 지역은 붉은협곡",
+    "verdict": "supported",
+    "reason": "itm_p010에 명시"
+   },
+   {
+    "claim": "질주 물약 요구 레벨 18",
+    "verdict": "supported",
+    "reason": "itm_p010"
+   },
+   {
+    "claim": "질주 물약 이동 속도 40",
+    "verdict": "supported",
+    "reason": "itm_p010"
+   },
+   {
+    "claim": "질주 물약 지속시간 120초",
+    "verdict": "supported",
+    "reason": "itm_p010"
+   }
+  ]
+ },
+ "sonnet-5|q003": {
+  "qid": "q003",
+  "claims": [
+   {
+    "claim": "독 다루는 자의 장갑은 독 저항 25, 방어력 17이다",
+    "verdict": "supported",
+    "reason": "itm_a026에 방어력 17, 독 저항 25 명시"
+   },
+   {
+    "claim": "독사 비늘 반지는 독 저항 20, 체력 40이다",
+    "verdict": "supported",
+    "reason": "itm_c002에 동일 수치 명시"
+   },
+   {
+    "claim": "늪거북 등딱지 방패는 독 저항 12, 방어력 27이다",
+    "verdict": "supported",
+    "reason": "itm_a003에 동일 수치 명시"
+   },
+   {
+    "claim": "습지 순찰자의 검은 독 저항 5, 공격력 22이다",
+    "verdict": "supported",
+    "reason": "itm_w003에 동일 수치 명시"
+   },
+   {
+    "claim": "이 아이템들은 모두 잿빛습지에서 획득 가능하다",
+    "verdict": "supported",
+    "reason": "네 문서 모두 획득 지역 잿빛습지"
+   }
+  ]
+ },
+ "sonnet-5|q005": {
+  "qid": "q005",
+  "claims": [
+   {
+    "claim": "성당 관리인의 철퇴는 언데드 추가 피해 15를 가진다",
+    "verdict": "supported",
+    "reason": "itm_w019에 언데드 추가 피해 15 명시"
+   },
+   {
+    "claim": "성당 관리인의 철퇴의 요구 레벨은 18이다",
+    "verdict": "supported",
+    "reason": "itm_w019 요구 레벨 18"
+   },
+   {
+    "claim": "성당 관리인의 철퇴는 실버브룩에서 획득 가능하다",
+    "verdict": "supported",
+    "reason": "itm_w019 획득 지역 실버브룩"
+   }
+  ]
+ },
+ "sonnet-5|q008": {
+  "qid": "q008",
+  "claims": [
+   {
+    "claim": "허공 딛는 장화의 요구 레벨은 47이다",
+    "verdict": "supported",
+    "reason": "itm_a035에 요구 레벨 47 명시"
+   },
+   {
+    "claim": "허공 딛는 장화의 방어력은 50이다",
+    "verdict": "supported",
+    "reason": "itm_a035 능력치 방어력 50"
+   },
+   {
+    "claim": "허공 딛는 장화의 이동 속도는 15이다",
+    "verdict": "supported",
+    "reason": "itm_a035 이동 속도 15"
+   },
+   {
+    "claim": "허공 딛는 장화는 공중 도약 1을 가진다",
+    "verdict": "supported",
+    "reason": "itm_a035 공중 도약 1"
+   },
+   {
+    "claim": "허공 딛는 장화는 공허탑에서 획득한다",
+    "verdict": "supported",
+    "reason": "itm_a035 획득 지역 공허탑"
+   },
+   {
+    "claim": "천 감발의 요구 레벨은 1이다",
+    "verdict": "supported",
+    "reason": "itm_a030 요구 레벨 1"
+   },
+   {
+    "claim": "천 감발은 이동 속도 2를 제공한다",
+    "verdict": "supported",
+    "reason": "itm_a030 이동 속도 2"
+   }
+  ]
+ },
+ "sonnet-5|q009": {
+  "qid": "q009",
+  "claims": [
+   {
+    "claim": "천둥 울림 망치는 요구 레벨 35이다",
+    "verdict": "supported",
+    "reason": "itm_w020에 요구 레벨 35 명시"
+   },
+   {
+    "claim": "천둥 울림 망치는 양손 태그를 가진다",
+    "verdict": "supported",
+    "reason": "itm_w020 태그: 양손"
+   },
+   {
+    "claim": "여명의 대검은 요구 레벨 48이다",
+    "verdict": "supported",
+    "reason": "itm_w008에 요구 레벨 48"
+   },
+   {
+    "claim": "여명의 대검은 양손 태그를 가진다",
+    "verdict": "supported",
+    "reason": "itm_w008 태그: 양손"
+   },
+   {
+    "claim": "처형인의 대부월은 요구 레벨 46이다",
+    "verdict": "supported",
+    "reason": "itm_w017에 요구 레벨 46"
+   },
+   {
+    "claim": "처형인의 대부월은 양손 태그를 가진다",
+    "verdict": "supported",
+    "reason": "itm_w017 태그: 양손"
+   },
+   {
+    "claim": "이빨 빠진 낡은 대검은 요구 레벨 12이다",
+    "verdict": "supported",
+    "reason": "itm_w009에 요구 레벨 12"
+   },
+   {
+    "claim": "이빨 빠진 낡은 대검은 양손 태그를 가진다",
+    "verdict": "supported",
+    "reason": "itm_w009 태그: 양손, 고철"
+   }
+  ]
+ },
+ "sonnet-5|q010": {
+  "qid": "q010",
+  "claims": [
+   {
+    "claim": "묽은 회복 물약은 체력 50 회복",
+    "verdict": "supported",
+    "reason": "itm_p001: 체력 회복 50"
+   },
+   {
+    "claim": "묽은 회복 물약 요구 레벨 1",
+    "verdict": "supported",
+    "reason": "itm_p001"
+   },
+   {
+    "claim": "붉은 회복 물약은 체력 180 회복",
+    "verdict": "supported",
+    "reason": "itm_p002"
+   },
+   {
+    "claim": "붉은 회복 물약 요구 레벨 10",
+    "verdict": "supported",
+    "reason": "itm_p002"
+   },
+   {
+    "claim": "진한 회복 물약은 체력 520 회복",
+    "verdict": "supported",
+    "reason": "itm_p003"
+   },
+   {
+    "claim": "진한 회복 물약 요구 레벨 25",
+    "verdict": "supported",
+    "reason": "itm_p003"
+   },
+   {
+    "claim": "해당 물약들은 실버브룩과 붉은협곡에서 획득",
+    "verdict": "supported",
+    "reason": "itm_p001·p002는 실버브룩, itm_p003은 붉은협곡"
+   }
+  ]
+ },
+ "sonnet-5|q012": {
+  "qid": "q012",
+  "claims": [
+   {
+    "claim": "횃불은 기름 먹인 천을 막대 끝에 감은 도구다",
+    "verdict": "supported",
+    "reason": "itm_t001 설명과 일치"
+   },
+   {
+    "claim": "갱도와 지하 묘지에 들어갈 때 횃불을 두 개 이상 챙기는 것이 상식이다",
+    "verdict": "supported",
+    "reason": "itm_t001에 명시"
+   },
+   {
+    "claim": "횃불의 조명은 1이다",
+    "verdict": "supported",
+    "reason": "itm_t001 능력치 조명 1"
+   },
+   {
+    "claim": "횃불의 지속시간은 900초다",
+    "verdict": "supported",
+    "reason": "itm_t001 지속시간 900"
+   },
+   {
+    "claim": "횃불의 요구 레벨은 1이다",
+    "verdict": "supported",
+    "reason": "itm_t001 요구 레벨 1"
+   }
+  ]
+ },
+ "sonnet-5|q013": {
+  "qid": "q013",
+  "claims": [
+   {
+    "claim": "소리 죽인 신발은 바닥에 두꺼운 펠트를 덧댔다",
+    "verdict": "supported",
+    "reason": "itm_a034에 동일 설명"
+   },
+   {
+    "claim": "소리 죽인 신발은 은신 25 능력치를 가진다",
+    "verdict": "supported",
+    "reason": "itm_a034 능력치 은신 25"
+   },
+   {
+    "claim": "소리 죽인 신발의 획득 지역은 서리항구",
+    "verdict": "supported",
+    "reason": "itm_a034 획득 지역"
+   },
+   {
+    "claim": "징 박은 가죽 장화는 걸을 때마다 소리가 나서 몰래 다니기 최악",
+    "verdict": "supported",
+    "reason": "itm_a031 설명과 일치"
+   }
+  ]
+ },
+ "sonnet-5|q015": {
+  "qid": "q015",
+  "claims": [
+   {
+    "claim": "등반용 밧줄의 능력치는 등반 10이다",
+    "verdict": "supported",
+    "reason": "itm_t008에 등반 10 명시"
+   },
+   {
+    "claim": "쇠갈고리의 능력치는 등반 20, 갈고리 걸기 1이다",
+    "verdict": "supported",
+    "reason": "itm_t009에 동일 기재"
+   },
+   {
+    "claim": "암벽꾼의 징화의 능력치는 방어력 30, 등반 20이다",
+    "verdict": "supported",
+    "reason": "itm_a033에 동일 기재"
+   },
+   {
+    "claim": "세 아이템 모두 획득 지역이 붉은협곡이다",
+    "verdict": "supported",
+    "reason": "itm_t008, itm_t009, itm_a033 모두 붉은협곡"
+   },
+   {
+    "claim": "'절벽을 오르는 자' 퀘스트 목표에 등반용 밧줄과 쇠갈고리 소지가 포함된다",
+    "verdict": "supported",
+    "reason": "qst_022 목표에 두 아이템 소지 명시"
+   }
+  ]
+ },
+ "sonnet-5|q021": {
+  "qid": "q021",
+  "claims": [
+   {
+    "claim": "문서에 해골이 달린 지팡이는 없다",
+    "verdict": "supported",
+    "reason": "itm_w035/w037/w039/w034 지팡이들 중 해골 장식은 없음"
+   },
+   {
+    "claim": "해골 면갑은 방어구이며 해골 문양 아이콘이다",
+    "verdict": "supported",
+    "reason": "itm_a013에 방어구·해골 문양 명시"
+   },
+   {
+    "claim": "해골 면갑의 획득 지역은 잿빛습지다",
+    "verdict": "supported",
+    "reason": "itm_a013 획득 지역 잿빛습지"
+   }
+  ]
+ },
+ "sonnet-5|q023": {
+  "qid": "q023",
+  "claims": [
+   {
+    "claim": "기사단 연회장 방패는 검은 방패 중앙에 흰색 십자가 문양이 새겨진 방패다",
+    "verdict": "supported",
+    "reason": "itm_a006 아이콘 설명에 동일 기술"
+   },
+   {
+    "claim": "요구 레벨 25이다",
+    "verdict": "supported",
+    "reason": "itm_a006 표기"
+   },
+   {
+    "claim": "uncommon 등급 방어구다",
+    "verdict": "supported",
+    "reason": "itm_a006 표기"
+   },
+   {
+    "claim": "방어력 33",
+    "verdict": "supported",
+    "reason": "itm_a006 능력치"
+   },
+   {
+    "claim": "획득 지역은 실버브룩",
+    "verdict": "supported",
+    "reason": "itm_a006 표기"
+   },
+   {
+    "claim": "장식용으로 벽에 걸려 있었고 실제로 막아본 적이 없다",
+    "verdict": "supported",
+    "reason": "itm_a006 설명문"
+   }
+  ]
+ },
+ "sonnet-5|q026": {
+  "qid": "q026",
+  "claims": [
+   {
+    "claim": "늪지 주술사의 지팡이는 초승달 두 개가 교차한 장식이 달려 있다",
+    "verdict": "supported",
+    "reason": "itm_w035 아이콘 정보에 초승달 두 개 교차 상단 장식 기재"
+   },
+   {
+    "claim": "화염술사의 홀은 원형 장식에 초승달이 음각되어 있다",
+    "verdict": "supported",
+    "reason": "itm_w036 아이콘 정보에 원형 상단 장식, 초승달 모양 음각 기재"
+   },
+   {
+    "claim": "공허 응시자의 지팡이는 초승달 모양 테두리를 가진다",
+    "verdict": "supported",
+    "reason": "itm_w037 아이콘 정보에 초승달 테두리 기재"
+   }
+  ]
+ },
+ "sonnet-5|q032": {
+  "qid": "q032",
+  "claims": [
+   {
+    "claim": "별빛 이끼는 고사리 잎사귀 모양 아이콘을 가진 재료다",
+    "verdict": "supported",
+    "reason": "itm_m014 아이콘 정보에 고사리 잎 실루엣 명시"
+   },
+   {
+    "claim": "대각선으로 뻗은 길쭉한 잎에 좌우 소엽이 달린 형태다",
+    "verdict": "supported",
+    "reason": "itm_m014에 동일 서술"
+   },
+   {
+    "claim": "획득 지역은 공허탑이며 탑 그늘에서 자란다",
+    "verdict": "supported",
+    "reason": "itm_m014에 공허탑, 탑 그늘 명시"
+   }
+  ]
+ },
+ "sonnet-5|q036": {
+  "qid": "q036",
+  "claims": [
+   {
+    "claim": "공허 응시자의 지팡이는 탑 꼭대기를 오래 올려다본 마법사가 남긴 지팡이다",
+    "verdict": "supported",
+    "reason": "itm_w037 설명과 일치"
+   },
+   {
+    "claim": "들고 있으면 자꾸 위를 보게 된다는 이유로 대부분의 학당에서 반입이 금지되었다",
+    "verdict": "supported",
+    "reason": "itm_w037에 동일 서술"
+   }
+  ]
+ },
+ "sonnet-5|q038": {
+  "qid": "q038",
+  "claims": [
+   {
+    "claim": "늑대 이빨 목걸이는 실버브룩에서 획득/사냥꾼들이 착용",
+    "verdict": "supported",
+    "reason": "itm_c007: 획득 지역 실버브룩, 실버브룩 사냥꾼들의 자격증"
+   },
+   {
+    "claim": "처음 잡은 늑대의 이빨을 꿰어 만든 것",
+    "verdict": "supported",
+    "reason": "itm_c007 설명 그대로"
+   },
+   {
+    "claim": "사냥꾼들에게 자격증이나 마찬가지",
+    "verdict": "supported",
+    "reason": "itm_c007 설명"
+   },
+   {
+    "claim": "요구 레벨 7",
+    "verdict": "supported",
+    "reason": "itm_c007 헤더"
+   },
+   {
+    "claim": "common 등급 장신구",
+    "verdict": "supported",
+    "reason": "itm_c007 헤더"
+   },
+   {
+    "claim": "공격력 5",
+    "verdict": "supported",
+    "reason": "itm_c007 능력치"
+   }
+  ]
+ },
+ "sonnet-5|q041": {
+  "qid": "q041",
+  "claims": [
+   {
+    "claim": "봉인된 창고 열쇠는 항구 3번 창고를 여는 열쇠다",
+    "verdict": "supported",
+    "reason": "itm_t015에 동일 기술"
+   },
+   {
+    "claim": "봉인된 창고 열쇠의 요구 레벨은 34이다",
+    "verdict": "supported",
+    "reason": "itm_t015에 요구 레벨 34"
+   },
+   {
+    "claim": "봉인된 창고 열쇠는 도구 분류이다",
+    "verdict": "supported",
+    "reason": "itm_t015 도구·rare"
+   },
+   {
+    "claim": "팔 수도 버릴 수도 없어 인벤토리 한 칸을 계속 차지한다",
+    "verdict": "supported",
+    "reason": "itm_t015 설명 그대로"
+   }
+  ]
+ },
+ "sonnet-5|q042": {
+  "qid": "q042",
+  "claims": [
+   {
+    "claim": "성당에서 나눠 주는 나무 부적의 이름은 '성인의 나무 부적'이다",
+    "verdict": "supported",
+    "reason": "itm_c012에 성당에서 나눠 주는 나무 부적으로 기술"
+   },
+   {
+    "claim": "요구 레벨 4이다",
+    "verdict": "supported",
+    "reason": "itm_c012 요구 레벨 4"
+   },
+   {
+    "claim": "common 등급 장신구다",
+    "verdict": "supported",
+    "reason": "itm_c012 장신구·common"
+   },
+   {
+    "claim": "언데드 저항 10을 준다",
+    "verdict": "supported",
+    "reason": "itm_c012 능력치"
+   },
+   {
+    "claim": "실버브룩에서 획득할 수 있다",
+    "verdict": "supported",
+    "reason": "itm_c012 획득 지역 실버브룩"
+   }
+  ]
+ },
+ "sonnet-5|q046": {
+  "qid": "q046",
+  "claims": [
+   {
+    "claim": "퀘스트 '늪거북 등딱지'의 의뢰인은 방어구 장인 하르이다",
+    "verdict": "supported",
+    "reason": "qst_012에 명시"
+   },
+   {
+    "claim": "퀘스트 지역은 잿빛습지이다",
+    "verdict": "supported",
+    "reason": "qst_012에 명시"
+   },
+   {
+    "claim": "목표는 늪거북 4마리 처치",
+    "verdict": "supported",
+    "reason": "qst_012에 명시"
+   },
+   {
+    "claim": "목표는 등딱지 조각 6개 수집",
+    "verdict": "supported",
+    "reason": "qst_012에 명시"
+   },
+   {
+    "claim": "보상은 늪거북 등딱지 방패와 골드 500",
+    "verdict": "supported",
+    "reason": "qst_012에 명시"
+   },
+   {
+    "claim": "요구 레벨은 18",
+    "verdict": "supported",
+    "reason": "qst_012에 명시"
+   }
+  ]
+ },
+ "sonnet-5|q048": {
+  "qid": "q048",
+  "claims": [
+   {
+    "claim": "폭풍을 부르는 홀은 퀘스트 '한 해를 삼킨 폭풍'의 보상이다",
+    "verdict": "supported",
+    "reason": "qst_032 보상: 폭풍을 부르는 홀"
+   },
+   {
+    "claim": "해당 퀘스트의 의뢰인은 항구 조합장 마레이며 지역은 서리항구",
+    "verdict": "supported",
+    "reason": "qst_032에 명시"
+   },
+   {
+    "claim": "퀘스트 요구 레벨은 45",
+    "verdict": "supported",
+    "reason": "qst_032 요구 레벨 45"
+   },
+   {
+    "claim": "목표는 봉인된 창고 열쇠 소지, 3번 창고 개방, 폭풍의 홀 확인",
+    "verdict": "supported",
+    "reason": "qst_032 목표와 일치"
+   }
+  ]
+ },
+ "sonnet-5|q049": {
+  "qid": "q049",
+  "claims": [
+   {
+    "claim": "'흑요석을 캐 오라' 퀘스트는 강철 곡괭이 소지가 목표다",
+    "verdict": "supported",
+    "reason": "qst_019 목표에 강철 곡괭이 소지"
+   },
+   {
+    "claim": "의뢰인은 대장장이 헬가",
+    "verdict": "supported",
+    "reason": "qst_019"
+   },
+   {
+    "claim": "요구 레벨 32",
+    "verdict": "supported",
+    "reason": "qst_019"
+   },
+   {
+    "claim": "화산 흑요석 5개 채굴",
+    "verdict": "supported",
+    "reason": "qst_019 목표"
+   },
+   {
+    "claim": "보상은 용광로 인장 반지와 골드 1400",
+    "verdict": "supported",
+    "reason": "qst_019 보상"
+   }
+  ]
+ },
+ "sonnet-5|q050": {
+  "qid": "q050",
+  "claims": [
+   {
+    "claim": "'반딧불을 잡아 주오' 의뢰인은 유리공 셀린",
+    "verdict": "supported",
+    "reason": "qst_013에 명시"
+   },
+   {
+    "claim": "지역은 잿빛습지",
+    "verdict": "supported",
+    "reason": "qst_013에 명시"
+   },
+   {
+    "claim": "요구 레벨 15",
+    "verdict": "supported",
+    "reason": "qst_013에 명시"
+   },
+   {
+    "claim": "목표는 밤에 반딧불 유충 10마리 포획(유충은 밤에만 잡힘)",
+    "verdict": "supported",
+    "reason": "qst_013에 명시"
+   },
+   {
+    "claim": "보상은 습지 반딧불 목걸이와 골드 320",
+    "verdict": "supported",
+    "reason": "qst_013에 명시"
+   }
+  ]
+ },
+ "sonnet-5|q051": {
+  "qid": "q051",
+  "claims": [
+   {
+    "claim": "문서에 총이나 화약을 사용하는 무기 정보는 없다",
+    "verdict": "supported",
+    "reason": "itm_w018/w032/w003/w031/w009 모두 몽둥이·작살총·검·석궁·대검으로 화약 무기는 없음"
+   },
+   {
+    "claim": "문서의 무기는 몽둥이, 검, 대검, 석궁, 작살총이다",
+    "verdict": "supported",
+    "reason": "itm_w018 돌 박은 몽둥이, itm_w003 검, itm_w009 대검, itm_w031 석궁, itm_w032 작살총"
+   },
+   {
+    "claim": "석궁·작살총은 기계식 원거리 무기류에 해당한다",
+    "verdict": "supported",
+    "reason": "itm_w031은 원거리 태그와 사거리 22, itm_w032는 사거리 16·투척형 작살로 기술됨"
+   }
+  ]
+ },
+ "sonnet-5|q052": {
+  "qid": "q052",
+  "claims": [
+   {
+    "claim": "문서에는 말이나 탈것을 판매한다는 내용이 없다",
+    "verdict": "supported",
+    "reason": "문서 5개(itm_c013, itm_t012, itm_m001, itm_a024, itm_t008)는 부적·덫·가죽·장갑·밧줄뿐이며 탈것 관련 내용이 없다"
+   }
+  ]
+ },
+ "sonnet-5|q053": {
+  "qid": "q053",
+  "claims": [
+   {
+    "claim": "문서에는 사료(펫 먹이) 아이템이 없다",
+    "verdict": "supported",
+    "reason": "itm_f002, itm_f005, itm_m017, itm_f003, itm_m003 모두 사료/펫 먹이 아이템이 아니다"
+   }
+  ]
+ },
+ "sonnet-5|q054": {
+  "qid": "q054",
+  "claims": [
+   {
+    "claim": "문서에 있는 장비들의 요구 레벨은 44~50 사이다",
+    "verdict": "supported",
+    "reason": "itm_a014(44), itm_a022(45), itm_w007(45), itm_a007(46), itm_a023(50) 범위 일치"
+   },
+   {
+    "claim": "레벨 70 이상을 요구하는 장비는 문서에 없다",
+    "verdict": "supported",
+    "reason": "5개 문서 최대 요구 레벨은 itm_a023의 50"
+   }
+  ]
+ },
+ "sonnet-5|q055": {
+  "qid": "q055",
+  "claims": [
+   {
+    "claim": "문서에는 결혼식/혼례에 사용되는 아이템 정보가 없다",
+    "verdict": "supported",
+    "reason": "docs 5개 모두 결혼식 용도 아이템 설명 없음"
+   },
+   {
+    "claim": "반지류 아이템의 아이콘 설명에 '결혼반지' 문구가 있다",
+    "verdict": "supported",
+    "reason": "itm_c004 아이콘 시각 태그에 결혼반지 포함"
+   },
+   {
+    "claim": "실제 결혼식 용도로 쓰인다는 본문 설명은 없다",
+    "verdict": "supported",
+    "reason": "itm_c004, itm_c006 본문 설명에 결혼식 용도 언급 없음"
+   }
+  ]
+ },
+ "sonnet-5|q056": {
+  "qid": "q056",
+  "claims": [
+   {
+    "claim": "문서에 하늘을 날게 해주는 물약은 없다",
+    "verdict": "supported",
+    "reason": "docs 5개 모두 비행 효과 물약이 없음"
+   },
+   {
+    "claim": "문서의 물약 효과는 마나 회복, 해독, 이동 속도 증가, 공허 저항이다",
+    "verdict": "supported",
+    "reason": "itm_p004/p005 마나회복, p006 해독, p010 이동속도, p012 공허저항"
+   }
+  ]
+ }
+}
