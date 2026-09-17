@@ -14,7 +14,7 @@ API 키(Anthropic·Voyage)는 이 프로세스의 환경(.env)에만 있다. 클
 
 사용:
     python src/server.py                       # http://127.0.0.1:8765
-    ANSWER_MODEL=claude-sonnet-5 python src/server.py
+    ANSWER_MODEL=claude-opus-5 python src/server.py   # 기본값은 claude-sonnet-5
 """
 from __future__ import annotations
 
@@ -28,10 +28,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import DATA, items, quests, require_key  # noqa: E402
-from rag import ANSWER_MODEL, K, Retriever, generate  # noqa: E402
+from rag import K, Retriever, generate  # noqa: E402
 
 HOST, PORT = "127.0.0.1", int(os.environ.get("PORT", "8765"))
 MAX_QUERY = 200
+# 답변 평가(results/answer_eval.md)에서 Sonnet 5 는 Opus 5 와 정답 수가 같고 비용 38%, 지연이 짧았으며
+# Opus 5 의 구조화 출력 지연 이상(특정 입력 125~147초)도 없었다. 그래서 NPC 기본값은 Sonnet 5 다.
+NPC_MODEL = "claude-sonnet-5"
 ANSWER_CACHE = DATA / "cache" / "answers.json"
 
 
@@ -42,7 +45,7 @@ class Npc:
         os.environ.setdefault("VOYAGE_MIN_INTERVAL", "0")
         import anthropic
         self.client = anthropic.Anthropic()
-        self.model = os.environ.get("ANSWER_MODEL", ANSWER_MODEL)
+        self.model = os.environ.get("ANSWER_MODEL", NPC_MODEL)
         self.retriever = Retriever()
         self.meta = {it["id"]: {"kind": "item", "name": it["name"], "icon": it["icon"]} for it in items()}
         self.meta.update({q["id"]: {"kind": "quest", "name": q["title"], "icon": None} for q in quests()})
