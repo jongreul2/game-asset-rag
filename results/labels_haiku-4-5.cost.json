@@ -4,5 +4,64 @@
   "requests": 150,
   "input_tokens": 238650,
   "output_tokens": 29400,
-  "cost_usd": 0.1928
+  "cost_usd": 0.1928,
+  "revisions": [
+    {
+      "model": "claude-haiku-4-5",
+      "batch": false,
+      "requests": 18,
+      "input_tokens": 28638,
+      "output_tokens": 3529,
+      "cost_usd": 0.0463,
+      "item_ids": [
+        "itm_a007",
+        "itm_a010",
+        "itm_a023",
+        "itm_a024",
+        "itm_a029",
+        "itm_a034",
+        "itm_c002",
+        "itm_m003",
+        "itm_m014",
+        "itm_m016",
+        "itm_m018",
+        "itm_s004",
+        "itm_s005",
+        "itm_t009",
+        "itm_w001",
+        "itm_w006",
+        "itm_w011",
+        "itm_w025"
+      ]
+    },
+    {
+      "model": "claude-haiku-4-5",
+      "batch": false,
+      "requests": 18,
+      "input_tokens": 28638,
+      "output_tokens": 3676,
+      "cost_usd": 0.047,
+      "item_ids": [
+        "itm_a008",
+        "itm_a009",
+        "itm_a012",
+        "itm_c004",
+        "itm_c012",
+        "itm_f001",
+        "itm_f005",
+        "itm_m001",
+        "itm_m004",
+        "itm_m015",
+        "itm_m017",
+        "itm_m019",
+        "itm_m020",
+        "itm_p004",
+        "itm_t007",
+        "itm_w007",
+        "itm_w015",
+        "itm_w035"
+      ]
+    }
+  ],
+  "cost_usd_total": 0.2861
 }

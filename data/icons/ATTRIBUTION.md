@@ -7,23 +7,17 @@
 
 ## 원작자별 목록
 
-### lorc (76개)
-
-> Icons made by lorc. Available on https://game-icons.net
-
-`armoured-shell`, `battered-axe`, `battle-axe`, `beer-stein`, `bloody-sword`, `bowie-knife`, `breastplate`, `broadsword`, `broken-tablet`, `bubbling-flask`, `cloak-dagger`, `compass`, `cracked-helm`, `crenulated-shield`, `crown`, `crystal-growth`, `crystal-wand`, `daggers`, `elderberry`, `energy-sword`, `fire-bottle`, `fire-shield`, `fizzing-flask`, `floating-crystal`, `folded-paper`, `gem-pendant`, `grapple`, `harpoon-chain`, `heart-bottle`, `holy-symbol`, `hood`, `horned-helm`, `ice-shield`, `key`, `layered-armor`, `leaf-swirl`, `leather-boot`, `linked-rings`, `mail-shirt`, `mailed-fist`, `mantrap`, `maze`, `metal-scales`, `mining`, `needle-drill`, `papers`, `piercing-sword`, `plain-dagger`, `pocket-bow`, `pointy-sword`, `powder`, `relic-blade`, `robe`, `sacrificial-dagger`, `salt-shaker`, `scroll-unfurled`, `shattered-sword`, `shield-reflect`, `shining-sword`, `skull-mask`, `skull-signet`, `snow-bottle`, `spider-web`, `spiral-bottle`, `spotted-mushroom`, `standing-potion`, `steeltoe-boots`, `striped-sword`, `swirl-ring`, `sword-break`, `tied-scroll`, `treasure-map`, `turtle-shell`, `walking-boot`, `wizard-staff`, `wood-axe`
-
-### delapouite (60개)
+### delapouite (69개)
 
 > Icons made by delapouite. Available on https://game-icons.net
 
-`animal-hide`, `bell-pepper`, `bone-knife`, `bottled-shadow`, `bow-arrow`, `bow-string`, `bread`, `camp-cooking-pot`, `camping-tent`, `chili-pepper`, `cookie`, `covered-jar`, `crescent-staff`, `diamond-ring`, `diving-helmet`, `fish-smoking`, `fishing-pole`, `flanged-mace`, `frog-foot`, `frozen-ring`, `gauntlet`, `gloves`, `hand-bandage`, `hand-of-god`, `health-potion`, `herbs-bundle`, `leather-armor`, `lockpicks`, `magic-potion`, `metal-boot`, `old-lantern`, `pendant-key`, `pirate-coat`, `power-ring`, `primitive-necklace`, `primitive-torch`, `ring`, `rod-of-asclepius`, `rolled-cloth`, `roman-shield`, `rope-coil`, `rusty-sword`, `scroll-quill`, `sewing-string`, `sharp-axe`, `sickle`, `skull-staff`, `spell-book`, `sticky-boot`, `sword-brandish`, `templar-shield`, `thor-hammer`, `two-handed-sword`, `war-axe`, `war-pick`, `warhammer`, `winged-scepter`, `winter-gloves`, `wood-club`, `wood-stick`
+`astronaut-helmet`, `bell-pepper`, `bone-knife`, `bottled-shadow`, `bow-arrow`, `bow-string`, `bracer`, `camp-cooking-pot`, `camping-tent`, `cape`, `caterpillar`, `chelsea-boot`, `chili-pepper`, `cooking-glove`, `covered-jar`, `diamond-ring`, `diploma`, `drill`, `executioner-hood`, `fern`, `fish-scales`, `fish-smoking`, `fishing-pole`, `flanged-mace`, `frog-foot`, `fur-shirt`, `gauntlet`, `gingerbread-man`, `globe-ring`, `hand-bandage`, `hatchet`, `health-potion`, `herbs-bundle`, `hook`, `leather-armor`, `light-helm`, `lockpicks`, `lunar-wand`, `metal-boot`, `old-lantern`, `pendant-key`, `pirate-coat`, `powder-bag`, `power-ring`, `prayer-beads`, `primitive-necklace`, `primitive-torch`, `ring`, `rod-of-asclepius`, `rolled-cloth`, `roman-shield`, `rope-coil`, `scroll-quill`, `sewing-string`, `sharp-axe`, `sickle`, `skull-staff`, `spell-book`, `stone-pile`, `templar-shield`, `thor-hammer`, `two-handed-sword`, `war-pick`, `warhammer`, `wax-tablet`, `winged-scepter`, `winter-gloves`, `wood-club`, `wood-stick`
 
-### lucasms (3개)
+### lorc (68개)
 
-> Icons made by lucasms. Available on https://game-icons.net
+> Icons made by lorc. Available on https://game-icons.net
 
-`cloak`, `necklace`, `shirt`
+`battered-axe`, `battle-axe`, `beer-stein`, `bloody-sword`, `bowie-knife`, `breastplate`, `broad-dagger`, `broadsword`, `bubbling-flask`, `compass`, `cracked-helm`, `cracked-saber`, `crown`, `crystal-growth`, `crystal-wand`, `cubes`, `daggers`, `elderberry`, `eye-shield`, `fire-bottle`, `fire-shield`, `fizzing-flask`, `floating-crystal`, `fragmented-sword`, `gem-pendant`, `harpoon-chain`, `heart-bottle`, `horned-helm`, `ice-shield`, `key`, `layered-armor`, `leather-boot`, `linked-rings`, `mail-shirt`, `mailed-fist`, `mantrap`, `maze`, `mining`, `piercing-sword`, `plain-dagger`, `pocket-bow`, `pointy-sword`, `relic-blade`, `robe`, `round-bottom-flask`, `rune-sword`, `sacrificial-dagger`, `scroll-unfurled`, `shattered-sword`, `shining-sword`, `skull-mask`, `skull-signet`, `sliced-bread`, `snow-bottle`, `spider-web`, `spiral-bottle`, `spotted-mushroom`, `standing-potion`, `steeltoe-boots`, `stiletto`, `tied-scroll`, `treasure-map`, `turtle`, `turtle-shell`, `walking-boot`, `wax-seal`, `wizard-staff`, `wood-axe`
 
 ### willdabeast (3개)
 
@@ -31,11 +25,17 @@
 
 `gold-bar`, `orb-wand`, `round-shield`
 
-### faithtoken (2개)
+### lucasms (2개)
 
-> Icons made by faithtoken. Available on https://game-icons.net
+> Icons made by lucasms. Available on https://game-icons.net
 
-`minerals`, `ore`
+`necklace`, `shirt`
+
+### skoll (2개)
+
+> Icons made by skoll. Available on https://game-icons.net
+
+`big-diamond-ring`, `gladius`
 
 ### carl-olsen (1개)
 
@@ -49,23 +49,23 @@
 
 `round-potion`
 
-### cathelineau (1개)
-
-> Icons made by cathelineau. Available on https://game-icons.net
-
-`earth-worm`
-
 ### darkzaitzev (1개)
 
 > Icons made by darkzaitzev. Available on https://game-icons.net
 
 `tabi-boot`
 
+### faithtoken (1개)
+
+> Icons made by faithtoken. Available on https://game-icons.net
+
+`minerals`
+
 ### sbed (1개)
 
 > Icons made by sbed. Available on https://game-icons.net
 
-`helmet`
+`shield`
 
 ### starseeker (1개)
 

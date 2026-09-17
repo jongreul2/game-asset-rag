@@ -176,6 +176,8 @@ def main() -> None:
                     help="이미 제출한 배치의 결과만 회수(폴링 프로세스가 죽었을 때). "
                          "--model 은 결과 파일명·비용 계산에 쓰이므로 제출 때와 같게 준다")
     ap.add_argument("--status", action="store_true", help="최근 배치 상태만 조회하고 종료")
+    ap.add_argument("--only", metavar="IDS",
+                    help="쉼표로 구분한 item_id 만 다시 라벨링해 기존 결과에 병합한다(아이콘 교체 후 재라벨링용)")
     args = ap.parse_args()
 
     if args.status:
@@ -192,6 +194,12 @@ def main() -> None:
 
     client = anthropic.Anthropic()
     rows = items()
+    if args.only:
+        want = {x.strip() for x in args.only.split(",") if x.strip()}
+        missing = want - {it["id"] for it in rows}
+        if missing:
+            raise SystemExit("없는 item_id: %s" % sorted(missing))
+        rows = [it for it in rows if it["id"] in want]
     if args.limit:
         rows = rows[: args.limit]
 
@@ -204,10 +212,21 @@ def main() -> None:
         out, usage = runner(client, rows, args.model)
 
     tag = args.model.replace("claude-", "")
-    save_jsonl(RESULTS / ("labels_%s.jsonl" % tag), out)
+    label_path = RESULTS / ("labels_%s.jsonl" % tag)
+    cost_path = RESULTS / ("labels_%s.cost.json" % tag)
     report = usage.report(args.model, batch=not args.sync)
-    (RESULTS / ("labels_%s.cost.json" % tag)).write_text(
-        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    if args.only:
+        # 기존 결과에 병합: 같은 item_id 는 새 라벨로 교체하고, 비용은 개정 이력으로 누적한다.
+        from common import load_jsonl
+        merged = {r["item_id"]: r for r in load_jsonl(label_path)}
+        merged.update({r["item_id"]: r for r in out})
+        out = sorted(merged.values(), key=lambda r: r["item_id"])
+        prev = json.loads(cost_path.read_text(encoding="utf-8"))
+        prev.setdefault("revisions", []).append(dict(report, item_ids=sorted(args.only.split(","))))
+        prev["cost_usd_total"] = round(prev["cost_usd"] + sum(r["cost_usd"] for r in prev["revisions"]), 4)
+        report = prev
+    save_jsonl(label_path, out)
+    cost_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print("저장: results/labels_%s.jsonl · 비용 %s" % (tag, report))
 
 

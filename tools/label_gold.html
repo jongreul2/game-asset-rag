@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>정답 라벨 작성</title>
+<style>
+  :root { --fg:#1a1a1a; --muted:#6b6b6b; --line:#e0e0e0; --accent:#2f6fed; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: "Malgun Gothic", system-ui, sans-serif; color:var(--fg);
+         background:#fafafa; display:flex; justify-content:center; padding:32px 16px; }
+  .wrap { width:100%; max-width:560px; }
+  .bar { height:6px; background:var(--line); border-radius:3px; overflow:hidden; margin-bottom:8px; }
+  .bar > div { height:100%; background:var(--accent); width:0%; transition:width .2s; }
+  .meta { display:flex; justify-content:space-between; font-size:13px; color:var(--muted); margin-bottom:20px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:24px; text-align:center; }
+  img { width:220px; height:220px; object-fit:contain; }
+  label { display:block; text-align:left; font-size:14px; margin:20px 0 6px; font-weight:600; }
+  .hint { font-weight:400; color:var(--muted); font-size:13px; }
+  input[type=text] { width:100%; padding:12px 14px; font-size:16px; border:1px solid var(--line);
+                     border-radius:8px; font-family:inherit; }
+  input[type=text]:focus { outline:2px solid var(--accent); border-color:transparent; }
+  .row { display:flex; gap:8px; margin-top:16px; }
+  button { flex:1; padding:12px; font-size:15px; font-family:inherit; border:1px solid var(--line);
+           background:#fff; border-radius:8px; cursor:pointer; }
+  button.primary { background:var(--accent); color:#fff; border-color:var(--accent); font-weight:600; }
+  button:disabled { opacity:.4; cursor:default; }
+  .done { margin-top:24px; padding:20px; background:#fff; border:1px solid var(--line); border-radius:12px; }
+  .done p { font-size:14px; line-height:1.7; }
+  code { background:#f0f0f0; padding:2px 6px; border-radius:4px; font-size:13px; }
+  .note { font-size:13px; color:var(--muted); line-height:1.7; margin-top:20px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar"><div id="prog"></div></div>
+  <div class="meta"><span id="count"></span><span id="saved"></span></div>
+
+  <div class="card">
+    <img id="icon" alt="아이콘">
+    <label for="kind">이 아이콘은 무엇을 그린 것인가요?
+      <span class="hint">짧은 명사구로. 예: 한손 검 / 원형 방패 / 유리병 / 모르겠음</span>
+    </label>
+    <input type="text" id="kind" autocomplete="off" placeholder="여기에 입력하고 Enter">
+    <div class="row">
+      <button id="prev">← 이전</button>
+      <button id="next" class="primary">다음 →</button>
+    </div>
+  </div>
+
+  <div class="done">
+    <p><b>다 채우면</b> 아래 버튼을 눌러 파일을 받고,
+       <code>game-asset-rag\eval\</code> 폴더에 덮어쓰세요.</p>
+    <button id="download" class="primary">label_gold_topup.jsonl 내려받기</button>
+  </div>
+
+  <p class="note">
+    입력은 브라우저에 자동 저장됩니다. 창을 닫았다 다시 열어도 이어서 하면 됩니다.<br>
+    아이템 이름과 설명은 일부러 보여주지 않습니다 — 이름을 보고 적으면 "이미지만 보고 판단한
+    정답"이 아니게 되고, 모델과 같은 조건에서 비교할 수 없게 됩니다.<br>
+    모르겠으면 <b>모르겠음</b> 이라고 적으세요. 그것도 데이터입니다.
+  </p>
+</div>
+
+<script>
+const ITEMS = [{"item_id": "itm_a001", "icon": "itm_a001_round-shield.png"}, {"item_id": "itm_a002", "icon": "itm_a002_roman-shield.png"}, {"item_id": "itm_a003", "icon": "itm_a003_turtle-shell.png"}, {"item_id": "itm_a004", "icon": "itm_a004_fire-shield.png"}, {"item_id": "itm_a005", "icon": "itm_a005_ice-shield.png"}, {"item_id": "itm_a006", "icon": "itm_a006_templar-shield.png"}, {"item_id": "itm_a008", "icon": "itm_a008_shield.png"}, {"item_id": "itm_a009", "icon": "itm_a009_executioner-hood.png"}, {"item_id": "itm_a012", "icon": "itm_a012_astronaut-helmet.png"}, {"item_id": "itm_a013", "icon": "itm_a013_skull-mask.png"}, {"item_id": "itm_a014", "icon": "itm_a014_crown.png"}, {"item_id": "itm_a018", "icon": "itm_a018_leather-armor.png"}, {"item_id": "itm_a021", "icon": "itm_a021_robe.png"}, {"item_id": "itm_a026", "icon": "itm_a026_winter-gloves.png"}, {"item_id": "itm_a027", "icon": "itm_a027_mailed-fist.png"}, {"item_id": "itm_a030", "icon": "itm_a030_tabi-boot.png"}, {"item_id": "itm_a032", "icon": "itm_a032_walking-boot.png"}, {"item_id": "itm_a035", "icon": "itm_a035_metal-boot.png"}, {"item_id": "itm_c004", "icon": "itm_c004_big-diamond-ring.png"}, {"item_id": "itm_c005", "icon": "itm_c005_power-ring.png"}, {"item_id": "itm_c008", "icon": "itm_c008_gem-pendant.png"}, {"item_id": "itm_c009", "icon": "itm_c009_necklace.png"}, {"item_id": "itm_c010", "icon": "itm_c010_compass.png"}, {"item_id": "itm_c012", "icon": "itm_c012_prayer-beads.png"}, {"item_id": "itm_c013", "icon": "itm_c013_frog-foot.png"}, {"item_id": "itm_c014", "icon": "itm_c014_covered-jar.png"}, {"item_id": "itm_f001", "icon": "itm_f001_sliced-bread.png"}, {"item_id": "itm_f002", "icon": "itm_f002_fish-smoking.png"}, {"item_id": "itm_f003", "icon": "itm_f003_camp-cooking-pot.png"}, {"item_id": "itm_f004", "icon": "itm_f004_chili-pepper.png"}, {"item_id": "itm_f005", "icon": "itm_f005_gingerbread-man.png"}, {"item_id": "itm_f007", "icon": "itm_f007_elderberry.png"}, {"item_id": "itm_m001", "icon": "itm_m001_fur-shirt.png"}, {"item_id": "itm_m002", "icon": "itm_m002_rolled-cloth.png"}, {"item_id": "itm_m004", "icon": "itm_m004_stone-pile.png"}, {"item_id": "itm_m005", "icon": "itm_m005_gold-bar.png"}, {"item_id": "itm_m006", "icon": "itm_m006_minerals.png"}, {"item_id": "itm_m008", "icon": "itm_m008_floating-crystal.png"}, {"item_id": "itm_m010", "icon": "itm_m010_sewing-string.png"}, {"item_id": "itm_m012", "icon": "itm_m012_herbs-bundle.png"}, {"item_id": "itm_m013", "icon": "itm_m013_bell-pepper.png"}, {"item_id": "itm_m015", "icon": "itm_m015_powder-bag.png"}, {"item_id": "itm_m017", "icon": "itm_m017_cubes.png"}, {"item_id": "itm_m019", "icon": "itm_m019_caterpillar.png"}, {"item_id": "itm_m020", "icon": "itm_m020_wax-seal.png"}, {"item_id": "itm_p002", "icon": "itm_p002_health-potion.png"}, {"item_id": "itm_p003", "icon": "itm_p003_round-potion.png"}, {"item_id": "itm_p004", "icon": "itm_p004_round-bottom-flask.png"}, {"item_id": "itm_p005", "icon": "itm_p005_spiral-bottle.png"}, {"item_id": "itm_p006", "icon": "itm_p006_fizzing-flask.png"}, {"item_id": "itm_p008", "icon": "itm_p008_snow-bottle.png"}, {"item_id": "itm_p009", "icon": "itm_p009_bottled-shadow.png"}, {"item_id": "itm_p010", "icon": "itm_p010_bubbling-flask.png"}, {"item_id": "itm_p012", "icon": "itm_p012_potion-of-madness.png"}, {"item_id": "itm_s003", "icon": "itm_s003_scroll-quill.png"}, {"item_id": "itm_t002", "icon": "itm_t002_old-lantern.png"}, {"item_id": "itm_t004", "icon": "itm_t004_war-pick.png"}, {"item_id": "itm_t005", "icon": "itm_t005_sickle.png"}, {"item_id": "itm_t006", "icon": "itm_t006_fishing-pole.png"}, {"item_id": "itm_t007", "icon": "itm_t007_drill.png"}, {"item_id": "itm_t010", "icon": "itm_t010_lockpicks.png"}, {"item_id": "itm_t011", "icon": "itm_t011_camping-tent.png"}, {"item_id": "itm_t013", "icon": "itm_t013_treasure-map.png"}, {"item_id": "itm_t014", "icon": "itm_t014_maze.png"}, {"item_id": "itm_t015", "icon": "itm_t015_key.png"}, {"item_id": "itm_w003", "icon": "itm_w003_piercing-sword.png"}, {"item_id": "itm_w007", "icon": "itm_w007_rune-sword.png"}, {"item_id": "itm_w008", "icon": "itm_w008_two-handed-sword.png"}, {"item_id": "itm_w009", "icon": "itm_w009_shattered-sword.png"}, {"item_id": "itm_w010", "icon": "itm_w010_pointy-sword.png"}, {"item_id": "itm_w014", "icon": "itm_w014_battle-axe.png"}, {"item_id": "itm_w015", "icon": "itm_w015_hatchet.png"}, {"item_id": "itm_w016", "icon": "itm_w016_sharp-axe.png"}, {"item_id": "itm_w017", "icon": "itm_w017_battered-axe.png"}, {"item_id": "itm_w018", "icon": "itm_w018_wood-club.png"}, {"item_id": "itm_w021", "icon": "itm_w021_warhammer.png"}, {"item_id": "itm_w022", "icon": "itm_w022_wood-stick.png"}, {"item_id": "itm_w023", "icon": "itm_w023_plain-dagger.png"}, {"item_id": "itm_w024", "icon": "itm_w024_bone-knife.png"}, {"item_id": "itm_w026", "icon": "itm_w026_sacrificial-dagger.png"}, {"item_id": "itm_w027", "icon": "itm_w027_daggers.png"}, {"item_id": "itm_w029", "icon": "itm_w029_pocket-bow.png"}, {"item_id": "itm_w030", "icon": "itm_w030_bow-arrow.png"}, {"item_id": "itm_w032", "icon": "itm_w032_harpoon-chain.png"}, {"item_id": "itm_w033", "icon": "itm_w033_bow-string.png"}, {"item_id": "itm_w035", "icon": "itm_w035_lunar-wand.png"}, {"item_id": "itm_w036", "icon": "itm_w036_winged-scepter.png"}, {"item_id": "itm_w037", "icon": "itm_w037_skull-staff.png"}];
+const KEY = "gold_labels_topup_v2";
+let store = JSON.parse(localStorage.getItem(KEY) || "{}");
+// 아이콘이 교체된 항목은 예전 입력을 한 번만 지운다(그림이 달라졌으므로 예전 답은 무효).
+const RESET = {"round": "itm_a008,itm_a009,itm_a012,itm_c004,itm_c012,itm_f001,itm_f005,itm_m001,itm_m004,itm_m015,itm_m017,itm_m019,itm_m020,itm_p004,itm_t007,itm_w007,itm_w015,itm_w035", "ids": ["itm_a008", "itm_a009", "itm_a012", "itm_c004", "itm_c012", "itm_f001", "itm_f005", "itm_m001", "itm_m004", "itm_m015", "itm_m017", "itm_m019", "itm_m020", "itm_p004", "itm_t007", "itm_w007", "itm_w015", "itm_w035"]};
+if (store.__round !== RESET.round) {
+  RESET.ids.forEach(id => delete store[id]);
+  store.__round = RESET.round;
+  localStorage.setItem(KEY, JSON.stringify(store));
+}
+let i = 0;
+
+const $ = id => document.getElementById(id);
+
+function render() {
+  const it = ITEMS[i];
+  $("icon").src = "../data/icons/" + it.icon;
+  $("kind").value = store[it.item_id] || "";
+  $("count").textContent = (i + 1) + " / " + ITEMS.length;
+  const filled = ITEMS.filter(it => store[it.item_id] && store[it.item_id].trim()).length;
+  $("saved").textContent = "채운 칸 " + filled + "개";
+  $("prog").style.width = (100 * filled / ITEMS.length) + "%";
+  $("prev").disabled = i === 0;
+  $("kind").focus();
+}
+
+function save() {
+  store[ITEMS[i].item_id] = $("kind").value.trim();
+  localStorage.setItem(KEY, JSON.stringify(store));
+}
+
+function go(d) { save(); i = Math.min(ITEMS.length - 1, Math.max(0, i + d)); render(); }
+
+$("next").onclick = () => go(1);
+$("prev").onclick = () => go(-1);
+$("kind").addEventListener("keydown", e => { if (e.key === "Enter") go(1); });
+
+$("download").onclick = () => {
+  save();
+  const lines = ITEMS.map(it => JSON.stringify({
+    item_id: it.item_id,
+    icon: it.icon,
+    object_kind: store[it.item_id] || "",
+    shape: "", components: [], material_guess: "", likely_use: "", tags: []
+  }));
+  const blob = new Blob([lines.join("\n") + "\n"], {type: "application/jsonl"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "label_gold_topup.jsonl";
+  a.click();
+};
+
+render();
+</script>
+</body>
+</html>

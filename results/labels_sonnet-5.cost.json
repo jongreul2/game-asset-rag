@@ -4,5 +4,64 @@
   "requests": 150,
   "input_tokens": 253200,
   "output_tokens": 39136,
-  "cost_usd": 0.4489
+  "cost_usd": 0.4489,
+  "revisions": [
+    {
+      "model": "claude-sonnet-5",
+      "batch": false,
+      "requests": 18,
+      "input_tokens": 30384,
+      "output_tokens": 4613,
+      "cost_usd": 0.1069,
+      "item_ids": [
+        "itm_a007",
+        "itm_a010",
+        "itm_a023",
+        "itm_a024",
+        "itm_a029",
+        "itm_a034",
+        "itm_c002",
+        "itm_m003",
+        "itm_m014",
+        "itm_m016",
+        "itm_m018",
+        "itm_s004",
+        "itm_s005",
+        "itm_t009",
+        "itm_w001",
+        "itm_w006",
+        "itm_w011",
+        "itm_w025"
+      ]
+    },
+    {
+      "model": "claude-sonnet-5",
+      "batch": false,
+      "requests": 18,
+      "input_tokens": 30384,
+      "output_tokens": 4863,
+      "cost_usd": 0.1094,
+      "item_ids": [
+        "itm_a008",
+        "itm_a009",
+        "itm_a012",
+        "itm_c004",
+        "itm_c012",
+        "itm_f001",
+        "itm_f005",
+        "itm_m001",
+        "itm_m004",
+        "itm_m015",
+        "itm_m017",
+        "itm_m019",
+        "itm_m020",
+        "itm_p004",
+        "itm_t007",
+        "itm_w007",
+        "itm_w015",
+        "itm_w035"
+      ]
+    }
+  ],
+  "cost_usd_total": 0.6652
 }

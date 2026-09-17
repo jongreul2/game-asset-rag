@@ -1,0 +1,2372 @@
+{
+ "light-helm ||| 투구형 헬멧": {
+  "icon_name": "light-helm",
+  "answer": "투구형 헬멧",
+  "verdict": "match",
+  "reason": "투구 동일"
+ },
+ "rod-of-asclepius ||| 지팡이": {
+  "icon_name": "rod-of-asclepius",
+  "answer": "지팡이",
+  "verdict": "match",
+  "reason": "지팡이/막대 동일"
+ },
+ "pocket-bow ||| 궁과 화살": {
+  "icon_name": "pocket-bow",
+  "answer": "궁과 화살",
+  "verdict": "match",
+  "reason": "활 포함"
+ },
+ "fur-shirt ||| 찢어진 상의와 하의 세트": {
+  "icon_name": "fur-shirt",
+  "answer": "찢어진 상의와 하의 세트",
+  "verdict": "partial",
+  "reason": "상의는 맞으나 하의 세트로 확장"
+ },
+ "winter-gloves ||| 장갑": {
+  "icon_name": "winter-gloves",
+  "answer": "장갑",
+  "verdict": "match",
+  "reason": "장갑 동일"
+ },
+ "ring ||| 팔찌": {
+  "icon_name": "ring",
+  "answer": "팔찌",
+  "verdict": "partial",
+  "reason": "반지 대신 팔찌"
+ },
+ "pointy-sword ||| 검과 폭발 효과": {
+  "icon_name": "pointy-sword",
+  "answer": "검과 폭발 효과",
+  "verdict": "match",
+  "reason": "검 동일"
+ },
+ "round-potion ||| 포션": {
+  "icon_name": "round-potion",
+  "answer": "포션",
+  "verdict": "match",
+  "reason": "포션 동일"
+ },
+ "leather-boot ||| 장화": {
+  "icon_name": "leather-boot",
+  "answer": "장화",
+  "verdict": "match",
+  "reason": "부츠=장화"
+ },
+ "fishing-pole ||| 낚시대": {
+  "icon_name": "fishing-pole",
+  "answer": "낚시대",
+  "verdict": "match",
+  "reason": "낚싯대 동일"
+ },
+ "treasure-map ||| 보물지도": {
+  "icon_name": "treasure-map",
+  "answer": "보물지도",
+  "verdict": "match",
+  "reason": "보물지도 동일"
+ },
+ "frog-foot ||| 개구리 손": {
+  "icon_name": "frog-foot",
+  "answer": "개구리 손",
+  "verdict": "match",
+  "reason": "개구리 발/손 유사"
+ },
+ "linked-rings ||| 링": {
+  "icon_name": "linked-rings",
+  "answer": "링",
+  "verdict": "match",
+  "reason": "고리 동일"
+ },
+ "skull-signet ||| 벨트": {
+  "icon_name": "skull-signet",
+  "answer": "벨트",
+  "verdict": "miss",
+  "reason": "인장반지 아닌 벨트"
+ },
+ "snow-bottle ||| 포션": {
+  "icon_name": "snow-bottle",
+  "answer": "포션",
+  "verdict": "match",
+  "reason": "병=포션"
+ },
+ "camping-tent ||| 삼각형 텐트": {
+  "icon_name": "camping-tent",
+  "answer": "삼각형 텐트",
+  "verdict": "match",
+  "reason": "텐트 동일"
+ },
+ "winged-scepter ||| 지휘봉": {
+  "icon_name": "winged-scepter",
+  "answer": "지휘봉",
+  "verdict": "match",
+  "reason": "셉터=지휘봉"
+ },
+ "daggers ||| 단도": {
+  "icon_name": "daggers",
+  "answer": "단도",
+  "verdict": "match",
+  "reason": "단검 동일"
+ },
+ "ice-shield ||| 방패": {
+  "icon_name": "ice-shield",
+  "answer": "방패",
+  "verdict": "match",
+  "reason": "방패 동일"
+ },
+ "plain-dagger ||| 활과 화살": {
+  "icon_name": "plain-dagger",
+  "answer": "활과 화살",
+  "verdict": "miss",
+  "reason": "단검 아닌 활"
+ },
+ "lockpicks ||| 도구 모음": {
+  "icon_name": "lockpicks",
+  "answer": "도구 모음",
+  "verdict": "partial",
+  "reason": "도구 모음으로 일반화"
+ },
+ "floating-crystal ||| 수정": {
+  "icon_name": "floating-crystal",
+  "answer": "수정",
+  "verdict": "match",
+  "reason": "수정 동일"
+ },
+ "primitive-necklace ||| 가시 구슬": {
+  "icon_name": "primitive-necklace",
+  "answer": "가시 구슬",
+  "verdict": "partial",
+  "reason": "목걸이 아닌 구슬로 표현"
+ },
+ "cracked-saber ||| 곡선형 칼날 조각": {
+  "icon_name": "cracked-saber",
+  "answer": "곡선형 칼날 조각",
+  "verdict": "match",
+  "reason": "칼날=사브르"
+ },
+ "robe ||| 후드 달린 로브": {
+  "icon_name": "robe",
+  "answer": "후드 달린 로브",
+  "verdict": "match",
+  "reason": "로브 동일"
+ },
+ "elderberry ||| 가지에서 뻗은 여러 갈래 줄기와 둥근 열매 다발": {
+  "icon_name": "elderberry",
+  "answer": "가지에서 뻗은 여러 갈래 줄기와 둥근 열매 다발",
+  "verdict": "match",
+  "reason": "열매 다발 묘사로 엘더베리와 일치"
+ },
+ "drill ||| 광선총": {
+  "icon_name": "drill",
+  "answer": "광선총",
+  "verdict": "miss",
+  "reason": "드릴과 광선총은 다른 물건"
+ },
+ "flanged-mace ||| 완드": {
+  "icon_name": "flanged-mace",
+  "answer": "완드",
+  "verdict": "partial",
+  "reason": "둘 다 자루형 도구지만 메이스≠완드"
+ },
+ "minerals ||| 수정": {
+  "icon_name": "minerals",
+  "answer": "수정",
+  "verdict": "match",
+  "reason": "광물/수정 동일 범주"
+ },
+ "templar-shield ||| 십자가 방패": {
+  "icon_name": "templar-shield",
+  "answer": "십자가 방패",
+  "verdict": "match",
+  "reason": "방패 일치"
+ },
+ "breastplate ||| 철제갑옷": {
+  "icon_name": "breastplate",
+  "answer": "철제갑옷",
+  "verdict": "match",
+  "reason": "흉갑=철제갑옷"
+ },
+ "fern ||| 양치식물 잎사귀": {
+  "icon_name": "fern",
+  "answer": "양치식물 잎사귀",
+  "verdict": "match",
+  "reason": "양치식물 일치"
+ },
+ "thor-hammer ||| 망치": {
+  "icon_name": "thor-hammer",
+  "answer": "망치",
+  "verdict": "match",
+  "reason": "망치 일치"
+ },
+ "two-handed-sword ||| 한손검": {
+  "icon_name": "two-handed-sword",
+  "answer": "한손검",
+  "verdict": "partial",
+  "reason": "검은 맞으나 양손/한손 차이"
+ },
+ "bubbling-flask ||| 물약병": {
+  "icon_name": "bubbling-flask",
+  "answer": "물약병",
+  "verdict": "match",
+  "reason": "플라스크=물약병"
+ },
+ "gem-pendant ||| 보석 목걸이": {
+  "icon_name": "gem-pendant",
+  "answer": "보석 목걸이",
+  "verdict": "match",
+  "reason": "보석 펜던트 일치"
+ },
+ "pocket-bow ||| 활과 화살": {
+  "icon_name": "pocket-bow",
+  "answer": "활과 화살",
+  "verdict": "match",
+  "reason": "활 일치"
+ },
+ "mantrap ||| 덫": {
+  "icon_name": "mantrap",
+  "answer": "덫",
+  "verdict": "match",
+  "reason": "덫 일치"
+ },
+ "sliced-bread ||| 식빵 덩어리": {
+  "icon_name": "sliced-bread",
+  "answer": "식빵 덩어리",
+  "verdict": "match",
+  "reason": "빵 일치"
+ },
+ "potion-of-madness ||| 물약병": {
+  "icon_name": "potion-of-madness",
+  "answer": "물약병",
+  "verdict": "match",
+  "reason": "물약 일치"
+ },
+ "covered-jar ||| 항아리": {
+  "icon_name": "covered-jar",
+  "answer": "항아리",
+  "verdict": "match",
+  "reason": "항아리 일치"
+ },
+ "herbs-bundle ||| 묶음 식물 꽃다발": {
+  "icon_name": "herbs-bundle",
+  "answer": "묶음 식물 꽃다발",
+  "verdict": "match",
+  "reason": "식물 묶음 일치"
+ },
+ "snow-bottle ||| 폭탄": {
+  "icon_name": "snow-bottle",
+  "answer": "폭탄",
+  "verdict": "miss",
+  "reason": "병≠폭탄"
+ },
+ "skull-mask ||| 해골": {
+  "icon_name": "skull-mask",
+  "answer": "해골",
+  "verdict": "partial",
+  "reason": "해골 가면 대신 해골"
+ },
+ "leather-armor ||| 여성용 갑옷": {
+  "icon_name": "leather-armor",
+  "answer": "여성용 갑옷",
+  "verdict": "match",
+  "reason": "갑옷 일치"
+ },
+ "spell-book ||| 열린 책": {
+  "icon_name": "spell-book",
+  "answer": "열린 책",
+  "verdict": "match",
+  "reason": "책 일치"
+ },
+ "bubbling-flask ||| 약병": {
+  "icon_name": "bubbling-flask",
+  "answer": "약병",
+  "verdict": "match",
+  "reason": "약병 일치"
+ },
+ "health-potion ||| 하트 모양 물약병": {
+  "icon_name": "health-potion",
+  "answer": "하트 모양 물약병",
+  "verdict": "match",
+  "reason": "물약병 일치"
+ },
+ "skull-staff ||| 쌍곡선 손잡이 겸자": {
+  "icon_name": "skull-staff",
+  "answer": "쌍곡선 손잡이 겸자",
+  "verdict": "miss",
+  "reason": "지팡이와 겸자는 다름"
+ },
+ "health-potion ||| 포션": {
+  "icon_name": "health-potion",
+  "answer": "포션",
+  "verdict": "match",
+  "reason": "포션 일치"
+ },
+ "rolled-cloth ||| 두루마리 파피루스": {
+  "icon_name": "rolled-cloth",
+  "answer": "두루마리 파피루스",
+  "verdict": "match",
+  "reason": "말린 천/두루마리 형태로 동일 물건 취급"
+ },
+ "necklace ||| 목걸이 형태의 훈장/펜던트": {
+  "icon_name": "necklace",
+  "answer": "목걸이 형태의 훈장/펜던트",
+  "verdict": "match",
+  "reason": "목걸이 펜던트"
+ },
+ "camp-cooking-pot ||| 장작": {
+  "icon_name": "camp-cooking-pot",
+  "answer": "장작",
+  "verdict": "partial",
+  "reason": "냄비 대신 장작, 캠프 요소지만 다른 물건"
+ },
+ "breastplate ||| 갑옷": {
+  "icon_name": "breastplate",
+  "answer": "갑옷",
+  "verdict": "match",
+  "reason": "흉갑=갑옷"
+ },
+ "health-potion ||| 심장 모양 병약": {
+  "icon_name": "health-potion",
+  "answer": "심장 모양 병약",
+  "verdict": "match",
+  "reason": "하트 모양 물약병"
+ },
+ "cape ||| 갑옷 소매": {
+  "icon_name": "cape",
+  "answer": "갑옷 소매",
+  "verdict": "partial",
+  "reason": "망토를 갑옷 소매로 봄, 방어구 범주"
+ },
+ "piercing-sword ||| 한손 검": {
+  "icon_name": "piercing-sword",
+  "answer": "한손 검",
+  "verdict": "match",
+  "reason": "검"
+ },
+ "shining-sword ||| 검과 방사형 폭발 모양 배경": {
+  "icon_name": "shining-sword",
+  "answer": "검과 방사형 폭발 모양 배경",
+  "verdict": "match",
+  "reason": "검"
+ },
+ "old-lantern ||| 등유 랜턴": {
+  "icon_name": "old-lantern",
+  "answer": "등유 랜턴",
+  "verdict": "match",
+  "reason": "랜턴"
+ },
+ "caterpillar ||| 애벌레 모양 실루엣": {
+  "icon_name": "caterpillar",
+  "answer": "애벌레 모양 실루엣",
+  "verdict": "match",
+  "reason": "애벌레"
+ },
+ "fern ||| 깃털 또는 식물 잎": {
+  "icon_name": "fern",
+  "answer": "깃털 또는 식물 잎",
+  "verdict": "match",
+  "reason": "식물 잎 포함"
+ },
+ "diamond-ring ||| 보석 반지": {
+  "icon_name": "diamond-ring",
+  "answer": "보석 반지",
+  "verdict": "match",
+  "reason": "보석 반지"
+ },
+ "floating-crystal ||| 결정체 형태의 보석": {
+  "icon_name": "floating-crystal",
+  "answer": "결정체 형태의 보석",
+  "verdict": "match",
+  "reason": "크리스탈"
+ },
+ "ice-shield ||| 방패 모양 문장": {
+  "icon_name": "ice-shield",
+  "answer": "방패 모양 문장",
+  "verdict": "match",
+  "reason": "방패"
+ },
+ "piercing-sword ||| 장식 검": {
+  "icon_name": "piercing-sword",
+  "answer": "장식 검",
+  "verdict": "match",
+  "reason": "검"
+ },
+ "rune-sword ||| 뾰족한 끝을 가진 길쭉한 막대형 물체": {
+  "icon_name": "rune-sword",
+  "answer": "뾰족한 끝을 가진 길쭉한 막대형 물체",
+  "verdict": "partial",
+  "reason": "검을 막대형 물체로만 기술"
+ },
+ "walking-boot ||| 갑옷 신발": {
+  "icon_name": "walking-boot",
+  "answer": "갑옷 신발",
+  "verdict": "match",
+  "reason": "부츠"
+ },
+ "leather-boot ||| 긴 목이 있는 부츠": {
+  "icon_name": "leather-boot",
+  "answer": "긴 목이 있는 부츠",
+  "verdict": "match",
+  "reason": "부츠"
+ },
+ "scroll-unfurled ||| 주문서": {
+  "icon_name": "scroll-unfurled",
+  "answer": "주문서",
+  "verdict": "match",
+  "reason": "펼친 두루마리=주문서"
+ },
+ "bell-pepper ||| 고추": {
+  "icon_name": "bell-pepper",
+  "answer": "고추",
+  "verdict": "partial",
+  "reason": "피망과 고추는 다른 채소"
+ },
+ "potion-of-madness ||| 괴생명체를 담은 병": {
+  "icon_name": "potion-of-madness",
+  "answer": "괴생명체를 담은 병",
+  "verdict": "match",
+  "reason": "병=물약병"
+ },
+ "drill ||| 전동 드릴/드라이버": {
+  "icon_name": "drill",
+  "answer": "전동 드릴/드라이버",
+  "verdict": "match",
+  "reason": "드릴"
+ },
+ "fizzing-flask ||| 실험용 플라스크": {
+  "icon_name": "fizzing-flask",
+  "answer": "실험용 플라스크",
+  "verdict": "match",
+  "reason": "플라스크"
+ },
+ "tied-scroll ||| 폭탄 또는 다이너마이트": {
+  "icon_name": "tied-scroll",
+  "answer": "폭탄 또는 다이너마이트",
+  "verdict": "miss",
+  "reason": "두루마리를 폭탄으로 오독"
+ },
+ "cracked-helm ||| 투구": {
+  "icon_name": "cracked-helm",
+  "answer": "투구",
+  "verdict": "match",
+  "reason": "투구"
+ },
+ "leather-armor ||| 흉갑": {
+  "icon_name": "leather-armor",
+  "answer": "흉갑",
+  "verdict": "match",
+  "reason": "갑옷 상체 방어구로 동일 범주"
+ },
+ "turtle-shell ||| 거북이 방패": {
+  "icon_name": "turtle-shell",
+  "answer": "거북이 방패",
+  "verdict": "partial",
+  "reason": "거북 등껍질을 방패로 본 것, 용도 해석 차이"
+ },
+ "executioner-hood ||| 투구": {
+  "icon_name": "executioner-hood",
+  "answer": "투구",
+  "verdict": "partial",
+  "reason": "두건과 투구는 머리 장구지만 다른 물건"
+ },
+ "orb-wand ||| 완드": {
+  "icon_name": "orb-wand",
+  "answer": "완드",
+  "verdict": "match",
+  "reason": "완드 일치"
+ },
+ "pointy-sword ||| 십자검": {
+  "icon_name": "pointy-sword",
+  "answer": "십자검",
+  "verdict": "match",
+  "reason": "검 일치"
+ },
+ "lunar-wand ||| 양날 도끼": {
+  "icon_name": "lunar-wand",
+  "answer": "양날 도끼",
+  "verdict": "miss",
+  "reason": "완드와 도끼는 다른 물건"
+ },
+ "hand-bandage ||| 부서진 통나무 다발": {
+  "icon_name": "hand-bandage",
+  "answer": "부서진 통나무 다발",
+  "verdict": "miss",
+  "reason": "붕대와 통나무 다발은 다름"
+ },
+ "layered-armor ||| 방패": {
+  "icon_name": "layered-armor",
+  "answer": "방패",
+  "verdict": "partial",
+  "reason": "갑옷과 방패는 방어구지만 다른 물건"
+ },
+ "turtle ||| 거북이 실루엣": {
+  "icon_name": "turtle",
+  "answer": "거북이 실루엣",
+  "verdict": "match",
+  "reason": "거북 일치"
+ },
+ "mail-shirt ||| 다이아몬드 무늬 튜닉": {
+  "icon_name": "mail-shirt",
+  "answer": "다이아몬드 무늬 튜닉",
+  "verdict": "match",
+  "reason": "사슬갑옷 상의를 튜닉으로 표현"
+ },
+ "compass ||| 나침반": {
+  "icon_name": "compass",
+  "answer": "나침반",
+  "verdict": "match",
+  "reason": "나침반 일치"
+ },
+ "spiral-bottle ||| 약병": {
+  "icon_name": "spiral-bottle",
+  "answer": "약병",
+  "verdict": "match",
+  "reason": "병/약병 일치"
+ },
+ "sharp-axe ||| 양날 도끼": {
+  "icon_name": "sharp-axe",
+  "answer": "양날 도끼",
+  "verdict": "match",
+  "reason": "도끼 일치"
+ },
+ "relic-blade ||| 검": {
+  "icon_name": "relic-blade",
+  "answer": "검",
+  "verdict": "match",
+  "reason": "검 일치"
+ },
+ "shirt ||| 짧은 소매 튜닉": {
+  "icon_name": "shirt",
+  "answer": "짧은 소매 튜닉",
+  "verdict": "match",
+  "reason": "셔츠=튜닉"
+ },
+ "shining-sword ||| 가시 날개 검": {
+  "icon_name": "shining-sword",
+  "answer": "가시 날개 검",
+  "verdict": "match",
+  "reason": "검 일치"
+ },
+ "round-shield ||| 원형 방패": {
+  "icon_name": "round-shield",
+  "answer": "원형 방패",
+  "verdict": "match",
+  "reason": "원형 방패 일치"
+ },
+ "fire-bottle ||| 물약병": {
+  "icon_name": "fire-bottle",
+  "answer": "물약병",
+  "verdict": "match",
+  "reason": "병 일치"
+ },
+ "crown ||| 왕관": {
+  "icon_name": "crown",
+  "answer": "왕관",
+  "verdict": "match",
+  "reason": "왕관 일치"
+ },
+ "piercing-sword ||| 검": {
+  "icon_name": "piercing-sword",
+  "answer": "검",
+  "verdict": "match",
+  "reason": "검 일치"
+ },
+ "fire-bottle ||| 둥근 플라스크와 불꽃 문양": {
+  "icon_name": "fire-bottle",
+  "answer": "둥근 플라스크와 불꽃 문양",
+  "verdict": "match",
+  "reason": "플라스크(병) 일치"
+ },
+ "globe-ring ||| 반지": {
+  "icon_name": "globe-ring",
+  "answer": "반지",
+  "verdict": "match",
+  "reason": "반지 일치"
+ },
+ "big-diamond-ring ||| 다이아몬드 반지": {
+  "icon_name": "big-diamond-ring",
+  "answer": "다이아몬드 반지",
+  "verdict": "match",
+  "reason": "반지 일치"
+ },
+ "wood-stick ||| 나무": {
+  "icon_name": "wood-stick",
+  "answer": "나무",
+  "verdict": "match",
+  "reason": "나무 막대기 범주 일치"
+ },
+ "tabi-boot ||| 끈으로 묶는 목이 긴 부츠": {
+  "icon_name": "tabi-boot",
+  "answer": "끈으로 묶는 목이 긴 부츠",
+  "verdict": "match",
+  "reason": "부츠 일치"
+ },
+ "sliced-bread ||| 발톱 또는 발": {
+  "icon_name": "sliced-bread",
+  "answer": "발톱 또는 발",
+  "verdict": "miss",
+  "reason": "빵과 발톱은 다른 물건"
+ },
+ "standing-potion ||| 물약병": {
+  "icon_name": "standing-potion",
+  "answer": "물약병",
+  "verdict": "match",
+  "reason": "물약병 동일"
+ },
+ "mining ||| 폭발 또는 파괴 효과": {
+  "icon_name": "mining",
+  "answer": "폭발 또는 파괴 효과",
+  "verdict": "partial",
+  "reason": "채굴 대신 폭발 효과로 해석"
+ },
+ "maze ||| 미로 지도": {
+  "icon_name": "maze",
+  "answer": "미로 지도",
+  "verdict": "match",
+  "reason": "미로 동일"
+ },
+ "lunar-wand ||| 지휘봉": {
+  "icon_name": "lunar-wand",
+  "answer": "지휘봉",
+  "verdict": "partial",
+  "reason": "완드와 지휘봉은 유사 범주이나 다른 물건"
+ },
+ "fur-shirt ||| 가죽 갑옷 세트": {
+  "icon_name": "fur-shirt",
+  "answer": "가죽 갑옷 세트",
+  "verdict": "match",
+  "reason": "털/가죽 상의 갑옷으로 일치"
+ },
+ "warhammer ||| 해머": {
+  "icon_name": "warhammer",
+  "answer": "해머",
+  "verdict": "match",
+  "reason": "해머 동일"
+ },
+ "spotted-mushroom ||| 버섯": {
+  "icon_name": "spotted-mushroom",
+  "answer": "버섯",
+  "verdict": "match",
+  "reason": "버섯 동일"
+ },
+ "potion-of-madness ||| 주사기와 물약병": {
+  "icon_name": "potion-of-madness",
+  "answer": "주사기와 물약병",
+  "verdict": "match",
+  "reason": "핵심 물약병 일치"
+ },
+ "bone-knife ||| 단검": {
+  "icon_name": "bone-knife",
+  "answer": "단검",
+  "verdict": "match",
+  "reason": "칼=단검"
+ },
+ "thor-hammer ||| 마법 지팡이": {
+  "icon_name": "thor-hammer",
+  "answer": "마법 지팡이",
+  "verdict": "miss",
+  "reason": "망치와 지팡이는 다름"
+ },
+ "bowie-knife ||| 톱니날 단검": {
+  "icon_name": "bowie-knife",
+  "answer": "톱니날 단검",
+  "verdict": "match",
+  "reason": "칼 일치"
+ },
+ "crystal-growth ||| 뾰족한 결정체 군집": {
+  "icon_name": "crystal-growth",
+  "answer": "뾰족한 결정체 군집",
+  "verdict": "match",
+  "reason": "결정체 일치"
+ },
+ "necklace ||| 팬던트": {
+  "icon_name": "necklace",
+  "answer": "팬던트",
+  "verdict": "match",
+  "reason": "목걸이/펜던트 동일류"
+ },
+ "spiral-bottle ||| 포션": {
+  "icon_name": "spiral-bottle",
+  "answer": "포션",
+  "verdict": "match",
+  "reason": "병=포션"
+ },
+ "power-ring ||| 반지": {
+  "icon_name": "power-ring",
+  "answer": "반지",
+  "verdict": "match",
+  "reason": "반지 동일"
+ },
+ "gem-pendant ||| 목걸이": {
+  "icon_name": "gem-pendant",
+  "answer": "목걸이",
+  "verdict": "match",
+  "reason": "펜던트=목걸이"
+ },
+ "war-pick ||| 곡괭이": {
+  "icon_name": "war-pick",
+  "answer": "곡괭이",
+  "verdict": "match",
+  "reason": "픽=곡괭이"
+ },
+ "elderberry ||| 가지 달린 나뭇가지": {
+  "icon_name": "elderberry",
+  "answer": "가지 달린 나뭇가지",
+  "verdict": "match",
+  "reason": "열매 달린 나뭇가지"
+ },
+ "gauntlet ||| 발 형태의 실루엣": {
+  "icon_name": "gauntlet",
+  "answer": "발 형태의 실루엣",
+  "verdict": "partial",
+  "reason": "건틀릿(손)과 발 형태 혼동, 같은 방어구 범주"
+ },
+ "rune-sword ||| 검": {
+  "icon_name": "rune-sword",
+  "answer": "검",
+  "verdict": "match",
+  "reason": "검 동일"
+ },
+ "turtle ||| 거북이": {
+  "icon_name": "turtle",
+  "answer": "거북이",
+  "verdict": "match",
+  "reason": "거북이 동일"
+ },
+ "horned-helm ||| 뿔 달린 투구": {
+  "icon_name": "horned-helm",
+  "answer": "뿔 달린 투구",
+  "verdict": "match",
+  "reason": "투구 동일"
+ },
+ "cape ||| 천 또는 로브 형태의 실루엣": {
+  "icon_name": "cape",
+  "answer": "천 또는 로브 형태의 실루엣",
+  "verdict": "match",
+  "reason": "망토/천 의류 일치"
+ },
+ "primitive-necklace ||| 목걸이": {
+  "icon_name": "primitive-necklace",
+  "answer": "목걸이",
+  "verdict": "match",
+  "reason": "목걸이 동일"
+ },
+ "scroll-unfurled ||| 두루마리 스크롤": {
+  "icon_name": "scroll-unfurled",
+  "answer": "두루마리 스크롤",
+  "verdict": "match",
+  "reason": "두루마리 일치"
+ },
+ "wax-seal ||| 왕관 문장 배지": {
+  "icon_name": "wax-seal",
+  "answer": "왕관 문장 배지",
+  "verdict": "partial",
+  "reason": "인장 대신 배지로 봄, 문장류 유사"
+ },
+ "walking-boot ||| 장화": {
+  "icon_name": "walking-boot",
+  "answer": "장화",
+  "verdict": "match",
+  "reason": "부츠=장화"
+ },
+ "wax-tablet ||| 종이 문서": {
+  "icon_name": "wax-tablet",
+  "answer": "종이 문서",
+  "verdict": "partial",
+  "reason": "밀랍판 대신 종이 문서, 기록매체 범주 동일"
+ },
+ "eye-shield ||| 문양 방패": {
+  "icon_name": "eye-shield",
+  "answer": "문양 방패",
+  "verdict": "match",
+  "reason": "방패 일치"
+ },
+ "daggers ||| 세 자루 칼": {
+  "icon_name": "daggers",
+  "answer": "세 자루 칼",
+  "verdict": "match",
+  "reason": "단검=칼"
+ },
+ "wax-seal ||| 모르겠음": {
+  "icon_name": "wax-seal",
+  "answer": "모르겠음",
+  "verdict": "miss",
+  "reason": "판독 포기"
+ },
+ "beer-stein ||| 맥주": {
+  "icon_name": "beer-stein",
+  "answer": "맥주",
+  "verdict": "match",
+  "reason": "맥주잔 핵심 일치"
+ },
+ "floating-crystal ||| 기하학적 크리스탈": {
+  "icon_name": "floating-crystal",
+  "answer": "기하학적 크리스탈",
+  "verdict": "match",
+  "reason": "크리스탈 일치"
+ },
+ "hook ||| 낚시바늘": {
+  "icon_name": "hook",
+  "answer": "낚시바늘",
+  "verdict": "match",
+  "reason": "갈고리/바늘 동일 물건"
+ },
+ "cubes ||| 큐브": {
+  "icon_name": "cubes",
+  "answer": "큐브",
+  "verdict": "match",
+  "reason": "큐브 일치"
+ },
+ "eye-shield ||| 눈 문양이 새겨진 방패": {
+  "icon_name": "eye-shield",
+  "answer": "눈 문양이 새겨진 방패",
+  "verdict": "match",
+  "reason": "방패 일치"
+ },
+ "fizzing-flask ||| 거품이 터지는 삼각 플라스크": {
+  "icon_name": "fizzing-flask",
+  "answer": "거품이 터지는 삼각 플라스크",
+  "verdict": "match",
+  "reason": "플라스크 일치"
+ },
+ "pendant-key ||| 열쇠 목걸이": {
+  "icon_name": "pendant-key",
+  "answer": "열쇠 목걸이",
+  "verdict": "match",
+  "reason": "열쇠 펜던트 일치"
+ },
+ "bottled-shadow ||| 영혼이 담긴 병": {
+  "icon_name": "bottled-shadow",
+  "answer": "영혼이 담긴 병",
+  "verdict": "match",
+  "reason": "병 일치"
+ },
+ "spotted-mushroom ||| 버섯 갓과 줄기 모양 물체": {
+  "icon_name": "spotted-mushroom",
+  "answer": "버섯 갓과 줄기 모양 물체",
+  "verdict": "match",
+  "reason": "버섯 일치"
+ },
+ "winged-scepter ||| 날개 달린 지팡이 또는 홀": {
+  "icon_name": "winged-scepter",
+  "answer": "날개 달린 지팡이 또는 홀",
+  "verdict": "match",
+  "reason": "홀 일치"
+ },
+ "skull-mask ||| 해골 문양": {
+  "icon_name": "skull-mask",
+  "answer": "해골 문양",
+  "verdict": "partial",
+  "reason": "가면 아닌 문양으로 인식"
+ },
+ "old-lantern ||| 휴대용 랜턴": {
+  "icon_name": "old-lantern",
+  "answer": "휴대용 랜턴",
+  "verdict": "match",
+  "reason": "랜턴 일치"
+ },
+ "turtle-shell ||| 거북이 등껍질": {
+  "icon_name": "turtle-shell",
+  "answer": "거북이 등껍질",
+  "verdict": "match",
+  "reason": "등껍질 일치"
+ },
+ "lockpicks ||| 공구": {
+  "icon_name": "lockpicks",
+  "answer": "공구",
+  "verdict": "partial",
+  "reason": "도구 범주만 맞음"
+ },
+ "leather-armor ||| 갑옷 흉갑": {
+  "icon_name": "leather-armor",
+  "answer": "갑옷 흉갑",
+  "verdict": "match",
+  "reason": "갑옷 일치"
+ },
+ "stone-pile ||| 파편화된 결정체": {
+  "icon_name": "stone-pile",
+  "answer": "파편화된 결정체",
+  "verdict": "partial",
+  "reason": "돌더미 대신 결정체"
+ },
+ "pirate-coat ||| 긴 외투, 로브": {
+  "icon_name": "pirate-coat",
+  "answer": "긴 외투, 로브",
+  "verdict": "match",
+  "reason": "코트 일치"
+ },
+ "heart-bottle ||| 하트 문양이 그려진 병": {
+  "icon_name": "heart-bottle",
+  "answer": "하트 문양이 그려진 병",
+  "verdict": "match",
+  "reason": "병 일치"
+ },
+ "wood-club ||| 몽둥이": {
+  "icon_name": "wood-club",
+  "answer": "몽둥이",
+  "verdict": "match",
+  "reason": "club=몽둥이"
+ },
+ "sewing-string ||| 바늘과 실패": {
+  "icon_name": "sewing-string",
+  "answer": "바늘과 실패",
+  "verdict": "match",
+  "reason": "바느질 실 도구 일치"
+ },
+ "fire-shield ||| 불 방패": {
+  "icon_name": "fire-shield",
+  "answer": "불 방패",
+  "verdict": "match",
+  "reason": "방패 일치"
+ },
+ "wizard-staff ||| 지팡이": {
+  "icon_name": "wizard-staff",
+  "answer": "지팡이",
+  "verdict": "match",
+  "reason": "staff=지팡이"
+ },
+ "powder-bag ||| 우주선 캡슐": {
+  "icon_name": "powder-bag",
+  "answer": "우주선 캡슐",
+  "verdict": "miss",
+  "reason": "가방이 아닌 우주선 캡슐"
+ },
+ "wood-club ||| 가시 돋친 손톱 무기": {
+  "icon_name": "wood-club",
+  "answer": "가시 돋친 손톱 무기",
+  "verdict": "partial",
+  "reason": "무기지만 몽둥이 아닌 손톱무기"
+ },
+ "prayer-beads ||| 염주 팔찌": {
+  "icon_name": "prayer-beads",
+  "answer": "염주 팔찌",
+  "verdict": "match",
+  "reason": "염주 일치"
+ },
+ "bone-knife ||| 검 또는 칼": {
+  "icon_name": "bone-knife",
+  "answer": "검 또는 칼",
+  "verdict": "match",
+  "reason": "칼 포함"
+ },
+ "fish-smoking ||| 물고기": {
+  "icon_name": "fish-smoking",
+  "answer": "물고기",
+  "verdict": "match",
+  "reason": "핵심은 물고기"
+ },
+ "drill ||| 공구": {
+  "icon_name": "drill",
+  "answer": "공구",
+  "verdict": "match",
+  "reason": "드릴의 상위어 공구"
+ },
+ "fire-bottle ||| 포션": {
+  "icon_name": "fire-bottle",
+  "answer": "포션",
+  "verdict": "match",
+  "reason": "병/포션 유사"
+ },
+ "winter-gloves ||| 글러브": {
+  "icon_name": "winter-gloves",
+  "answer": "글러브",
+  "verdict": "match",
+  "reason": "장갑 일치"
+ },
+ "round-potion ||| 폭탄": {
+  "icon_name": "round-potion",
+  "answer": "폭탄",
+  "verdict": "miss",
+  "reason": "물약 아닌 폭탄"
+ },
+ "shattered-sword ||| 검": {
+  "icon_name": "shattered-sword",
+  "answer": "검",
+  "verdict": "match",
+  "reason": "검 일치"
+ },
+ "covered-jar ||| 뚜껑 달린 항아리": {
+  "icon_name": "covered-jar",
+  "answer": "뚜껑 달린 항아리",
+  "verdict": "match",
+  "reason": "항아리 일치"
+ },
+ "bracer ||| 로켓": {
+  "icon_name": "bracer",
+  "answer": "로켓",
+  "verdict": "miss",
+  "reason": "팔보호구 아닌 로켓"
+ },
+ "tied-scroll ||| 두루마리 문서": {
+  "icon_name": "tied-scroll",
+  "answer": "두루마리 문서",
+  "verdict": "match",
+  "reason": "두루마리 일치"
+ },
+ "horned-helm ||| 투구": {
+  "icon_name": "horned-helm",
+  "answer": "투구",
+  "verdict": "match",
+  "reason": "투구 일치"
+ },
+ "camping-tent ||| 텐트": {
+  "icon_name": "camping-tent",
+  "answer": "텐트",
+  "verdict": "match",
+  "reason": "텐트 일치"
+ },
+ "prayer-beads ||| 구슬 목걸이": {
+  "icon_name": "prayer-beads",
+  "answer": "구슬 목걸이",
+  "verdict": "match",
+  "reason": "염주 구슬 목걸이 유사"
+ },
+ "hatchet ||| 손도끼": {
+  "icon_name": "hatchet",
+  "answer": "손도끼",
+  "verdict": "match",
+  "reason": "hatchet=손도끼"
+ },
+ "bone-knife ||| 무기": {
+  "icon_name": "bone-knife",
+  "answer": "무기",
+  "verdict": "partial",
+  "reason": "무기라는 범주만 언급"
+ },
+ "necklace ||| 십자형 별 메달": {
+  "icon_name": "necklace",
+  "answer": "십자형 별 메달",
+  "verdict": "match",
+  "reason": "목걸이 메달"
+ },
+ "chili-pepper ||| 고추": {
+  "icon_name": "chili-pepper",
+  "answer": "고추",
+  "verdict": "match",
+  "reason": "고추 일치"
+ },
+ "pointy-sword ||| 검": {
+  "icon_name": "pointy-sword",
+  "answer": "검",
+  "verdict": "match",
+  "reason": "검 일치"
+ },
+ "wood-axe ||| 도끼": {
+  "icon_name": "wood-axe",
+  "answer": "도끼",
+  "verdict": "match",
+  "reason": "도끼 일치"
+ },
+ "rope-coil ||| 밧줄": {
+  "icon_name": "rope-coil",
+  "answer": "밧줄",
+  "verdict": "match",
+  "reason": "밧줄 일치"
+ },
+ "power-ring ||| 보석이 박힌 팔찌 또는 밴드": {
+  "icon_name": "power-ring",
+  "answer": "보석이 박힌 팔찌 또는 밴드",
+  "verdict": "partial",
+  "reason": "반지 vs 팔찌"
+ },
+ "bloody-sword ||| 검": {
+  "icon_name": "bloody-sword",
+  "answer": "검",
+  "verdict": "match",
+  "reason": "검 일치"
+ },
+ "rolled-cloth ||| 말린 두루마리 문서": {
+  "icon_name": "rolled-cloth",
+  "answer": "말린 두루마리 문서",
+  "verdict": "partial",
+  "reason": "말린 천 vs 두루마리 문서, 유사 범주"
+ },
+ "rope-coil ||| 둥근 갑옷, 투구": {
+  "icon_name": "rope-coil",
+  "answer": "둥근 갑옷, 투구",
+  "verdict": "miss",
+  "reason": "밧줄을 갑옷으로 오독"
+ },
+ "pendant-key ||| 목걸이": {
+  "icon_name": "pendant-key",
+  "answer": "목걸이",
+  "verdict": "match",
+  "reason": "펜던트=목걸이"
+ },
+ "fire-shield ||| 방패": {
+  "icon_name": "fire-shield",
+  "answer": "방패",
+  "verdict": "match",
+  "reason": "방패 일치"
+ },
+ "bow-arrow ||| 화살과 활": {
+  "icon_name": "bow-arrow",
+  "answer": "화살과 활",
+  "verdict": "match",
+  "reason": "활과 화살"
+ },
+ "skull-signet ||| 골격 마스크": {
+  "icon_name": "skull-signet",
+  "answer": "골격 마스크",
+  "verdict": "partial",
+  "reason": "해골 인장 vs 해골 마스크"
+ },
+ "warhammer ||| 뾰족한 돌기가 여러 개 달린 망치형 무기": {
+  "icon_name": "warhammer",
+  "answer": "뾰족한 돌기가 여러 개 달린 망치형 무기",
+  "verdict": "match",
+  "reason": "망치형 무기"
+ },
+ "spider-web ||| 거미줄": {
+  "icon_name": "spider-web",
+  "answer": "거미줄",
+  "verdict": "match",
+  "reason": "거미줄"
+ },
+ "round-potion ||| 둥근 플라스크 병": {
+  "icon_name": "round-potion",
+  "answer": "둥근 플라스크 병",
+  "verdict": "match",
+  "reason": "물약병=플라스크"
+ },
+ "scroll-quill ||| 깃털펜과 두루마리 문서": {
+  "icon_name": "scroll-quill",
+  "answer": "깃털펜과 두루마리 문서",
+  "verdict": "match",
+  "reason": "일치"
+ },
+ "minerals ||| 광석 결정체": {
+  "icon_name": "minerals",
+  "answer": "광석 결정체",
+  "verdict": "match",
+  "reason": "광물 결정"
+ },
+ "orb-wand ||| 망원경": {
+  "icon_name": "orb-wand",
+  "answer": "망원경",
+  "verdict": "miss",
+  "reason": "지팡이 아님"
+ },
+ "treasure-map ||| 보물 지도": {
+  "icon_name": "treasure-map",
+  "answer": "보물 지도",
+  "verdict": "match",
+  "reason": "일치"
+ },
+ "linked-rings ||| 연결된 두 개의 고리": {
+  "icon_name": "linked-rings",
+  "answer": "연결된 두 개의 고리",
+  "verdict": "match",
+  "reason": "연결된 고리"
+ },
+ "mail-shirt ||| 갑옷": {
+  "icon_name": "mail-shirt",
+  "answer": "갑옷",
+  "verdict": "match",
+  "reason": "사슬갑옷=갑옷"
+ },
+ "ring ||| 팬 또는 냄비": {
+  "icon_name": "ring",
+  "answer": "팬 또는 냄비",
+  "verdict": "miss",
+  "reason": "반지 아님"
+ },
+ "plain-dagger ||| 단검": {
+  "icon_name": "plain-dagger",
+  "answer": "단검",
+  "verdict": "match",
+  "reason": "단검"
+ },
+ "gingerbread-man ||| 사람 형상 과자 캐릭터": {
+  "icon_name": "gingerbread-man",
+  "answer": "사람 형상 과자 캐릭터",
+  "verdict": "match",
+  "reason": "진저브레드맨"
+ },
+ "harpoon-chain ||| 사슬에 연결된 화살촉 형태 무기": {
+  "icon_name": "harpoon-chain",
+  "answer": "사슬에 연결된 화살촉 형태 무기",
+  "verdict": "match",
+  "reason": "작살+사슬"
+ },
+ "tabi-boot ||| 끈으로 조이는 장화": {
+  "icon_name": "tabi-boot",
+  "answer": "끈으로 조이는 장화",
+  "verdict": "match",
+  "reason": "장화"
+ },
+ "cooking-glove ||| 가죽 장갑": {
+  "icon_name": "cooking-glove",
+  "answer": "가죽 장갑",
+  "verdict": "match",
+  "reason": "장갑"
+ },
+ "standing-potion ||| 포션": {
+  "icon_name": "standing-potion",
+  "answer": "포션",
+  "verdict": "match",
+  "reason": "포션 동일"
+ },
+ "caterpillar ||| 가시 달린 벌레": {
+  "icon_name": "caterpillar",
+  "answer": "가시 달린 벌레",
+  "verdict": "match",
+  "reason": "애벌레=벌레"
+ },
+ "sickle ||| 낫": {
+  "icon_name": "sickle",
+  "answer": "낫",
+  "verdict": "match",
+  "reason": "낫 동일"
+ },
+ "spell-book ||| 펼쳐진 책과 반짝이 효과": {
+  "icon_name": "spell-book",
+  "answer": "펼쳐진 책과 반짝이 효과",
+  "verdict": "match",
+  "reason": "마법서=반짝이는 책"
+ },
+ "mining ||| 곡괭이와 산 실루엣": {
+  "icon_name": "mining",
+  "answer": "곡괭이와 산 실루엣",
+  "verdict": "match",
+  "reason": "채광 도구"
+ },
+ "mantrap ||| 곰덫": {
+  "icon_name": "mantrap",
+  "answer": "곰덫",
+  "verdict": "match",
+  "reason": "덫 동일류"
+ },
+ "bow-string ||| 모르겠음": {
+  "icon_name": "bow-string",
+  "answer": "모르겠음",
+  "verdict": "miss",
+  "reason": "판독 포기"
+ },
+ "skull-mask ||| 해골 마스크": {
+  "icon_name": "skull-mask",
+  "answer": "해골 마스크",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "crystal-growth ||| 광석": {
+  "icon_name": "crystal-growth",
+  "answer": "광석",
+  "verdict": "match",
+  "reason": "결정=광석"
+ },
+ "covered-jar ||| 뚜껑이 있는 항아리": {
+  "icon_name": "covered-jar",
+  "answer": "뚜껑이 있는 항아리",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "battle-axe ||| 양날도끼": {
+  "icon_name": "battle-axe",
+  "answer": "양날도끼",
+  "verdict": "match",
+  "reason": "도끼 동일"
+ },
+ "roman-shield ||| 장식된 방패": {
+  "icon_name": "roman-shield",
+  "answer": "장식된 방패",
+  "verdict": "match",
+  "reason": "방패 동일"
+ },
+ "bell-pepper ||| 피망": {
+  "icon_name": "bell-pepper",
+  "answer": "피망",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "spotted-mushroom ||| 가스 마스크": {
+  "icon_name": "spotted-mushroom",
+  "answer": "가스 마스크",
+  "verdict": "miss",
+  "reason": "버섯≠가스마스크"
+ },
+ "linked-rings ||| 연결된 고리": {
+  "icon_name": "linked-rings",
+  "answer": "연결된 고리",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "leather-boot ||| 전투화 또는 갑옷 신발": {
+  "icon_name": "leather-boot",
+  "answer": "전투화 또는 갑옷 신발",
+  "verdict": "match",
+  "reason": "부츠 동일"
+ },
+ "spell-book ||| 책": {
+  "icon_name": "spell-book",
+  "answer": "책",
+  "verdict": "match",
+  "reason": "책 상위어"
+ },
+ "gladius ||| 검 또는 창": {
+  "icon_name": "gladius",
+  "answer": "검 또는 창",
+  "verdict": "match",
+  "reason": "검 포함"
+ },
+ "mining ||| 채광": {
+  "icon_name": "mining",
+  "answer": "채광",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "bow-string ||| 낫 또는 곡선 칼": {
+  "icon_name": "bow-string",
+  "answer": "낫 또는 곡선 칼",
+  "verdict": "miss",
+  "reason": "활시위≠낫"
+ },
+ "lockpicks ||| 자물쇠 따기용 도구 세트": {
+  "icon_name": "lockpicks",
+  "answer": "자물쇠 따기용 도구 세트",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "battle-axe ||| 양날 도끼": {
+  "icon_name": "battle-axe",
+  "answer": "양날 도끼",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "key ||| 키": {
+  "icon_name": "key",
+  "answer": "키",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "gladius ||| 검 또는 단검": {
+  "icon_name": "gladius",
+  "answer": "검 또는 단검",
+  "verdict": "match",
+  "reason": "검 포함"
+ },
+ "elderberry ||| 나무": {
+  "icon_name": "elderberry",
+  "answer": "나무",
+  "verdict": "partial",
+  "reason": "열매→식물 범주만 일치"
+ },
+ "sewing-string ||| 바늘과 실": {
+  "icon_name": "sewing-string",
+  "answer": "바늘과 실",
+  "verdict": "match",
+  "reason": "바느질 실/바늘로 동일 대상"
+ },
+ "fish-smoking ||| 건어물 또는 말린 생선": {
+  "icon_name": "fish-smoking",
+  "answer": "건어물 또는 말린 생선",
+  "verdict": "match",
+  "reason": "핵심 물건 생선 일치"
+ },
+ "camp-cooking-pot ||| 불타는 냄비": {
+  "icon_name": "camp-cooking-pot",
+  "answer": "불타는 냄비",
+  "verdict": "match",
+  "reason": "냄비 일치"
+ },
+ "two-handed-sword ||| 검": {
+  "icon_name": "two-handed-sword",
+  "answer": "검",
+  "verdict": "match",
+  "reason": "검 일치"
+ },
+ "rolled-cloth ||| 두루마리": {
+  "icon_name": "rolled-cloth",
+  "answer": "두루마리",
+  "verdict": "partial",
+  "reason": "말린 천 vs 두루마리, 유사 범주 다른 물건"
+ },
+ "astronaut-helmet ||| 우주비행사 헬멧": {
+  "icon_name": "astronaut-helmet",
+  "answer": "우주비행사 헬멧",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "frog-foot ||| 왕관": {
+  "icon_name": "frog-foot",
+  "answer": "왕관",
+  "verdict": "miss",
+  "reason": "개구리 발과 왕관은 다름"
+ },
+ "gold-bar ||| 금속 주괴": {
+  "icon_name": "gold-bar",
+  "answer": "금속 주괴",
+  "verdict": "match",
+  "reason": "금괴=금속 주괴"
+ },
+ "templar-shield ||| 십자가 문양 방패": {
+  "icon_name": "templar-shield",
+  "answer": "십자가 문양 방패",
+  "verdict": "match",
+  "reason": "방패 일치"
+ },
+ "metal-boot ||| 장화": {
+  "icon_name": "metal-boot",
+  "answer": "장화",
+  "verdict": "match",
+  "reason": "부츠=장화"
+ },
+ "steeltoe-boots ||| 신발": {
+  "icon_name": "steeltoe-boots",
+  "answer": "신발",
+  "verdict": "match",
+  "reason": "신발은 상위어"
+ },
+ "wood-stick ||| 가지가 달린 막대": {
+  "icon_name": "wood-stick",
+  "answer": "가지가 달린 막대",
+  "verdict": "match",
+  "reason": "나뭇가지 막대 일치"
+ },
+ "skull-staff ||| 지휘봉": {
+  "icon_name": "skull-staff",
+  "answer": "지휘봉",
+  "verdict": "match",
+  "reason": "지팡이/봉 유사 물건"
+ },
+ "battle-axe ||| 위성": {
+  "icon_name": "battle-axe",
+  "answer": "위성",
+  "verdict": "miss",
+  "reason": "도끼와 위성은 무관"
+ },
+ "broadsword ||| 검": {
+  "icon_name": "broadsword",
+  "answer": "검",
+  "verdict": "match",
+  "reason": "검 일치"
+ },
+ "cracked-saber ||| 화살": {
+  "icon_name": "cracked-saber",
+  "answer": "화살",
+  "verdict": "miss",
+  "reason": "검과 화살은 다름"
+ },
+ "winged-scepter ||| 날개 달린 지팡이": {
+  "icon_name": "winged-scepter",
+  "answer": "날개 달린 지팡이",
+  "verdict": "match",
+  "reason": "홀=지팡이"
+ },
+ "round-bottom-flask ||| 둥근 바닥 유리병": {
+  "icon_name": "round-bottom-flask",
+  "answer": "둥근 바닥 유리병",
+  "verdict": "match",
+  "reason": "동일한 플라스크"
+ },
+ "templar-shield ||| 십자군 방패": {
+  "icon_name": "templar-shield",
+  "answer": "십자군 방패",
+  "verdict": "match",
+  "reason": "방패 일치"
+ },
+ "cooking-glove ||| 벙어리장갑 형태 실루엣": {
+  "icon_name": "cooking-glove",
+  "answer": "벙어리장갑 형태 실루엣",
+  "verdict": "match",
+  "reason": "장갑 일치"
+ },
+ "shattered-sword ||| 교차된 도끼와 산산조각난 파편": {
+  "icon_name": "shattered-sword",
+  "answer": "교차된 도끼와 산산조각난 파편",
+  "verdict": "partial",
+  "reason": "부서진 무기지만 검 아닌 도끼로 판독"
+ },
+ "treasure-map ||| 지도": {
+  "icon_name": "treasure-map",
+  "answer": "지도",
+  "verdict": "match",
+  "reason": "지도 일치"
+ },
+ "shield ||| 방패": {
+  "icon_name": "shield",
+  "answer": "방패",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "hand-bandage ||| 손 모양 실루엣": {
+  "icon_name": "hand-bandage",
+  "answer": "손 모양 실루엣",
+  "verdict": "partial",
+  "reason": "손은 맞지만 붕대 요소 누락"
+ },
+ "flanged-mace ||| 깃털 창": {
+  "icon_name": "flanged-mace",
+  "answer": "깃털 창",
+  "verdict": "partial",
+  "reason": "둘 다 자루형 무기지만 철퇴≠창"
+ },
+ "bowie-knife ||| 단도": {
+  "icon_name": "bowie-knife",
+  "answer": "단도",
+  "verdict": "match",
+  "reason": "칼/단도 동일"
+ },
+ "sliced-bread ||| 식빵": {
+  "icon_name": "sliced-bread",
+  "answer": "식빵",
+  "verdict": "match",
+  "reason": "빵 동일"
+ },
+ "daggers ||| 단검 세 개": {
+  "icon_name": "daggers",
+  "answer": "단검 세 개",
+  "verdict": "match",
+  "reason": "단검들"
+ },
+ "shirt ||| 가죽갑옷": {
+  "icon_name": "shirt",
+  "answer": "가죽갑옷",
+  "verdict": "partial",
+  "reason": "상의 범주지만 갑옷으로 봄"
+ },
+ "mail-shirt ||| 튜닉 형태의 상의": {
+  "icon_name": "mail-shirt",
+  "answer": "튜닉 형태의 상의",
+  "verdict": "match",
+  "reason": "상의 옷 일치"
+ },
+ "cubes ||| 깨진 돌 조각": {
+  "icon_name": "cubes",
+  "answer": "깨진 돌 조각",
+  "verdict": "partial",
+  "reason": "입체 조각 범주 유사하나 다름"
+ },
+ "wood-stick ||| 나뭇가지": {
+  "icon_name": "wood-stick",
+  "answer": "나뭇가지",
+  "verdict": "match",
+  "reason": "나무 막대"
+ },
+ "flanged-mace ||| 창 또는 화살 형태의 무기 머리 부분": {
+  "icon_name": "flanged-mace",
+  "answer": "창 또는 화살 형태의 무기 머리 부분",
+  "verdict": "partial",
+  "reason": "무기 머리지만 메이스 아님"
+ },
+ "round-bottom-flask ||| 포션": {
+  "icon_name": "round-bottom-flask",
+  "answer": "포션",
+  "verdict": "match",
+  "reason": "플라스크=포션병"
+ },
+ "orb-wand ||| 돋보기 형태의 지팡이/도구": {
+  "icon_name": "orb-wand",
+  "answer": "돋보기 형태의 지팡이/도구",
+  "verdict": "match",
+  "reason": "지팡이 일치"
+ },
+ "thor-hammer ||| 큰 망치": {
+  "icon_name": "thor-hammer",
+  "answer": "큰 망치",
+  "verdict": "match",
+  "reason": "해머"
+ },
+ "broad-dagger ||| 화살 발사 효과": {
+  "icon_name": "broad-dagger",
+  "answer": "화살 발사 효과",
+  "verdict": "miss",
+  "reason": "단검 아님"
+ },
+ "broad-dagger ||| 단검": {
+  "icon_name": "broad-dagger",
+  "answer": "단검",
+  "verdict": "match",
+  "reason": "단검 일치"
+ },
+ "rod-of-asclepius ||| 의료 지팡이": {
+  "icon_name": "rod-of-asclepius",
+  "answer": "의료 지팡이",
+  "verdict": "match",
+  "reason": "의료 지팡이"
+ },
+ "fragmented-sword ||| 검": {
+  "icon_name": "fragmented-sword",
+  "answer": "검",
+  "verdict": "match",
+  "reason": "검"
+ },
+ "primitive-torch ||| 불이 붙은 막대": {
+  "icon_name": "primitive-torch",
+  "answer": "불이 붙은 막대",
+  "verdict": "match",
+  "reason": "횃불"
+ },
+ "maze ||| 미로 패턴": {
+  "icon_name": "maze",
+  "answer": "미로 패턴",
+  "verdict": "match",
+  "reason": "미로"
+ },
+ "shattered-sword ||| 양손 전투 도구": {
+  "icon_name": "shattered-sword",
+  "answer": "양손 전투 도구",
+  "verdict": "partial",
+  "reason": "무기지만 검 명시 없음"
+ },
+ "harpoon-chain ||| 화살": {
+  "icon_name": "harpoon-chain",
+  "answer": "화살",
+  "verdict": "partial",
+  "reason": "투사체 유사, 작살 아님"
+ },
+ "pirate-coat ||| 긴 코트/재킷": {
+  "icon_name": "pirate-coat",
+  "answer": "긴 코트/재킷",
+  "verdict": "match",
+  "reason": "코트"
+ },
+ "tabi-boot ||| 장화": {
+  "icon_name": "tabi-boot",
+  "answer": "장화",
+  "verdict": "match",
+  "reason": "부츠"
+ },
+ "gingerbread-man ||| 쿠키": {
+  "icon_name": "gingerbread-man",
+  "answer": "쿠키",
+  "verdict": "match",
+  "reason": "과자류 동일"
+ },
+ "executioner-hood ||| 모자": {
+  "icon_name": "executioner-hood",
+  "answer": "모자",
+  "verdict": "match",
+  "reason": "머리 착용구"
+ },
+ "rod-of-asclepius ||| 뱀이 감긴 지팡이": {
+  "icon_name": "rod-of-asclepius",
+  "answer": "뱀이 감긴 지팡이",
+  "verdict": "match",
+  "reason": "뱀 지팡이"
+ },
+ "gingerbread-man ||| 진저브레드맨": {
+  "icon_name": "gingerbread-man",
+  "answer": "진저브레드맨",
+  "verdict": "match",
+  "reason": "정확히 일치"
+ },
+ "bowie-knife ||| 톱니 칼": {
+  "icon_name": "bowie-knife",
+  "answer": "톱니 칼",
+  "verdict": "match",
+  "reason": "칼로 일치"
+ },
+ "pendant-key ||| 목걸이식 열쇠": {
+  "icon_name": "pendant-key",
+  "answer": "목걸이식 열쇠",
+  "verdict": "match",
+  "reason": "펜던트 열쇠"
+ },
+ "stiletto ||| 단검": {
+  "icon_name": "stiletto",
+  "answer": "단검",
+  "verdict": "match",
+  "reason": "단검 동의"
+ },
+ "camp-cooking-pot ||| 모닥불 위 냄비 조리 장면": {
+  "icon_name": "camp-cooking-pot",
+  "answer": "모닥불 위 냄비 조리 장면",
+  "verdict": "match",
+  "reason": "냄비 조리"
+ },
+ "shirt ||| 긴소매 튜닉 상의": {
+  "icon_name": "shirt",
+  "answer": "긴소매 튜닉 상의",
+  "verdict": "match",
+  "reason": "상의"
+ },
+ "gauntlet ||| 갑옷 장갑": {
+  "icon_name": "gauntlet",
+  "answer": "갑옷 장갑",
+  "verdict": "match",
+  "reason": "건틀릿"
+ },
+ "spiral-bottle ||| 물약병": {
+  "icon_name": "spiral-bottle",
+  "answer": "물약병",
+  "verdict": "match",
+  "reason": "병/물약병"
+ },
+ "fur-shirt ||| 한벌옷": {
+  "icon_name": "fur-shirt",
+  "answer": "한벌옷",
+  "verdict": "partial",
+  "reason": "옷 범주지만 상의와 한벌옷 차이"
+ },
+ "herbs-bundle ||| 꽃": {
+  "icon_name": "herbs-bundle",
+  "answer": "꽃",
+  "verdict": "partial",
+  "reason": "식물류지만 약초묶음≠꽃"
+ },
+ "beer-stein ||| 맥주잔": {
+  "icon_name": "beer-stein",
+  "answer": "맥주잔",
+  "verdict": "match",
+  "reason": "맥주잔"
+ },
+ "bloody-sword ||| 피가 흐르는 검": {
+  "icon_name": "bloody-sword",
+  "answer": "피가 흐르는 검",
+  "verdict": "match",
+  "reason": "검"
+ },
+ "key ||| 열쇠": {
+  "icon_name": "key",
+  "answer": "열쇠",
+  "verdict": "match",
+  "reason": "열쇠"
+ },
+ "lunar-wand ||| 지팡이 형태의 무기": {
+  "icon_name": "lunar-wand",
+  "answer": "지팡이 형태의 무기",
+  "verdict": "match",
+  "reason": "완드=지팡이"
+ },
+ "scroll-quill ||| 스크롤 또는 두루마리": {
+  "icon_name": "scroll-quill",
+  "answer": "스크롤 또는 두루마리",
+  "verdict": "match",
+  "reason": "두루마리"
+ },
+ "wood-club ||| 불꽃 형태의 뾰족한 물체": {
+  "icon_name": "wood-club",
+  "answer": "불꽃 형태의 뾰족한 물체",
+  "verdict": "miss",
+  "reason": "곤봉 아님"
+ },
+ "harpoon-chain ||| 쇠사슬 낫": {
+  "icon_name": "harpoon-chain",
+  "answer": "쇠사슬 낫",
+  "verdict": "partial",
+  "reason": "사슬무기지만 작살≠낫"
+ },
+ "turtle-shell ||| 거북이 등껍질 형태 방패": {
+  "icon_name": "turtle-shell",
+  "answer": "거북이 등껍질 형태 방패",
+  "verdict": "match",
+  "reason": "거북 등껍질"
+ },
+ "crystal-wand ||| 체인 채찍": {
+  "icon_name": "crystal-wand",
+  "answer": "체인 채찍",
+  "verdict": "miss",
+  "reason": "완드≠채찍"
+ },
+ "powder-bag ||| 곡물 자루": {
+  "icon_name": "powder-bag",
+  "answer": "곡물 자루",
+  "verdict": "match",
+  "reason": "자루"
+ },
+ "tied-scroll ||| 두루마리": {
+  "icon_name": "tied-scroll",
+  "answer": "두루마리",
+  "verdict": "match",
+  "reason": "두루마리"
+ },
+ "crystal-growth ||| 결정체/수정": {
+  "icon_name": "crystal-growth",
+  "answer": "결정체/수정",
+  "verdict": "match",
+  "reason": "수정"
+ },
+ "gold-bar ||| 금괴": {
+  "icon_name": "gold-bar",
+  "answer": "금괴",
+  "verdict": "match",
+  "reason": "금괴"
+ },
+ "metal-boot ||| 무릎까지 오는 부츠": {
+  "icon_name": "metal-boot",
+  "answer": "무릎까지 오는 부츠",
+  "verdict": "match",
+  "reason": "부츠"
+ },
+ "crystal-wand ||| 막대형 도구 또는 지팡이": {
+  "icon_name": "crystal-wand",
+  "answer": "막대형 도구 또는 지팡이",
+  "verdict": "match",
+  "reason": "지팡이"
+ },
+ "plain-dagger ||| 단도": {
+  "icon_name": "plain-dagger",
+  "answer": "단도",
+  "verdict": "match",
+  "reason": "단도=dagger"
+ },
+ "metal-boot ||| 부츠": {
+  "icon_name": "metal-boot",
+  "answer": "부츠",
+  "verdict": "match",
+  "reason": "부츠 일치"
+ },
+ "stone-pile ||| 돌무더기": {
+  "icon_name": "stone-pile",
+  "answer": "돌무더기",
+  "verdict": "match",
+  "reason": "돌무더기 일치"
+ },
+ "bow-string ||| 화살과 곡선형 활 실루엣": {
+  "icon_name": "bow-string",
+  "answer": "화살과 곡선형 활 실루엣",
+  "verdict": "match",
+  "reason": "활 관련 일치"
+ },
+ "wax-seal ||| 왕관 문양 봉인 스탬프": {
+  "icon_name": "wax-seal",
+  "answer": "왕관 문양 봉인 스탬프",
+  "verdict": "match",
+  "reason": "봉인 스탬프"
+ },
+ "sacrificial-dagger ||| 단검": {
+  "icon_name": "sacrificial-dagger",
+  "answer": "단검",
+  "verdict": "match",
+  "reason": "단검 일치"
+ },
+ "stiletto ||| 손잡이 칼": {
+  "icon_name": "stiletto",
+  "answer": "손잡이 칼",
+  "verdict": "match",
+  "reason": "칼"
+ },
+ "roman-shield ||| 네모 방패": {
+  "icon_name": "roman-shield",
+  "answer": "네모 방패",
+  "verdict": "match",
+  "reason": "방패"
+ },
+ "sewing-string ||| 실 뭉치와 바늘": {
+  "icon_name": "sewing-string",
+  "answer": "실 뭉치와 바늘",
+  "verdict": "match",
+  "reason": "실과 바늘"
+ },
+ "pocket-bow ||| 활과 화살 모양 도형": {
+  "icon_name": "pocket-bow",
+  "answer": "활과 화살 모양 도형",
+  "verdict": "match",
+  "reason": "활"
+ },
+ "sacrificial-dagger ||| 검과 마법봉 조합 무기": {
+  "icon_name": "sacrificial-dagger",
+  "answer": "검과 마법봉 조합 무기",
+  "verdict": "partial",
+  "reason": "검류지만 단검 아님"
+ },
+ "mailed-fist ||| 손등 노출형 장갑을 낀 주먹": {
+  "icon_name": "mailed-fist",
+  "answer": "손등 노출형 장갑을 낀 주먹",
+  "verdict": "match",
+  "reason": "장갑 낀 주먹"
+ },
+ "shining-sword ||| 검": {
+  "icon_name": "shining-sword",
+  "answer": "검",
+  "verdict": "match",
+  "reason": "검"
+ },
+ "chelsea-boot ||| 발목 부츠": {
+  "icon_name": "chelsea-boot",
+  "answer": "발목 부츠",
+  "verdict": "match",
+  "reason": "발목 부츠"
+ },
+ "wax-tablet ||| 벽돌 벽돌 형태의 사각 블록": {
+  "icon_name": "wax-tablet",
+  "answer": "벽돌 벽돌 형태의 사각 블록",
+  "verdict": "partial",
+  "reason": "사각 블록으로 서판 아닌 벽돌로 봄"
+ },
+ "executioner-hood ||| 뾰족한 후드를 쓴 얼굴 실루엣": {
+  "icon_name": "executioner-hood",
+  "answer": "뾰족한 후드를 쓴 얼굴 실루엣",
+  "verdict": "match",
+  "reason": "후드"
+ },
+ "breastplate ||| 흉갑형 갑옷": {
+  "icon_name": "breastplate",
+  "answer": "흉갑형 갑옷",
+  "verdict": "match",
+  "reason": "흉갑"
+ },
+ "robe ||| 긴 망토": {
+  "icon_name": "robe",
+  "answer": "긴 망토",
+  "verdict": "partial",
+  "reason": "로브 대신 망토"
+ },
+ "walking-boot ||| 신발 한 짝": {
+  "icon_name": "walking-boot",
+  "answer": "신발 한 짝",
+  "verdict": "match",
+  "reason": "신발"
+ },
+ "bow-arrow ||| 활과 화살": {
+  "icon_name": "bow-arrow",
+  "answer": "활과 화살",
+  "verdict": "match",
+  "reason": "활과 화살"
+ },
+ "mantrap ||| 톱니바퀴 펌프 장치": {
+  "icon_name": "mantrap",
+  "answer": "톱니바퀴 펌프 장치",
+  "verdict": "miss",
+  "reason": "덫이 아닌 기계장치"
+ },
+ "diamond-ring ||| 다이아몬드 반지": {
+  "icon_name": "diamond-ring",
+  "answer": "다이아몬드 반지",
+  "verdict": "match",
+  "reason": "일치"
+ },
+ "bubbling-flask ||| 포션": {
+  "icon_name": "bubbling-flask",
+  "answer": "포션",
+  "verdict": "match",
+  "reason": "플라스크=포션"
+ },
+ "compass ||| 번개 문양 방패": {
+  "icon_name": "compass",
+  "answer": "번개 문양 방패",
+  "verdict": "miss",
+  "reason": "나침반 아님"
+ },
+ "primitive-torch ||| 횃불": {
+  "icon_name": "primitive-torch",
+  "answer": "횃불",
+  "verdict": "match",
+  "reason": "횃불"
+ },
+ "heart-bottle ||| 포션": {
+  "icon_name": "heart-bottle",
+  "answer": "포션",
+  "verdict": "match",
+  "reason": "병=포션"
+ },
+ "wizard-staff ||| 소용돌이 에너지/마법 효과": {
+  "icon_name": "wizard-staff",
+  "answer": "소용돌이 에너지/마법 효과",
+  "verdict": "miss",
+  "reason": "지팡이가 아닌 에너지 효과로 봄"
+ },
+ "steeltoe-boots ||| 부츠 한 쌍": {
+  "icon_name": "steeltoe-boots",
+  "answer": "부츠 한 쌍",
+  "verdict": "match",
+  "reason": "부츠 일치"
+ },
+ "crossbow ||| 활과 화살": {
+  "icon_name": "crossbow",
+  "answer": "활과 화살",
+  "verdict": "partial",
+  "reason": "석궁 대신 활"
+ },
+ "power-ring ||| 갑옷 장갑": {
+  "icon_name": "power-ring",
+  "answer": "갑옷 장갑",
+  "verdict": "miss",
+  "reason": "반지가 아닌 장갑"
+ },
+ "pirate-coat ||| 옷": {
+  "icon_name": "pirate-coat",
+  "answer": "옷",
+  "verdict": "match",
+  "reason": "코트=옷"
+ },
+ "fish-scales ||| 비늘 갑옷": {
+  "icon_name": "fish-scales",
+  "answer": "비늘 갑옷",
+  "verdict": "partial",
+  "reason": "비늘은 맞으나 갑옷으로 해석"
+ },
+ "scroll-quill ||| 서신": {
+  "icon_name": "scroll-quill",
+  "answer": "서신",
+  "verdict": "partial",
+  "reason": "두루마리/깃펜 대신 서신"
+ },
+ "caterpillar ||| 지렁이": {
+  "icon_name": "caterpillar",
+  "answer": "지렁이",
+  "verdict": "partial",
+  "reason": "유사 벌레류지만 다른 생물"
+ },
+ "globe-ring ||| 둥근 용기": {
+  "icon_name": "globe-ring",
+  "answer": "둥근 용기",
+  "verdict": "miss",
+  "reason": "반지가 아닌 용기"
+ },
+ "winter-gloves ||| 벙어리장갑 한 쌍": {
+  "icon_name": "winter-gloves",
+  "answer": "벙어리장갑 한 쌍",
+  "verdict": "match",
+  "reason": "겨울장갑=벙어리장갑"
+ },
+ "bloody-sword ||| 화살촉과 동물 가죽 방패": {
+  "icon_name": "bloody-sword",
+  "answer": "화살촉과 동물 가죽 방패",
+  "verdict": "miss",
+  "reason": "검이 아님"
+ },
+ "gold-bar ||| 금속 막대(주괴)": {
+  "icon_name": "gold-bar",
+  "answer": "금속 막대(주괴)",
+  "verdict": "match",
+  "reason": "금괴 일치"
+ },
+ "bracer ||| 칼날 형태의 무기 실루엣": {
+  "icon_name": "bracer",
+  "answer": "칼날 형태의 무기 실루엣",
+  "verdict": "miss",
+  "reason": "팔보호구가 아닌 무기"
+ },
+ "chelsea-boot ||| 부츠": {
+  "icon_name": "chelsea-boot",
+  "answer": "부츠",
+  "verdict": "match",
+  "reason": "부츠 일치"
+ },
+ "bottled-shadow ||| 병 또는 용기 속 이상한 생물": {
+  "icon_name": "bottled-shadow",
+  "answer": "병 또는 용기 속 이상한 생물",
+  "verdict": "match",
+  "reason": "병 속 존재로 일치"
+ },
+ "relic-blade ||| 장식 검": {
+  "icon_name": "relic-blade",
+  "answer": "장식 검",
+  "verdict": "match",
+  "reason": "검 일치"
+ },
+ "scroll-unfurled ||| 두루마리 종이": {
+  "icon_name": "scroll-unfurled",
+  "answer": "두루마리 종이",
+  "verdict": "match",
+  "reason": "두루마리 일치"
+ },
+ "compass ||| 나침반 모양 방위 표시 장식": {
+  "icon_name": "compass",
+  "answer": "나침반 모양 방위 표시 장식",
+  "verdict": "match",
+  "reason": "나침반 일치"
+ },
+ "heart-bottle ||| 향수병": {
+  "icon_name": "heart-bottle",
+  "answer": "향수병",
+  "verdict": "match",
+  "reason": "병으로 일치"
+ },
+ "round-bottom-flask ||| 둥근 유리병": {
+  "icon_name": "round-bottom-flask",
+  "answer": "둥근 유리병",
+  "verdict": "match",
+  "reason": "둥근 플라스크"
+ },
+ "hook ||| 크레인 갈고리": {
+  "icon_name": "hook",
+  "answer": "크레인 갈고리",
+  "verdict": "match",
+  "reason": "갈고리 일치"
+ },
+ "fishing-pole ||| 낚싯대와 물고기": {
+  "icon_name": "fishing-pole",
+  "answer": "낚싯대와 물고기",
+  "verdict": "match",
+  "reason": "낚싯대 일치"
+ },
+ "frog-foot ||| 물갈퀴 발자국 형태": {
+  "icon_name": "frog-foot",
+  "answer": "물갈퀴 발자국 형태",
+  "verdict": "match",
+  "reason": "개구리 물갈퀴 발"
+ },
+ "robe ||| 로브": {
+  "icon_name": "robe",
+  "answer": "로브",
+  "verdict": "match",
+  "reason": "로브 일치"
+ },
+ "maze ||| 미로": {
+  "icon_name": "maze",
+  "answer": "미로",
+  "verdict": "match",
+  "reason": "미로 일치"
+ },
+ "warhammer ||| 로켓 발사기": {
+  "icon_name": "warhammer",
+  "answer": "로켓 발사기",
+  "verdict": "miss",
+  "reason": "전쟁망치와 로켓 발사기는 다른 물건"
+ },
+ "fire-shield ||| 불꽃 문양이 그려진 방패형 엠블럼": {
+  "icon_name": "fire-shield",
+  "answer": "불꽃 문양이 그려진 방패형 엠블럼",
+  "verdict": "match",
+  "reason": "방패 문양 일치"
+ },
+ "powder-bag ||| 용광로": {
+  "icon_name": "powder-bag",
+  "answer": "용광로",
+  "verdict": "miss",
+  "reason": "화약 주머니와 용광로는 다름"
+ },
+ "old-lantern ||| 모르겠음": {
+  "icon_name": "old-lantern",
+  "answer": "모르겠음",
+  "verdict": "miss",
+  "reason": "판독 포기"
+ },
+ "fish-scales ||| 물고기 비늘 무늬 패턴": {
+  "icon_name": "fish-scales",
+  "answer": "물고기 비늘 무늬 패턴",
+  "verdict": "match",
+  "reason": "물고기 비늘 동일"
+ },
+ "fizzing-flask ||| 분사 효과가 있는 도구": {
+  "icon_name": "fizzing-flask",
+  "answer": "분사 효과가 있는 도구",
+  "verdict": "partial",
+  "reason": "플라스크 아닌 도구로 뭉갬"
+ },
+ "gauntlet ||| 장갑": {
+  "icon_name": "gauntlet",
+  "answer": "장갑",
+  "verdict": "match",
+  "reason": "건틀릿=장갑"
+ },
+ "light-helm ||| 투구": {
+  "icon_name": "light-helm",
+  "answer": "투구",
+  "verdict": "match",
+  "reason": "투구 동일"
+ },
+ "skull-signet ||| 양식화된 해골 모양 엠블럼": {
+  "icon_name": "skull-signet",
+  "answer": "양식화된 해골 모양 엠블럼",
+  "verdict": "match",
+  "reason": "해골 인장 문양"
+ },
+ "diploma ||| 인증서": {
+  "icon_name": "diploma",
+  "answer": "인증서",
+  "verdict": "match",
+  "reason": "졸업장≈인증서"
+ },
+ "rope-coil ||| 실뭉치": {
+  "icon_name": "rope-coil",
+  "answer": "실뭉치",
+  "verdict": "partial",
+  "reason": "밧줄 다발 vs 실뭉치"
+ },
+ "snow-bottle ||| 물약병": {
+  "icon_name": "snow-bottle",
+  "answer": "물약병",
+  "verdict": "match",
+  "reason": "병=물약병"
+ },
+ "two-handed-sword ||| 단검 또는 검": {
+  "icon_name": "two-handed-sword",
+  "answer": "단검 또는 검",
+  "verdict": "match",
+  "reason": "검 포함"
+ },
+ "astronaut-helmet ||| 우주복 헬멧": {
+  "icon_name": "astronaut-helmet",
+  "answer": "우주복 헬멧",
+  "verdict": "match",
+  "reason": "우주 헬멧 동일"
+ },
+ "ring ||| 둥근 고리형 밴드": {
+  "icon_name": "ring",
+  "answer": "둥근 고리형 밴드",
+  "verdict": "match",
+  "reason": "고리형 밴드=반지"
+ },
+ "big-diamond-ring ||| 반지": {
+  "icon_name": "big-diamond-ring",
+  "answer": "반지",
+  "verdict": "match",
+  "reason": "반지 동일"
+ },
+ "hatchet ||| 도끼": {
+  "icon_name": "hatchet",
+  "answer": "도끼",
+  "verdict": "match",
+  "reason": "손도끼=도끼"
+ },
+ "cracked-helm ||| 투구형 전투 헬멧": {
+  "icon_name": "cracked-helm",
+  "answer": "투구형 전투 헬멧",
+  "verdict": "match",
+  "reason": "투구 동일"
+ },
+ "sharp-axe ||| 양날도끼": {
+  "icon_name": "sharp-axe",
+  "answer": "양날도끼",
+  "verdict": "match",
+  "reason": "도끼 동일"
+ },
+ "cubes ||| 크기가 다른 각진 덩어리 세 개": {
+  "icon_name": "cubes",
+  "answer": "크기가 다른 각진 덩어리 세 개",
+  "verdict": "match",
+  "reason": "입방체 덩어리"
+ },
+ "bottled-shadow ||| 유리병에 담긴 형체": {
+  "icon_name": "bottled-shadow",
+  "answer": "유리병에 담긴 형체",
+  "verdict": "match",
+  "reason": "병에 담긴 그림자"
+ },
+ "war-pick ||| 쌍날 곡괭이": {
+  "icon_name": "war-pick",
+  "answer": "쌍날 곡괭이",
+  "verdict": "match",
+  "reason": "곡괭이형 무기"
+ },
+ "mailed-fist ||| 건틀릿": {
+  "icon_name": "mailed-fist",
+  "answer": "건틀릿",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "bell-pepper ||| 피망 또는 고추 모양 채소": {
+  "icon_name": "bell-pepper",
+  "answer": "피망 또는 고추 모양 채소",
+  "verdict": "match",
+  "reason": "피망 동일"
+ },
+ "minerals ||| 결정체 군집": {
+  "icon_name": "minerals",
+  "answer": "결정체 군집",
+  "verdict": "match",
+  "reason": "광물 결정"
+ },
+ "stone-pile ||| 바위": {
+  "icon_name": "stone-pile",
+  "answer": "바위",
+  "verdict": "match",
+  "reason": "돌더미↔바위 동일 범주"
+ },
+ "prayer-beads ||| 채찍": {
+  "icon_name": "prayer-beads",
+  "answer": "채찍",
+  "verdict": "miss",
+  "reason": "염주와 채찍은 다른 물건"
+ },
+ "fishing-pole ||| 낚싯대": {
+  "icon_name": "fishing-pole",
+  "answer": "낚싯대",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "standing-potion ||| 물약 병": {
+  "icon_name": "standing-potion",
+  "answer": "물약 병",
+  "verdict": "match",
+  "reason": "물약병 일치"
+ },
+ "fish-smoking ||| 막대에 꿰어 굽는 생선 세 마리": {
+  "icon_name": "fish-smoking",
+  "answer": "막대에 꿰어 굽는 생선 세 마리",
+  "verdict": "match",
+  "reason": "훈제 생선 일치"
+ },
+ "roman-shield ||| 방패 문양 엠블럼": {
+  "icon_name": "roman-shield",
+  "answer": "방패 문양 엠블럼",
+  "verdict": "match",
+  "reason": "방패 핵심 일치"
+ },
+ "round-shield ||| 원형 해치 또는 환기구": {
+  "icon_name": "round-shield",
+  "answer": "원형 해치 또는 환기구",
+  "verdict": "miss",
+  "reason": "방패를 해치로 오독"
+ },
+ "layered-armor ||| 겹겹이 방패": {
+  "icon_name": "layered-armor",
+  "answer": "겹겹이 방패",
+  "verdict": "partial",
+  "reason": "방어구 범주지만 갑옷≠방패"
+ },
+ "rune-sword ||| 주사 또는 특수 화살": {
+  "icon_name": "rune-sword",
+  "answer": "주사 또는 특수 화살",
+  "verdict": "miss",
+  "reason": "검을 주사로 오독"
+ },
+ "mailed-fist ||| 갑옷 장갑": {
+  "icon_name": "mailed-fist",
+  "answer": "갑옷 장갑",
+  "verdict": "match",
+  "reason": "갑옷 장갑 일치"
+ },
+ "crystal-wand ||| 스태프": {
+  "icon_name": "crystal-wand",
+  "answer": "스태프",
+  "verdict": "partial",
+  "reason": "완드↔스태프 유사 도구"
+ },
+ "battered-axe ||| 도끼": {
+  "icon_name": "battered-axe",
+  "answer": "도끼",
+  "verdict": "match",
+  "reason": "도끼 일치"
+ },
+ "fragmented-sword ||| 균열 문양이 있는 검": {
+  "icon_name": "fragmented-sword",
+  "answer": "균열 문양이 있는 검",
+  "verdict": "match",
+  "reason": "검 일치"
+ },
+ "sacrificial-dagger ||| 단도": {
+  "icon_name": "sacrificial-dagger",
+  "answer": "단도",
+  "verdict": "match",
+  "reason": "단도 일치"
+ },
+ "gem-pendant ||| 보석 펜던트": {
+  "icon_name": "gem-pendant",
+  "answer": "보석 펜던트",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "herbs-bundle ||| 꽃다발": {
+  "icon_name": "herbs-bundle",
+  "answer": "꽃다발",
+  "verdict": "partial",
+  "reason": "허브 묶음↔꽃다발 유사 범주"
+ },
+ "wizard-staff ||| 소용돌이 모양 장식": {
+  "icon_name": "wizard-staff",
+  "answer": "소용돌이 모양 장식",
+  "verdict": "miss",
+  "reason": "지팡이 식별 실패"
+ },
+ "steeltoe-boots ||| 갑옷 팔목 보호대": {
+  "icon_name": "steeltoe-boots",
+  "answer": "갑옷 팔목 보호대",
+  "verdict": "miss",
+  "reason": "부츠를 팔목 보호대로 오독"
+ },
+ "crossbow ||| 석궁": {
+  "icon_name": "crossbow",
+  "answer": "석궁",
+  "verdict": "match",
+  "reason": "동일"
+ },
+ "skull-staff ||| 초승달과 열쇠 합성 도형": {
+  "icon_name": "skull-staff",
+  "answer": "초승달과 열쇠 합성 도형",
+  "verdict": "miss",
+  "reason": "지팡이 식별 실패"
+ }
+}

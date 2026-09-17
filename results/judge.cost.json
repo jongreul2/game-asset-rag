@@ -1,0 +1,13 @@
+{
+  "runs": [
+    {
+      "model": "claude-opus-5",
+      "batch": false,
+      "requests": 16,
+      "input_tokens": 25919,
+      "output_tokens": 11380,
+      "cost_usd": 0.4141
+    }
+  ],
+  "cost_usd_total": 0.4141
+}
