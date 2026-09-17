@@ -19,3 +19,7 @@ out/
 [Ll]ogs/
 *.csproj
 *.sln
+
+# Unity 사용자별 설정·촬영 산출물
+unity/UserSettings/
+unity/artifacts/

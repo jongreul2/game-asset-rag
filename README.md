@@ -1,11 +1,20 @@
 # game-asset-rag — 게임 리소스 자동 라벨링 + RAG NPC
 
-> 아이템 아이콘을 비전 LLM으로 자동 라벨링해 문서를 보강하고, 임베딩·키워드 하이브리드 검색으로 찾은 근거만 인용해 답하는 게임 내 NPC.
+> 아이템 아이콘을 비전 LLM으로 자동 라벨링해 문서를 보강하고, 의미 검색(임베딩)으로 찾은 근거만 인용해 답하는 게임 내 NPC.
 > **이 저장소의 핵심은 데모가 아니라 평가다** — 조건 4개를 같은 정답셋으로 비교한 수치를 싣는다.
 
 *(작성 중 · 2026-09)*
 
 ---
+
+## 데모 — Unity NPC
+
+![NPC 데모](docs/images/npc-demo.gif)
+
+질문 세 개를 차례로 묻는다: 능력치로 찾는 질문 → **아이콘 생김새로 찾는 질문**("뱀이 감겨 있는 지팡이" — 아이템 설명에는 뱀이라는 말이 없고, 자동 라벨이 아이콘에서 읽어낸 정보로만 찾을 수 있다) → **데이터에 답이 없는 질문**(지어내지 않고 "기록에 없음"). 답 아래 카드는 답변 모델이 근거로 인용한 문서이고, 아이콘은 서버가 내려준다.
+
+- Unity 6 · uGUI. 화면은 실행 시 코드로 만든다(`unity/Assets/Scripts/NpcDialogUI.cs`). 클라이언트가 아는 것은 서버 주소뿐이다 — **API 키는 로컬 서버(`src/server.py`)에만 있다.**
+- 영상은 배치 모드 PlayMode 테스트로 찍었다(`unity/Assets/Tests/NpcDemoCapture.cs`). 답은 촬영 전에 한 번 물어 서버 캐시에 올려 두었고 화면의 대기 구간은 1.4초로 고정했다. **실제 생성 시간은 화면 오른쪽 아래 상태줄에 찍힌 값**(4.5 ~ 6.1초)이며, 전체 분포는 아래 답변 생성 결과에 있다. [MP4](docs/images/npc-demo.mp4)
 
 ## 무엇을 푸는가
 
@@ -99,7 +108,7 @@ Unity NPC 대화 UI → 로컬 서버(Python) → ④ 검색 top-k → ⑤ LLM �
 
 **4. 이 과제에서는 더 작은 모델로 충분하다.** 문서 5개를 읽고 조건을 대조해 2~4문장으로 답하는 일에서 Sonnet 5 는 Opus 5 와 정답 수가 같고, 비용은 38%, 지연은 1초 짧다. Opus 5 는 답이 더 길고(주장 156개 대 108개) 대안을 더 많이 든다 — 그만큼 인용 정밀도가 낮다(0.80 대 0.89). NPC 대화처럼 지연이 체감되는 자리에는 Sonnet 5 가 맞는 선택이다. 단, 질문 26개에서 1건 차이는 우열의 근거가 못 된다.
 
-**한계.** 충실도 판정관(Opus 5)은 답변 모델과 같은 계열이고, 라벨 판정관과 달리 **사람 표본 검증을 아직 거치지 않았다.** 답 없는 질문은 6개뿐이다. 지연은 한국에서 공개 API 를 순차 호출한 실측이며, Opus 5 에서 1건(146.8초)이 튀었다 — SDK 자동 재시도가 낀 것으로 보이나 원인은 확인하지 못했다(중앙값·p90 에는 영향 없음, 최대값은 리포트에 그대로 있다).
+**한계.** 충실도 판정관(Opus 5)은 답변 모델과 같은 계열이고, 라벨 판정관과 달리 **사람 표본 검증을 아직 거치지 않았다.** 답 없는 질문은 6개뿐이다. 지연은 한국에서 공개 API 를 순차 호출한 실측이며, Opus 5 에서 1건("하늘을 날게 해주는 물약", 146.8초)이 튀었다. 따로 확인해 보니 우연이 아니었다 — 재시도를 끄고 같은 요청을 다시 보내도 124.6초(출력 136토큰)였고, **JSON 스키마 강제만 빼면 같은 입력이 4.5초**(첫 토큰 2.3초)에 끝난다. 같은 스키마로 Sonnet 5 는 2.8초다. 즉 Opus 5 의 구조화 출력 경로가 이 입력에서만 멈추는 현상이며 API 안쪽의 원인은 알 수 없다. 중앙값·p90 에는 영향이 없지만, 실서비스라면 요청 타임아웃과 "스키마 없이 다시 요청 → 직접 검증" 폴백이 필요하다는 뜻이다.
 
 ## 한계 (미리 밝힘)
 
@@ -112,6 +121,7 @@ Unity NPC 대화 UI → 로컬 서버(Python) → ④ 검색 top-k → ⑤ LLM �
 ## 데이터·에셋 출처
 
 - 아이템/퀘스트 텍스트: 본 저장소용 창작(2026-09)
+- NPC 초상(`unity/Assets/Resources/npc_portrait.bytes`): game-icons.net 의 `cowled` — Icon made by lorc, CC BY 3.0. 흑백 반전만 실행 시 코드로 한다.
 - 아이콘: [game-icons.net](https://game-icons.net) — Creative Commons 3.0 BY. 아이콘별 원작자는 `data/icon_map.csv`의 `icon_author` 열에 기록했다. 자세한 표기는 [`data/icons/ATTRIBUTION.md`](data/icons/ATTRIBUTION.md).
 
 ## 실행
@@ -140,6 +150,9 @@ python src/rag.py "불에 잘 버티는 방패 추천해줘"              # 한 
 python src/answer_eval.py --limit 3     # 비용·지연을 먼저 3건으로 실측
 python src/answer_eval.py && python src/answer_eval.py --model claude-sonnet-5
 python src/judge_answers.py && python src/report_answers.py   # results/answer_eval.md
+
+# ④ NPC 데모 — 로컬 서버를 띄우고 Unity 6 로 unity/ 를 열어 Assets/Scenes/NpcDemo 실행
+python src/server.py                    # http://127.0.0.1:8765  (ANSWER_MODEL=claude-sonnet-5 로 모델 교체)
 ```
 
 데이터셋을 처음부터 다시 만들려면 아이콘 아카이브를 받아 `python src/build_icon_map.py game-icons.zip` 을 돌린다.
