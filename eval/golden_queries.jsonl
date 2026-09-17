@@ -1,0 +1,56 @@
+{"qid": "q001", "query": "불에 잘 버티는 방패 추천해줘", "relevant_ids": ["itm_a004"], "query_type": "attribute", "note": "rule: shield ∧ fire_resist"}
+{"qid": "q002", "query": "추운 데서 입을 만한 옷이나 갑옷", "relevant_ids": ["itm_a020"], "query_type": "attribute", "note": "rule: body ∧ ice_resist"}
+{"qid": "q003", "query": "독에 강해지는 장비가 뭐가 있지", "relevant_ids": ["itm_a003", "itm_a026", "itm_c002", "itm_c013", "itm_w003"], "query_type": "attribute", "note": "rule: equip ∧ poison_resist"}
+{"qid": "q004", "query": "치명타가 잘 터지는 단검", "relevant_ids": ["itm_w023", "itm_w025", "itm_w027"], "query_type": "attribute", "note": "rule: dagger ∧ crit_rate"}
+{"qid": "q005", "query": "죽은 것들 상대로 잘 통하는 무기", "relevant_ids": ["itm_w019"], "query_type": "attribute", "note": "rule: weapon ∧ undead_damage"}
+{"qid": "q006", "query": "번개를 쓰는 무기", "relevant_ids": ["itm_w040"], "query_type": "attribute", "note": "rule: weapon ∧ lightning_damage"}
+{"qid": "q007", "query": "공허에 버티게 해주는 것들", "relevant_ids": ["itm_a007", "itm_a023", "itm_c011", "itm_p012"], "query_type": "attribute", "note": "rule: void_resist"}
+{"qid": "q008", "query": "빨리 달리게 해주는 신발", "relevant_ids": ["itm_a030", "itm_a035"], "query_type": "attribute", "note": "rule: boots ∧ move_speed"}
+{"qid": "q009", "query": "두 손으로 들어야 하는 무거운 무기", "relevant_ids": ["itm_w008", "itm_w009", "itm_w017", "itm_w020"], "query_type": "attribute", "note": "rule: weapon ∧ tag 양손"}
+{"qid": "q010", "query": "체력 채워주는 물약 종류", "relevant_ids": ["itm_p001", "itm_p002", "itm_p003"], "query_type": "usage", "note": "rule: potion ∧ heal"}
+{"qid": "q011", "query": "마나 떨어졌을 때 먹거나 마실 것", "relevant_ids": ["itm_f005", "itm_p004", "itm_p005"], "query_type": "usage", "note": "rule: consumable ∧ mana_restore"}
+{"qid": "q012", "query": "갱도에 들고 들어갈 조명", "relevant_ids": ["itm_t001", "itm_t002"], "query_type": "usage", "note": "rule: tool ∧ light"}
+{"qid": "q013", "query": "발소리 안 나게 다니고 싶은데", "relevant_ids": ["itm_a034"], "query_type": "usage", "note": "rule: stealth"}
+{"qid": "q014", "query": "잠긴 문 여는 데 도움 되는 것", "relevant_ids": ["itm_a028", "itm_t010"], "query_type": "usage", "note": "rule: lockpick"}
+{"qid": "q015", "query": "절벽 오를 때 도움 되는 것 전부", "relevant_ids": ["itm_a033", "itm_t008", "itm_t009"], "query_type": "usage", "note": "rule: climb"}
+{"qid": "q016", "query": "쓰러진 동료 다시 일으키는 방법", "relevant_ids": ["itm_p011"], "query_type": "usage", "note": "rule: revive"}
+{"qid": "q017", "query": "마을로 한 번에 돌아가는 방법", "relevant_ids": ["itm_s001"], "query_type": "usage", "note": "rule: teleport"}
+{"qid": "q018", "query": "물속에서 숨 쉬려면", "relevant_ids": ["itm_a012"], "query_type": "usage", "note": "rule: water_breathing"}
+{"qid": "q019", "query": "광석 캐려면 뭐가 필요해", "relevant_ids": ["itm_t003", "itm_t004"], "query_type": "usage", "note": "rule: mining"}
+{"qid": "q020", "query": "물고기 잡을 때 쓰는 도구", "relevant_ids": ["itm_t006", "itm_t007"], "query_type": "usage", "note": "rule: fishing"}
+{"qid": "q021", "query": "해골이 달린 지팡이", "relevant_ids": ["itm_w037"], "query_type": "visual", "note": "icon: skull-staff"}
+{"qid": "q022", "query": "눈 모양 문양이 그려진 방패", "relevant_ids": ["itm_a007"], "query_type": "visual", "note": "icon: eye-shield"}
+{"qid": "q023", "query": "십자가가 그려진 방패", "relevant_ids": ["itm_a006"], "query_type": "visual", "note": "icon: templar-shield"}
+{"qid": "q024", "query": "뱀이 감겨 있는 지팡이", "relevant_ids": ["itm_w039"], "query_type": "visual", "note": "icon: rod-of-asclepius"}
+{"qid": "q025", "query": "하트 모양 병", "relevant_ids": ["itm_p002", "itm_p011"], "query_type": "visual", "note": "icon: health-potion, heart-bottle"}
+{"qid": "q026", "query": "초승달 장식이 달린 지팡이", "relevant_ids": ["itm_w035"], "query_type": "visual", "note": "icon: lunar-wand"}
+{"qid": "q027", "query": "날개 달린 홀", "relevant_ids": ["itm_w036"], "query_type": "visual", "note": "icon: winged-scepter"}
+{"qid": "q028", "query": "사람 모양 과자", "relevant_ids": ["itm_f005"], "query_type": "visual", "note": "icon: gingerbread-man"}
+{"qid": "q029", "query": "눈송이가 그려진 병", "relevant_ids": ["itm_p008"], "query_type": "visual", "note": "icon: snow-bottle"}
+{"qid": "q030", "query": "끝에 구슬이 달린 지팡이", "relevant_ids": ["itm_w040"], "query_type": "visual", "note": "icon: orb-wand"}
+{"qid": "q031", "query": "사슬이 달린 작살", "relevant_ids": ["itm_w032"], "query_type": "visual", "note": "icon: harpoon-chain"}
+{"qid": "q032", "query": "고사리처럼 생긴 풀", "relevant_ids": ["itm_m014"], "query_type": "visual", "note": "icon: fern"}
+{"qid": "q033", "query": "죽은 선장이 남기고 간 검", "relevant_ids": ["itm_w006"], "query_type": "lore", "note": "설명문 바꿔 쓰기"}
+{"qid": "q034", "query": "두 동강 난 채로 발견됐다는 전설의 검", "relevant_ids": ["itm_w012"], "query_type": "lore", "note": "설명문 바꿔 쓰기"}
+{"qid": "q035", "query": "한 사람만 지키겠다는 서약이 걸린 검", "relevant_ids": ["itm_w011"], "query_type": "lore", "note": "설명문 바꿔 쓰기"}
+{"qid": "q036", "query": "마법 학교에서 들고 들어오지 못하게 막은 지팡이", "relevant_ids": ["itm_w037"], "query_type": "lore", "note": "설명문 바꿔 쓰기"}
+{"qid": "q037", "query": "짝이 곁에 있어야만 힘을 내는 반지", "relevant_ids": ["itm_c006"], "query_type": "lore", "note": "설명문 바꿔 쓰기"}
+{"qid": "q038", "query": "사냥꾼들이 첫 사냥감으로 만들어 거는 장신구", "relevant_ids": ["itm_c007"], "query_type": "lore", "note": "설명문 바꿔 쓰기"}
+{"qid": "q039", "query": "남들이 내 이름을 잊게 되는 물건", "relevant_ids": ["itm_c015"], "query_type": "lore", "note": "설명문 바꿔 쓰기"}
+{"qid": "q040", "query": "밤에만 익고 아침이면 말라버리는 열매", "relevant_ids": ["itm_f007"], "query_type": "lore", "note": "설명문 바꿔 쓰기"}
+{"qid": "q041", "query": "팔지도 버리지도 못해서 가방만 차지하는 열쇠", "relevant_ids": ["itm_t015"], "query_type": "lore", "note": "설명문 바꿔 쓰기"}
+{"qid": "q042", "query": "성당에서 그냥 나눠주는 부적", "relevant_ids": ["itm_c012"], "query_type": "lore", "note": "설명문 바꿔 쓰기"}
+{"qid": "q043", "query": "불티검 엠버는 어떤 의뢰를 해야 얻어", "relevant_ids": ["itm_w005", "qst_020"], "query_type": "cross", "note": "퀘스트 rewards/objectives"}
+{"qid": "q044", "query": "잠수부 투구가 있어야 깰 수 있는 퀘스트", "relevant_ids": ["itm_a012", "qst_027"], "query_type": "cross", "note": "퀘스트 rewards/objectives"}
+{"qid": "q045", "query": "허공을 딛는 장화가 필요한 퀘스트", "relevant_ids": ["itm_a035", "qst_035"], "query_type": "cross", "note": "퀘스트 rewards/objectives"}
+{"qid": "q046", "query": "늪거북 잡아서 방패 만들어 주는 의뢰", "relevant_ids": ["itm_a003", "qst_012"], "query_type": "cross", "note": "퀘스트 rewards/objectives"}
+{"qid": "q047", "query": "봉인 해제 주문서는 누가 줘", "relevant_ids": ["itm_s006", "qst_034"], "query_type": "cross", "note": "퀘스트 rewards/objectives"}
+{"qid": "q048", "query": "폭풍을 부르는 홀은 어떻게 얻어", "relevant_ids": ["itm_w040", "qst_032"], "query_type": "cross", "note": "퀘스트 rewards/objectives"}
+{"qid": "q049", "query": "강철 곡괭이를 가져가야 하는 의뢰", "relevant_ids": ["itm_t004", "qst_019"], "query_type": "cross", "note": "퀘스트 rewards/objectives"}
+{"qid": "q050", "query": "반딧불 잡아 달라는 의뢰와 그 보상", "relevant_ids": ["itm_c008", "qst_013"], "query_type": "cross", "note": "퀘스트 rewards/objectives"}
+{"qid": "q051", "query": "총이나 화약 무기는 어디서 구해", "relevant_ids": [], "query_type": "negative", "note": "데이터에 답 없음 — 검색 지표 제외, 답변 단계용"}
+{"qid": "q052", "query": "타고 다닐 말이나 탈것 파는 곳", "relevant_ids": [], "query_type": "negative", "note": "데이터에 답 없음 — 검색 지표 제외, 답변 단계용"}
+{"qid": "q053", "query": "펫한테 먹이는 사료", "relevant_ids": [], "query_type": "negative", "note": "데이터에 답 없음 — 검색 지표 제외, 답변 단계용"}
+{"qid": "q054", "query": "레벨 70 넘어야 쓰는 장비", "relevant_ids": [], "query_type": "negative", "note": "데이터에 답 없음 — 검색 지표 제외, 답변 단계용"}
+{"qid": "q055", "query": "결혼식 올릴 때 필요한 아이템", "relevant_ids": [], "query_type": "negative", "note": "데이터에 답 없음 — 검색 지표 제외, 답변 단계용"}
+{"qid": "q056", "query": "하늘을 날게 해주는 물약", "relevant_ids": [], "query_type": "negative", "note": "데이터에 답 없음 — 검색 지표 제외, 답변 단계용"}
