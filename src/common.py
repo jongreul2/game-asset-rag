@@ -11,7 +11,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 EVAL = ROOT / "eval"
-OUT = ROOT / "out"
+OUT = ROOT / "out"          # 스크래치(gitignore) — 컨택트 시트 등
+RESULTS = ROOT / "results"  # 커밋하는 실험 결과
 
 # 2026-09-16 공식 가격표(USD / 100만 토큰) 기준. Batch API 는 입·출력 모두 50%.
 # 출처: https://platform.claude.com/docs/en/about-claude/pricing

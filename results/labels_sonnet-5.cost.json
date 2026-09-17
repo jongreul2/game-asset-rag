@@ -1,0 +1,8 @@
+{
+  "model": "claude-sonnet-5",
+  "batch": true,
+  "requests": 150,
+  "input_tokens": 253200,
+  "output_tokens": 39136,
+  "cost_usd": 0.4489
+}
